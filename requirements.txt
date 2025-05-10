@@ -1,4 +1,5 @@
 datasets
+pyahocorasick
 transformers
 pandas
 scikit-learn

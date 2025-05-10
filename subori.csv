@@ -1,263 +1,263 @@
-sentence,adverb_text,leixcal_class,adverb_type,adverb_position,verb_class,has_negation,sentence_mood,adverb_scope,comma_intonation,adverb_count
-Prepare for an honest conversation with your kids by first processing through these questions honestly.,honestly,evaluative,manner,post-verbal,unknown,FALSE,imperative,unknown,FALSE,1
-But what exactly sparked the rise of the holistic dentistry movement?,exactly,degree,speaker-oriented,pre-verbal,unknown,FALSE,interrogative,unknown,FALSE,1
-"Clearly, Larry is a power-hungry jerk.",clearly,epistemic,speaker-oriented,sentence-initial,unknown,FALSE,declarative,S,TRUE,1
-"Unfortunately, it isnt a simple answer.",unfortunately,,speaker-oriented,sentence-initial,unknown,TRUE,declarative,S,TRUE,1
-"Unfortunately, it didn’t work.",unfortunately,,speaker-oriented,sentence-initial,unknown,FALSE,declarative,unknown,TRUE,1
-"Clearly, it didn’t work.",clearly,,speaker-oriented,sentence-initial,unknown,TRUE,declarative,unknown,TRUE,1
-"Honestly, the list is endless!",Honestly,evaluative,speaker-oriented,sentence-initial,unknown,FALSE,declarative,S,TRUE,1
-"By asking questions and exploring appetizing answers, he came to be known in Pesce and grudgingly in Pizza as the Father of Topping Science.",grudgingly,,subject-oriented,post-verbal,unknown,FALSE,declarative,unknown,FALSE,1
-"Boldly, He declared, I am the first ",Boldly,,subject-oriented,sentence-initial,unknown,FALSE,declarative,S,TRUE,1
-Root canal treatment should be taken seriously.,seriously,,manner,post-verbal,transfer,FALSE,declarative,S,FALSE,1
-Writer must compile the suitable images to present the topic aptly.,aptly,,manner,post-verbal,transfer,FALSE,declarative,VP,FALSE,1
-You want to be taken seriously?,seriously,,manner,post-verbal,transfer,FALSE,interrogative,VP,FALSE,1
-Do we send our children to Jewish day schools grumpily?,grumpily,,manner,post-verbal,transfer,FALSE,interrogative,S,FALSE,1
-"They are taken seriously, compared to their sisters.",seriously,,manner,post-verbal,transfer,FALSE,declarative,S,TRUE,1
-Why didn’t politicians take women seriously?,seriously,,manner,post-verbal,transfer,TRUE,interrogative,S,FALSE,1
-And who says hot food can’t be taken safely to school?,safely,,manner,post-verbal,transfer,TRUE,interrogative,VP,FALSE,1
-"Because they didn't take it seriously, these SS men.",seriously,,manner,post-verbal,transfer,TRUE,declarative,S,TRUE,1
-"In 1855, Accou secretly returned to New Orleans.",secretly,,manner,pre-verbal,transfer,FALSE,declarative,S,FALSE,1
-Can you randomly get a tumor?,randomly,,manner,pre-verbal,transfer,FALSE,interrogative,S,FALSE,1
-So you wouldn’t take what he says seriously?,seriously,,manner,sentence-initial,transfer,TRUE,interrogative,S,FALSE,2
-Maybe you get anxious when people try to communicate with you and you can’t quit hear them or communicate effectively with them.,effectively,,manner,sentence-initial,transfer,TRUE,declarative,S,FALSE,2
-He received them kindly.,kindly,evaluative,manner,post-verbal,transfer,FALSE,declarative,S,FALSE,1
-Why can't they simply take the mother's word for it?,simply,,speaker-oriented,pre-verbal,transfer,TRUE,interrogative,S,FALSE,1
-"First, you can simply buy bees.",simply,,speaker-oriented,sentence-initial,transfer,FALSE,declarative,S,TRUE,2
-"Unfortunately, I didn't get to go to Siberia.",unfortunately,,speaker-oriented,sentence-initial,transfer,TRUE,declarative,S,TRUE,1
-"From all accounts, Tanton politely handed Hacker his hat.",politely,evaluative,subject-oriented,pre-verbal,transfer,FALSE,declarative,S,FALSE,1
-As an added bonus John McMaster has kindly offered to donate original material and photographs relating to his family to the John Oxley Library.,kindly,evaluative,subject-oriented,pre-verbal,transfer,FALSE,declarative,S,FALSE,1
-"But what does that mean, exactly, and does it matter?",exactly,,manner,post-verbal,stative,FALSE,interrogative,S,TRUE,1
-We can’t rub a magic lamp and make it simply appear.,simply,,manner,post-verbal,stative,TRUE,declarative,VP,FALSE,1
-But rukh doesn't exactly mean a chariot.,exactly,,manner,pre-verbal,stative,TRUE,declarative,S,FALSE,1
-"“So we that are the poets’ favorites/ Must have a love,” gently speaks a love-struck artist.",gently,,manner,pre-verbal,stative,FALSE,declarative,VP,FALSE,2
-We chose this simply because we have a lot of them available.,simply,,speaker-oriented,post-verbal,stative,FALSE,declarative,VP,FALSE,1
+sentence	adverb_type	adverb_position	verb_class	sentence_mood	adverb_scope	comma_intonation	adverb_text	adverb_count	subject_animacy	negation_scope	lexical_adverb_category
+Prepare for an honest conversation with your kids by first processing through these questions honestly.	manner	not-modifying-verb	no_head_verb	imperative	unknown	False	honestly	1	inanimate	no_negation	evaluative
+But what exactly sparked the rise of the holistic dentistry movement?	speaker-oriented	not-modifying-verb	no_head_verb	interrogative	unknown	False	exactly	1	inanimate	no_negation	other
+Clearly, Larry is a power-hungry jerk.	speaker-oriented	not-modifying-verb	no_head_verb	declarative	S	True	Clearly	1	animate	no_negation	modal
+Unfortunately, it isnt a simple answer.	speaker-oriented	not-modifying-verb	no_head_verb	declarative	S	True	Unfortunately	1	inanimate	adv_before_neg	evaluative
+Unfortunately, it didn’t work.	speaker-oriented	not-modifying-verb	no_head_verb	declarative	unknown	True	Unfortunately	1	inanimate	no_negation	evaluative
+Clearly, it didn’t work.	speaker-oriented	not-modifying-verb	no_head_verb	declarative	unknown	True	Clearly	1	inanimate	adv_before_neg	modal
+Honestly, the list is endless!	speaker-oriented	not-modifying-verb	no_head_verb	declarative	S	True	Honestly	1	inanimate	no_negation	evaluative
+By asking questions and exploring appetizing answers, he came to be known in Pesce and grudgingly in Pizza as the Father of Topping Science.	subject-oriented	not-modifying-verb	no_head_verb	declarative	unknown	False	grudgingly	1	animate	no_negation	other
+Boldly, He declared, I am the first 	subject-oriented	not-modifying-verb	no_head_verb	declarative	S	True	Boldly	1	animate	no_negation	other
+Root canal treatment should be taken seriously.	manner	imediate-pos-verbal	transfer	declarative	S	False	seriously	1	inanimate	no_negation	other
+Writer must compile the suitable images to present the topic aptly.	manner	post-verbal	transfer	declarative	VP	False	aptly	1	inanimate	no_negation	other
+You want to be taken seriously?	manner	imediate-pos-verbal	transfer	interrogative	VP	False	seriously	1	inanimate	no_negation	other
+Do we send our children to Jewish day schools grumpily?	manner	post-verbal	transfer	interrogative	S	False	grumpily	1	animate	no_negation	other
+They are taken seriously, compared to their sisters.	manner	imediate-pos-verbal	transfer	declarative	S	True	seriously	1	inanimate	no_negation	other
+Why didn’t politicians take women seriously?	manner	post-verbal	transfer	interrogative	S	False	seriously	1	inanimate	neg_before_adv	other
+And who says hot food can’t be taken safely to school?	manner	imediate-pos-verbal	transfer	interrogative	VP	False	safely	1	inanimate	neg_before_adv	other
+Because they didn't take it seriously, these SS men.	manner	post-verbal	transfer	declarative	S	True	seriously	1	animate	neg_before_adv	other
+In 1855, Accou secretly returned to New Orleans.	manner	imediate-pre-verbal	transfer	declarative	S	False	secretly	1	animate	no_negation	other
+Can you randomly get a tumor?	manner	imediate-pre-verbal	transfer	interrogative	S	False	randomly	1	inanimate	no_negation	other
+So you wouldn’t take what he says seriously?	manner	sentence-initial	transfer	interrogative	S	False	So	2	animate	adv_before_neg	degree
+Maybe you get anxious when people try to communicate with you and you can’t quit hear them or communicate effectively with them.	manner	sentence-initial	transfer	declarative	S	False	Maybe	2	inanimate	adv_before_neg	modal
+He received them kindly.	manner	post-verbal	transfer	declarative	S	False	kindly	1	animate	no_negation	other
+Why can't they simply take the mother's word for it?	speaker-oriented	imediate-pre-verbal	transfer	interrogative	S	False	simply	1	animate	neg_before_adv	other
+First, you can simply buy bees.	speaker-oriented	sentence-initial	transfer	declarative	S	True	First	2	inanimate	no_negation	other
+Unfortunately, I didn't get to go to Siberia.	speaker-oriented	sentence-initial	transfer	declarative	S	True	Unfortunately	1	animate	adv_before_neg	evaluative
+From all accounts, Tanton politely handed Hacker his hat.	subject-oriented	imediate-pre-verbal	transfer	declarative	S	False	politely	1	inanimate	no_negation	other
+As an added bonus John McMaster has kindly offered to donate original material and photographs relating to his family to the John Oxley Library.	subject-oriented	imediate-pre-verbal	transfer	declarative	S	False	kindly	1	animate	no_negation	other
+But what does that mean, exactly, and does it matter?	manner	post-verbal	stative	interrogative	S	True	exactly	1	inanimate	no_negation	other
+We can’t rub a magic lamp and make it simply appear.	manner	imediate-pre-verbal	stative	declarative	VP	False	simply	1	animate	neg_before_adv	other
+But rukh doesn't exactly mean a chariot.	manner	imediate-pre-verbal	stative	declarative	S	False	exactly	1	inanimate	neg_before_adv	other
+“So we that are the poets’ favorites/ Must have a love,” gently speaks a love-struck artist.	manner	pre-verbal	stative	declarative	VP	False	So	2	animate	no_negation	degree
+We chose this simply because we have a lot of them available.	speaker-oriented	pre-verbal	stative	declarative	VP	False	simply	1	animate	no_negation	other
 "To a Skylark Summary
-""To a Skylark"" doesn't exactly have a plot.",exactly,,speaker-oriented,pre-verbal,stative,TRUE,imperative,S,FALSE,1
-"Most importantly, did you have fun?",importantly,,speaker-oriented,sentence-initial,stative,FALSE,interrogative,S,TRUE,2
-So why exactly do you need to get rid of them if they aren’t dangerous?,exactly,degree,speaker-oriented,sentence-initial,stative,TRUE,interrogative,S,FALSE,2
-"“I did it because, frankly, I needed to have perspective.",frankly,evaluative,speaker-oriented,post-verbal,stative,FALSE,declarative,VP,TRUE,1
-"Quite frankly, they didn’t need a lot to survive.",frankly,evaluative,speaker-oriented,sentence-initial,stative,TRUE,declarative,S,TRUE,2
-Unfortunately didn't have my camera with me.,unfortunately,,speaker-oriented,sentence-initial,stative,TRUE,imperative,S,FALSE,1
-but to learn whether “virtual reality could alter behaviors that tax the environment and contribute to climate change.” Why in the world that required them to feel like a cow I honestly don’t know.,honestly,evaluative,speaker-oriented,post-verbal,stative,TRUE,declarative,VP,FALSE,1
-"Honestly, Paris needs to find an alternative solution to this problem because the practice won’t stop.",Honestly,evaluative,speaker-oriented,sentence-initial,stative,TRUE,declarative,S,TRUE,1
-"Honestly, I don't know.",Honestly,evaluative,speaker-oriented,sentence-initial,stative,TRUE,declarative,S,FALSE,1
+""To a Skylark"" doesn't exactly have a plot."	speaker-oriented	imediate-pre-verbal	stative	imperative	S	False	exactly	1	inanimate	neg_before_adv	other
+Most importantly, did you have fun?	speaker-oriented	not-modifying-verb	stative	interrogative	S	True	Most	2	inanimate	no_negation	other
+So why exactly do you need to get rid of them if they aren’t dangerous?	speaker-oriented	sentence-initial	stative	interrogative	S	False	So	2	animate	adv_before_neg	degree
+“I did it because, frankly, I needed to have perspective.	speaker-oriented	pre-verbal	stative	declarative	VP	True	frankly	1	animate	no_negation	other
+Quite frankly, they didn’t need a lot to survive.	speaker-oriented	not-modifying-verb	stative	declarative	S	True	Quite	2	animate	adv_before_neg	degree
+Unfortunately didn't have my camera with me.	speaker-oriented	sentence-initial	stative	imperative	S	False	Unfortunately	1	inanimate	adv_before_neg	evaluative
+but to learn whether “virtual reality could alter behaviors that tax the environment and contribute to climate change.” Why in the world that required them to feel like a cow I honestly don’t know.	speaker-oriented	pre-verbal	stative	declarative	VP	False	honestly	1	animate	adv_before_neg	evaluative
+Honestly, Paris needs to find an alternative solution to this problem because the practice won’t stop.	speaker-oriented	sentence-initial	stative	declarative	S	True	Honestly	1	inanimate	adv_before_neg	evaluative
+Honestly, I don't know.	speaker-oriented	sentence-initial	stative	declarative	S	True	Honestly	1	animate	adv_before_neg	evaluative
 "He noted that the Trudeau government had tabled similar bills to this effect in the 1970s:
-They [the previous iterations of this bill] were not proceeded with in the other place [the House of Commons] because opposition to them was such that the [Trudeau] government wisely did not want to make an issue out of the legislation.",wisely,,subject-oriented,post-verbal,stative,TRUE,declarative,VP,FALSE,1
-His mother said that he simply doesn't like hospitals.,simply,,manner,post-verbal,psychological,TRUE,declarative,VP,FALSE,1
-How can I enjoy alcohol safely?,safely,manner,manner,post-verbal,psychological,FALSE,interrogative,S,FALSE,1
-Enjoy your tranquil campfire moment safely.,safely,manner,manner,post-verbal,psychological,FALSE,imperative,S,FALSE,1
-"Visit, appreciate, calmly enjoy, help.",calmly,manner,manner,post-verbal,psychological,FALSE,imperative,VP,FALSE,1
-What do they tell him who loves his native country ardently?,ardently,manner,manner,post-verbal,psychological,FALSE,interrogative,VP,FALSE,1
-Doesn't the scholar obviously love G-d?,obviously,,manner,pre-verbal,psychological,TRUE,interrogative,S,FALSE,1
-Dearly loved.,dearly,,manner,sentence-initial,psychological,FALSE,declarative,S,FALSE,1
-So how do we enjoy the sun safely?,safely,,manner,sentence-initial,psychological,FALSE,interrogative,S,FALSE,2
-"That didn't worry the army, apparently.",apparently,,speaker-oriented,post-verbal,psychological,TRUE,declarative,S,FALSE,1
-"Unfortunately, we like it.",unfortunately,,speaker-oriented,sentence-initial,psychological,FALSE,declarative,S,TRUE,1
-"Clearly, the country of Italy doesn’t love art history.",clearly,,speaker-oriented,sentence-initial,psychological,TRUE,declarative,S,TRUE,1
-The PRODUCT-INSTANCES are treated similarly.,similarly,,manner,post-verbal,other,FALSE,declarative,S,FALSE,1
-See a dentist if your saliva levels change suddenly.,suddenly,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-Can you derive the result differently?,differently,,manner,post-verbal,other,FALSE,interrogative,S,FALSE,1
-Remember to navigate safely.,safely,manner,manner,post-verbal,other,FALSE,imperative,VP,FALSE,1
-Can’t wait to learn how to anchor your aquarium plants safely?,safely,manner,manner,post-verbal,other,TRUE,interrogative,VP,FALSE,1
-"If yes, how do you do it exactly?",exactly,,manner,post-verbal,other,FALSE,interrogative,S,TRUE,2
-"To put it simply, yes.",simply,,manner,post-verbal,other,FALSE,imperative,S,TRUE,1
-"I can see that perfectly, why can't you?",perfectly,degree,manner,post-verbal,other,TRUE,interrogative,S,TRUE,1
-"If metal artifacts are NOT treated and stabilized correctly, THEY WILL CONTINUE TO CORRODE AND COULD EVENTUALLY FALL APART.",correctly,manner,manner,post-verbal,other,TRUE,declarative,VP,TRUE,2
-"""But what if your oven isn't calibrated correctly?",correctly,manner,manner,post-verbal,other,TRUE,interrogative,S,FALSE,1
-"Enjoy your media and use them wisely,",wisely,,manner,post-verbal,other,FALSE,imperative,VP,TRUE,1
-Summarize the article (DO NOT simply re-word the abstract).,simply,,manner,post-verbal,other,TRUE,imperative,VP,FALSE,1
-"Not per meal, yes, you heard me correctly, per day.",correctly,,manner,post-verbal,other,TRUE,declarative,S,TRUE,1
-"Let’s use them wisely, huh?",wisely,,manner,post-verbal,other,FALSE,interrogative,VP,TRUE,1
-Stephen politely refuses.,politely,,manner,pre-verbal,other,FALSE,declarative,S,FALSE,1
-Why Do They Often Emerge from the Gums Incorrectly?,incorrectly,manner,manner,pre-verbal,other,FALSE,interrogative,S,FALSE,2
-"So why isn’t the relative humidity 90%, or vary randomly?",randomly,manner,manner,sentence-initial,other,FALSE,interrogative,S,FALSE,2
-Negligently performed surgery.,negligently,,manner,sentence-initial,other,FALSE,declarative,VP,FALSE,1
-Note that it is a powerful substance and can cause skin irritation if handled carelessly.,carelessly,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-The jeweler was generously rewarded for his heroism.,generously,,manner,pre-verbal,other,FALSE,declarative,S,FALSE,1
-Its characteristic pink streak runs along an olive and silver body that is generously speckled with small dark spots.,generously,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-Africans were crowded and chained cruelly aboardslave ships.,cruelly,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"Buildings in the area had not been constructed for earthquake resistance, having been built out of small stones and carelessly-applied mortar with heavy tiled roofs, ornamental cornices, unsupported cross beams and vulnerable foundations on soft soil.",carelessly,,manner,post-verbal,other,TRUE,declarative,VP,FALSE,1
-The people of Israel contribute generously of their time and resources towards its construction.,generously,,manner,post-verbal,other,FALSE,declarative,S,FALSE,1
-Generously use your hot glue gun and glue over the top of where the floral wire is attached to the form.,Generously,,manner,sentence-initial,other,FALSE,declarative,S,FALSE,1
-I pray these thoughts in this article will help the average student who honestly seeks to know God’s divine will.,honestly,evaluative,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"Others signed up eagerly, wanting the honor of dying for their gods.",eagerly,,manner,post-verbal,other,FALSE,declarative,S,TRUE,1
-This can be done cleverly by feeding snippets details in a natural manner during conversations with non-player character types.,cleverly,evaluative,manner,post-verbal,other,FALSE,declarative,S,FALSE,1
-King Fonoti le Tupu Tafa’ifa (King of all Samoa) had rewarded the village districts of Faleapuna and Fagaloa in Atua for fighting bravely for him in his struggle for power by conferring as Va’a o Fonoti was the fleet of the Fonoti the King that was named the “Le laulualofaiga”.,bravely,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"They were encountered by Ethel wulf, earl of Berkshire, with his men, at a place called Englefield ; both sides fought bravely, and made long resistance.",bravely,,manner,post-verbal,other,FALSE,declarative,VP,TRUE,1
-"Azizah Y. al-Hibri states that the relevant hadith regarding marriage and slavery draw an analogy between the status of women and slaves in Muhammad's society in order to beseech the male audience to treat them kindly: ""Be good to women; for they are powerless captives (awan) in your households.",kindly,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
+They [the previous iterations of this bill] were not proceeded with in the other place [the House of Commons] because opposition to them was such that the [Trudeau] government wisely did not want to make an issue out of the legislation."	subject-oriented	pre-verbal	stative	declarative	VP	False	wisely	1	animate	neg_before_adv	other
+His mother said that he simply doesn't like hospitals.	manner	pre-verbal	psychological	declarative	VP	False	simply	1	animate	adv_before_neg	other
+How can I enjoy alcohol safely?	manner	post-verbal	psychological	interrogative	S	False	safely	1	animate	no_negation	other
+Enjoy your tranquil campfire moment safely.	manner	post-verbal	psychological	imperative	S	False	safely	1	inanimate	no_negation	other
+Visit, appreciate, calmly enjoy, help.	manner	imediate-pre-verbal	psychological	imperative	VP	False	calmly	1	inanimate	no_negation	other
+What do they tell him who loves his native country ardently?	manner	post-verbal	psychological	interrogative	VP	False	ardently	1	animate	no_negation	other
+Doesn't the scholar obviously love G-d?	manner	imediate-pre-verbal	psychological	interrogative	S	False	obviously	1	inanimate	neg_before_adv	other
+Dearly loved.	manner	sentence-initial	psychological	declarative	S	False	Dearly	1	inanimate	no_negation	other
+So how do we enjoy the sun safely?	manner	sentence-initial	psychological	interrogative	S	False	So	2	animate	no_negation	degree
+That didn't worry the army, apparently.	speaker-oriented	post-verbal	psychological	declarative	S	False	apparently	1	inanimate	neg_before_adv	other
+Unfortunately, we like it.	speaker-oriented	sentence-initial	psychological	declarative	S	True	Unfortunately	1	animate	no_negation	evaluative
+Clearly, the country of Italy doesn’t love art history.	speaker-oriented	sentence-initial	psychological	declarative	S	True	Clearly	1	inanimate	adv_before_neg	modal
+The PRODUCT-INSTANCES are treated similarly.	manner	imediate-pos-verbal	other	declarative	S	False	similarly	1	inanimate	no_negation	other
+See a dentist if your saliva levels change suddenly.	manner	imediate-pos-verbal	other	declarative	VP	False	suddenly	1	inanimate	no_negation	other
+Can you derive the result differently?	manner	post-verbal	other	interrogative	S	False	differently	1	inanimate	no_negation	other
+Remember to navigate safely.	manner	imediate-pos-verbal	other	imperative	VP	False	safely	1	inanimate	no_negation	other
+Can’t wait to learn how to anchor your aquarium plants safely?	manner	post-verbal	other	interrogative	VP	False	safely	1	inanimate	neg_before_adv	other
+If yes, how do you do it exactly?	manner	pre-verbal	other	interrogative	S	True	yes	2	inanimate	no_negation	other
+To put it simply, yes.	manner	post-verbal	other	imperative	S	True	simply	1	inanimate	no_negation	other
+I can see that perfectly, why can't you?	manner	post-verbal	other	interrogative	S	True	perfectly	1	animate	adv_before_neg	other
+If metal artifacts are NOT treated and stabilized correctly, THEY WILL CONTINUE TO CORRODE AND COULD EVENTUALLY FALL APART.	manner	imediate-pos-verbal	other	declarative	VP	True	correctly	2	animate	neg_before_adv	other
+"""But what if your oven isn't calibrated correctly?"	manner	imediate-pos-verbal	other	interrogative	S	False	correctly	1	inanimate	neg_before_adv	other
+Enjoy your media and use them wisely,	manner	post-verbal	other	imperative	VP	True	wisely	1	inanimate	no_negation	other
+Summarize the article (DO NOT simply re-word the abstract).	manner	imediate-pre-verbal	other	imperative	VP	False	simply	1	inanimate	neg_before_adv	other
+Not per meal, yes, you heard me correctly, per day.	manner	post-verbal	other	declarative	S	True	correctly	1	inanimate	neg_before_adv	other
+Let’s use them wisely, huh?	manner	post-verbal	other	interrogative	VP	True	wisely	1	inanimate	no_negation	other
+Stephen politely refuses.	manner	imediate-pre-verbal	other	declarative	S	False	politely	1	inanimate	no_negation	other
+Why Do They Often Emerge from the Gums Incorrectly?	manner	imediate-pre-verbal	other	interrogative	S	False	Often	2	animate	no_negation	frequency
+So why isn’t the relative humidity 90%, or vary randomly?	manner	not-modifying-verb	other	interrogative	S	False	So	2	inanimate	no_negation	degree
+Negligently performed surgery.	manner	sentence-initial	other	declarative	VP	False	Negligently	1	inanimate	no_negation	other
+Note that it is a powerful substance and can cause skin irritation if handled carelessly.	manner	imediate-pos-verbal	other	declarative	VP	False	carelessly	1	inanimate	no_negation	other
+The jeweler was generously rewarded for his heroism.	manner	imediate-pre-verbal	other	declarative	S	False	generously	1	inanimate	no_negation	other
+Its characteristic pink streak runs along an olive and silver body that is generously speckled with small dark spots.	manner	imediate-pre-verbal	other	declarative	VP	False	generously	1	inanimate	no_negation	other
+Africans were crowded and chained cruelly aboardslave ships.	manner	imediate-pre-verbal	other	declarative	VP	False	cruelly	1	inanimate	no_negation	other
+Buildings in the area had not been constructed for earthquake resistance, having been built out of small stones and carelessly-applied mortar with heavy tiled roofs, ornamental cornices, unsupported cross beams and vulnerable foundations on soft soil.	manner	pre-verbal	other	declarative	VP	False	carelessly	1	inanimate	neg_before_adv	other
+The people of Israel contribute generously of their time and resources towards its construction.	manner	imediate-pos-verbal	other	declarative	S	False	generously	1	inanimate	no_negation	other
+Generously use your hot glue gun and glue over the top of where the floral wire is attached to the form.	manner	sentence-initial	other	declarative	S	False	Generously	1	inanimate	no_negation	other
+I pray these thoughts in this article will help the average student who honestly seeks to know God’s divine will.	manner	imediate-pre-verbal	other	declarative	VP	False	honestly	1	animate	no_negation	evaluative
+Others signed up eagerly, wanting the honor of dying for their gods.	manner	post-verbal	other	declarative	S	True	eagerly	1	inanimate	no_negation	other
+This can be done cleverly by feeding snippets details in a natural manner during conversations with non-player character types.	manner	imediate-pos-verbal	other	declarative	S	False	cleverly	1	inanimate	no_negation	other
+King Fonoti le Tupu Tafa’ifa (King of all Samoa) had rewarded the village districts of Faleapuna and Fagaloa in Atua for fighting bravely for him in his struggle for power by conferring as Va’a o Fonoti was the fleet of the Fonoti the King that was named the “Le laulualofaiga”.	manner	imediate-pos-verbal	other	declarative	VP	False	bravely	1	inanimate	no_negation	other
+They were encountered by Ethel wulf, earl of Berkshire, with his men, at a place called Englefield ; both sides fought bravely, and made long resistance.	manner	imediate-pos-verbal	other	declarative	VP	True	bravely	1	inanimate	no_negation	other
+"Azizah Y. al-Hibri states that the relevant hadith regarding marriage and slavery draw an analogy between the status of women and slaves in Muhammad's society in order to beseech the male audience to treat them kindly: ""Be good to women; for they are powerless captives (awan) in your households."	manner	post-verbal	other	declarative	VP	False	kindly	1	animate	no_negation	other
 "Niyama 6 – Scriptural Listening, Siddhanta Shravana
-Eagerly hear the scriptures, study the teachings and listen to the wise of your lineage.",Eagerly,,manner,pre-verbal,other,FALSE,declarative,S,FALSE,1
-"2 types of norms-Pivotal and Peripheral Norms, members use reason and logic in treating other members politely.",politely,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-She begins to read it eagerly.,eagerly,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"And Aaron said unto Moses, Alas, my lord, I beseech thee, lay not the sin upon us, wherein we have done foolishly, and wherein we have sinned.",foolishly,,manner,post-verbal,other,TRUE,declarative,VP,TRUE,1
-"They do not have a clear vision about their aims and ambitions, courage to own responsibilities, face bravely the challenges in life and a balanced approach towards one’s rights and duties, which are the basic ingredients of any cultured/matured/civil society.",bravely,,manner,post-verbal,other,TRUE,declarative,VP,FALSE,1
-"He ‘politely declined’ his friends’ invitation to join the Theosophical Society, though he read, at their instance, Madame Blavatsky’s Key to Theosophy.]",politely,evaluative,manner,pre-verbal,other,FALSE,declarative,S,FALSE,1
-That might mean helping them develop a budget to get their finances under control or teaching them how to use credit wisely.,wisely,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"For example, eating a healthy diet, drinking sensibly, giving up smoking and staying covered up in the sun help to keep your skin healthy.",sensibly,,manner,post-verbal,other,FALSE,declarative,VP,TRUE,1
-Make your vaccine decisions wisely.,wisely,,manner,post-verbal,other,FALSE,declarative,S,FALSE,1
-The citizens turned out to shout their approval as she passed and she smiled and waved graciously to them.,graciously,,manner,post-verbal,other,FALSE,declarative,VP,FALSE,1
-How to spend or save wisely?,wisely,,manner,post-verbal,other,FALSE,interrogative,VP,FALSE,1
-Choose wisely!,wisely,,manner,post-verbal,other,FALSE,imperative,S,FALSE,1
-"Wisely placed lawn ornaments in the landscape can create a sense of elegance and warmth, and a few gnomes or cute animals may delight and amuse visitors and passersby.",Wisely,,manner,sentence-initial,other,FALSE,declarative,VP,FALSE,1
-"Or, simply listen.",simply,,speaker-oriented,pre-verbal,other,FALSE,imperative,S,FALSE,1
-"Unfortunately, this doesn't help the harvest.",unfortunately,evaluative,speaker-oriented,sentence-initial,other,TRUE,declarative,S,TRUE,1
-"Unfortunately, we couldn’t save her leg,” Bailey says.",unfortunately,,speaker-oriented,sentence-initial,other,TRUE,declarative,VP,TRUE,1
-It has honestly become quite a chore to do any sort of research on this idea.,honestly,evaluative,speaker-oriented,pre-verbal,other,FALSE,declarative,S,FALSE,1
-I’m honestly not sure.,honestly,evaluative,speaker-oriented,post-verbal,other,TRUE,declarative,S,FALSE,1
+Eagerly hear the scriptures, study the teachings and listen to the wise of your lineage."	manner	imediate-pre-verbal	other	declarative	S	False	Eagerly	1	animate	no_negation	other
+2 types of norms-Pivotal and Peripheral Norms, members use reason and logic in treating other members politely.	manner	post-verbal	other	declarative	VP	False	politely	1	inanimate	no_negation	other
+She begins to read it eagerly.	manner	post-verbal	other	declarative	VP	False	eagerly	1	animate	no_negation	other
+And Aaron said unto Moses, Alas, my lord, I beseech thee, lay not the sin upon us, wherein we have done foolishly, and wherein we have sinned.	manner	imediate-pos-verbal	other	declarative	VP	True	foolishly	1	animate	neg_before_adv	other
+They do not have a clear vision about their aims and ambitions, courage to own responsibilities, face bravely the challenges in life and a balanced approach towards one’s rights and duties, which are the basic ingredients of any cultured/matured/civil society.	manner	imediate-pos-verbal	other	declarative	VP	False	bravely	1	animate	neg_before_adv	other
+He ‘politely declined’ his friends’ invitation to join the Theosophical Society, though he read, at their instance, Madame Blavatsky’s Key to Theosophy.]	manner	imediate-pre-verbal	other	declarative	S	False	politely	1	animate	no_negation	other
+That might mean helping them develop a budget to get their finances under control or teaching them how to use credit wisely.	manner	post-verbal	other	declarative	VP	False	wisely	1	inanimate	no_negation	other
+For example, eating a healthy diet, drinking sensibly, giving up smoking and staying covered up in the sun help to keep your skin healthy.	manner	imediate-pos-verbal	other	declarative	VP	True	sensibly	1	inanimate	no_negation	other
+Make your vaccine decisions wisely.	manner	post-verbal	other	declarative	S	False	wisely	1	inanimate	no_negation	other
+The citizens turned out to shout their approval as she passed and she smiled and waved graciously to them.	manner	imediate-pos-verbal	other	declarative	VP	False	graciously	1	animate	no_negation	other
+How to spend or save wisely?	manner	imediate-pos-verbal	other	interrogative	VP	False	wisely	1	inanimate	no_negation	other
+Choose wisely!	manner	imediate-pos-verbal	other	imperative	S	False	wisely	1	inanimate	no_negation	other
+Wisely placed lawn ornaments in the landscape can create a sense of elegance and warmth, and a few gnomes or cute animals may delight and amuse visitors and passersby.	manner	sentence-initial	other	declarative	VP	False	Wisely	1	inanimate	no_negation	other
+Or, simply listen.	speaker-oriented	imediate-pre-verbal	other	imperative	S	False	simply	1	inanimate	no_negation	other
+Unfortunately, this doesn't help the harvest.	speaker-oriented	sentence-initial	other	declarative	S	True	Unfortunately	1	inanimate	adv_before_neg	evaluative
+Unfortunately, we couldn’t save her leg,” Bailey says.	speaker-oriented	sentence-initial	other	declarative	VP	True	Unfortunately	1	animate	adv_before_neg	evaluative
+It has honestly become quite a chore to do any sort of research on this idea.	speaker-oriented	imediate-pre-verbal	other	declarative	S	False	honestly	1	inanimate	no_negation	evaluative
+I’m honestly not sure.	speaker-oriented	imediate-pos-verbal	other	declarative	S	False	honestly	1	animate	adv_before_neg	evaluative
 "The Benefits of Two Hearing Aids
-If our eye doctor informs us that we have vision impairment in both eyes, we don’t honestly think about the benefits of getting fitted with one lens.",honestly,evaluative,speaker-oriented,pre-verbal,other,TRUE,declarative,S,FALSE,1
-"Honestly, if you have some empty soda bottles you could make your own cookie cutters at no cost.",Honestly,evaluative,speaker-oriented,sentence-initial,other,FALSE,declarative,S,FALSE,1
-"According to Greek legend, the goddess Athena and the mortal Arachne engaged in a weaving contest wherein Arachne arrogantly mocked the gods.",arrogantly,,subject-oriented,post-verbal,other,FALSE,declarative,VP,FALSE,1
-For extra information on essential oils kindly check out: http://ikhoedep.com/,kindly,,subject-oriented,pre-verbal,other,FALSE,declarative,S,FALSE,1
-"I am called upon to sing of the Parilia, and not in vain shall be the call, if kindly Pales favours me.",kindly,,subject-oriented,post-verbal,other,TRUE,declarative,VP,FALSE,1
-"In this study, the researchers cleverly decided to take advantage of the central temperature controlling region of the hypothalamus to modify the core body temperature itself.",cleverly,,subject-oriented,pre-verbal,other,FALSE,declarative,S,FALSE,1
-"But what of the one-hundred plus countries that refused to join the boycott, that found nothing wrong with having Mahmoud Ahmadinejad serve as keynote speaker and guest of honor of the conference, and that remained in their seats to politely applaud the little Iranian dictator’s renewed call for Israel’s destruction?",politely,evaluative,subject-oriented,post-verbal,other,FALSE,interrogative,VP,FALSE,1
-Kindly share the investment principles that you follow.,Kindly,evaluative,subject-oriented,sentence-initial,other,FALSE,declarative,S,FALSE,1
+If our eye doctor informs us that we have vision impairment in both eyes, we don’t honestly think about the benefits of getting fitted with one lens."	speaker-oriented	imediate-pre-verbal	other	declarative	S	False	honestly	1	animate	neg_before_adv	evaluative
+Honestly, if you have some empty soda bottles you could make your own cookie cutters at no cost.	speaker-oriented	sentence-initial	other	declarative	S	True	Honestly	1	inanimate	no_negation	evaluative
+According to Greek legend, the goddess Athena and the mortal Arachne engaged in a weaving contest wherein Arachne arrogantly mocked the gods.	subject-oriented	imediate-pre-verbal	other	declarative	VP	False	arrogantly	1	animate	no_negation	other
+For extra information on essential oils kindly check out: http://ikhoedep.com/	subject-oriented	imediate-pre-verbal	other	declarative	S	False	kindly	1	inanimate	no_negation	other
+I am called upon to sing of the Parilia, and not in vain shall be the call, if kindly Pales favours me.	subject-oriented	pre-verbal	other	declarative	VP	False	kindly	1	inanimate	neg_before_adv	other
+In this study, the researchers cleverly decided to take advantage of the central temperature controlling region of the hypothalamus to modify the core body temperature itself.	subject-oriented	imediate-pre-verbal	other	declarative	S	False	cleverly	1	inanimate	no_negation	other
+But what of the one-hundred plus countries that refused to join the boycott, that found nothing wrong with having Mahmoud Ahmadinejad serve as keynote speaker and guest of honor of the conference, and that remained in their seats to politely applaud the little Iranian dictator’s renewed call for Israel’s destruction?	subject-oriented	imediate-pre-verbal	other	interrogative	VP	False	politely	1	animate	no_negation	other
+Kindly share the investment principles that you follow.	subject-oriented	sentence-initial	other	declarative	S	False	Kindly	1	inanimate	no_negation	other
 "In contemporary forums for
 Jewish-Christian or Muslim-Christian dialogue, the ""common Abrahamic
-roots"" are eagerly highlighted.",eagerly,,subject-oriented,pre-verbal,other,FALSE,declarative,S,FALSE,1
-"Grudgingly, Signora Bondi agrees to replace the broken pump.",Grudgingly,,subject-oriented,sentence-initial,other,FALSE,declarative,S,TRUE,1
-They live in small groups and rest willingly under the shady trees of the savannah and the steppe.,willingly,,subject-oriented,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"Between 1842 and 1854 John C. Fremont, renowned as the nineteenth century's greatest explorer, and Kit Carson, the legendary scout and Indian fighter, boldly ventured into untamed territory to fulfill America's ""manifest destiny.""",boldly,evaluative,subject-oriented,pre-verbal,other,FALSE,declarative,S,FALSE,1
-The second trick consisted in neutralising the effects of the remaining C-13 nuclei on the qubit with the aid of cleverly chosen radio frequency pulses.,cleverly,evaluative,subject-oriented,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"Once he met the LORD in the burning bush, Moses—although corrected with the removal of his shoes—reluctantly confronts Pharaoh.",reluctantly,evaluative,subject-oriented,pre-verbal,other,FALSE,declarative,S,FALSE,1
-"It promised to net an enormous sum, and Brodie, foolishly feeling invulnerable because of his successful double-life, set the play in motion.",foolishly,evaluative,subject-oriented,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"Company management, his own relatives, recognized his accomplishment --but grudgingly.",grudgingly,evaluative,subject-oriented,post-verbal,other,FALSE,declarative,S,FALSE,1
-"He accepted the honor reluctantly, protesting his lack of qualification.",reluctantly,evaluative,subject-oriented,post-verbal,other,FALSE,declarative,S,TRUE,1
-Philosophers have said for thousands of years that people do not willingly do what is bad for themselves but may do what is bad for others if it appears that good for themselves will result.,willingly,evaluative,subject-oriented,post-verbal,other,TRUE,declarative,VP,FALSE,1
-"Whether the prophet willingly accepts the task is untold, but the command of Yahweh serves as an “open-ended” conclusion.",willingly,,subject-oriented,pre-verbal,other,FALSE,declarative,S,FALSE,1
-"As we walked through the National Museum of African American History and Culture, I pushed my grandfather in a wheelchair he had reluctantly agreed to sit in.",reluctantly,,subject-oriented,post-verbal,other,FALSE,declarative,VP,FALSE,1
-Kindly visit our order/inquiry page for further assistance.,Kindly,evaluative,subject-oriented,sentence-initial,other,FALSE,imperative,S,FALSE,1
-Ed broke a few rules and boldly used Federal Innovation and Expansion Grant funds to start Independent Living Centres throughout California.,boldly,,subject-oriented,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"Politely greet them, introduce yourself, and ask if they need help.",Politely,evaluative,subject-oriented,sentence-initial,other,FALSE,declarative,S,FALSE,1
-"for any technical questions about those industrial valves, kindly contact us:",kindly,evaluative,subject-oriented,pre-verbal,other,FALSE,imperative,S,FALSE,1
+roots"" are eagerly highlighted."	subject-oriented	imediate-pre-verbal	other	declarative	S	False	eagerly	1	inanimate	no_negation	other
+Grudgingly, Signora Bondi agrees to replace the broken pump.	subject-oriented	sentence-initial	other	declarative	S	True	Grudgingly	1	animate	no_negation	other
+They live in small groups and rest willingly under the shady trees of the savannah and the steppe.	subject-oriented	imediate-pos-verbal	other	declarative	VP	False	willingly	1	animate	no_negation	other
+"Between 1842 and 1854 John C. Fremont, renowned as the nineteenth century's greatest explorer, and Kit Carson, the legendary scout and Indian fighter, boldly ventured into untamed territory to fulfill America's ""manifest destiny."""	subject-oriented	imediate-pre-verbal	other	declarative	S	False	boldly	1	animate	no_negation	other
+The second trick consisted in neutralising the effects of the remaining C-13 nuclei on the qubit with the aid of cleverly chosen radio frequency pulses.	subject-oriented	imediate-pre-verbal	other	declarative	VP	False	cleverly	1	inanimate	no_negation	other
+Once he met the LORD in the burning bush, Moses—although corrected with the removal of his shoes—reluctantly confronts Pharaoh.	subject-oriented	imediate-pre-verbal	other	declarative	S	False	reluctantly	1	animate	no_negation	other
+It promised to net an enormous sum, and Brodie, foolishly feeling invulnerable because of his successful double-life, set the play in motion.	subject-oriented	imediate-pre-verbal	other	declarative	VP	False	foolishly	1	animate	no_negation	other
+Company management, his own relatives, recognized his accomplishment --but grudgingly.	subject-oriented	post-verbal	other	declarative	S	False	grudgingly	1	inanimate	no_negation	other
+He accepted the honor reluctantly, protesting his lack of qualification.	subject-oriented	post-verbal	other	declarative	S	True	reluctantly	1	animate	no_negation	other
+Philosophers have said for thousands of years that people do not willingly do what is bad for themselves but may do what is bad for others if it appears that good for themselves will result.	subject-oriented	imediate-pre-verbal	other	declarative	VP	False	willingly	1	inanimate	neg_before_adv	other
+Whether the prophet willingly accepts the task is untold, but the command of Yahweh serves as an “open-ended” conclusion.	subject-oriented	imediate-pre-verbal	other	declarative	S	False	willingly	1	inanimate	no_negation	other
+As we walked through the National Museum of African American History and Culture, I pushed my grandfather in a wheelchair he had reluctantly agreed to sit in.	subject-oriented	imediate-pre-verbal	other	declarative	VP	False	reluctantly	1	animate	no_negation	other
+Kindly visit our order/inquiry page for further assistance.	subject-oriented	sentence-initial	other	imperative	S	False	Kindly	1	inanimate	no_negation	other
+Ed broke a few rules and boldly used Federal Innovation and Expansion Grant funds to start Independent Living Centres throughout California.	subject-oriented	imediate-pre-verbal	other	declarative	VP	False	boldly	1	animate	no_negation	other
+Politely greet them, introduce yourself, and ask if they need help.	subject-oriented	sentence-initial	other	declarative	S	False	Politely	1	animate	no_negation	other
+for any technical questions about those industrial valves, kindly contact us:	subject-oriented	imediate-pre-verbal	other	imperative	S	False	kindly	1	inanimate	no_negation	other
 "Much blood have they spilt, and much harm have they done,
 For both, when the ancient religions were gone,
 Combin’d their wild strength to destroy the new race,
-Who were boldly beginning their shrines to deface.",boldly,,subject-oriented,post-verbal,other,FALSE,declarative,S,FALSE,1
-"Eagerly, King Izates invited him to become his teacher, to which the rabbi agreed.",Eagerly,,subject-oriented,sentence-initial,other,FALSE,declarative,S,TRUE,1
-"It seems that in our attempt to create our own little wilderness, peat compost users are selfishly robbing another.",selfishly,,subject-oriented,post-verbal,other,FALSE,declarative,VP,FALSE,1
-"Funakoshi died in 1957 at the age of 88, after humbly making a tremendous contribution to the art of karate.",humbly,,subject-oriented,post-verbal,other,FALSE,declarative,VP,FALSE,1
-Jehoshaphat wisely requests that they consult the LORD on the matter.,wisely,,subject-oriented,pre-verbal,other,FALSE,declarative,S,FALSE,1
-Some went simply to pray.,simply,,manner,post-verbal,motion,FALSE,declarative,S,FALSE,1
-Does it roll smoothly?,smoothly,,manner,post-verbal,motion,FALSE,interrogative,S,FALSE,1
-"They swam, walked briskly, or ran.",briskly,,manner,post-verbal,motion,FALSE,declarative,S,TRUE,1
-How can I prepare my body to help OIT go smoothly?,smoothly,,manner,post-verbal,motion,FALSE,interrogative,VP,FALSE,1
-You can’t ride safely if you can’t see.,safely,,manner,post-verbal,motion,TRUE,declarative,S,FALSE,1
-"Rather than be afraid, she ran toward it excitedly.",excitedly,,manner,sentence-initial,motion,FALSE,declarative,S,FALSE,2
-"Much like how the webbed feet of a duck helps to navigate water, a frog's webbed feet help him swim effectively.",effectively,,manner,sentence-initial,motion,FALSE,declarative,VP,FALSE,2
-"So, do you drive aggressively?",aggressively,,manner,sentence-initial,motion,FALSE,interrogative,S,FALSE,2
-"Weighing the chance of survival against the certainty of deportation or death by starvation, Żywulska daringly walked out of the ghetto with her mother on August 26, 1942.",daringly,,manner,pre-verbal,motion,FALSE,declarative,S,FALSE,1
-"- Establishing Justice – Seeking what is right and true and good as we follow the prophet Micah’s admonition to seek justice, love mercy and walk humbly with our Lord.",humbly,,manner,post-verbal,motion,FALSE,declarative,VP,FALSE,1
-“Your servants have simply come to buy food.,simply,,speaker-oriented,pre-verbal,motion,FALSE,declarative,S,FALSE,1
-Or simply go to the map.,simply,,speaker-oriented,pre-verbal,motion,FALSE,imperative,S,FALSE,1
-"Can't we simply move ""garbage bears""?",simply,,speaker-oriented,pre-verbal,motion,TRUE,interrogative,S,FALSE,1
-"Unfortunately, safety comes at a cost.",unfortunately,,speaker-oriented,sentence-initial,motion,FALSE,declarative,S,TRUE,1
-"Had she invited the king to a feast by sending him a written invitation, the king would have willingly come, but he would not have been ready to listen to her request.",willingly,,subject-oriented,pre-verbal,motion,TRUE,declarative,S,FALSE,1
+Who were boldly beginning their shrines to deface."	subject-oriented	imediate-pre-verbal	other	declarative	S	False	boldly	1	animate	no_negation	other
+Eagerly, King Izates invited him to become his teacher, to which the rabbi agreed.	subject-oriented	sentence-initial	other	declarative	S	True	Eagerly	1	animate	no_negation	other
+It seems that in our attempt to create our own little wilderness, peat compost users are selfishly robbing another.	subject-oriented	imediate-pre-verbal	other	declarative	VP	False	selfishly	1	inanimate	no_negation	other
+Funakoshi died in 1957 at the age of 88, after humbly making a tremendous contribution to the art of karate.	subject-oriented	imediate-pre-verbal	other	declarative	VP	False	humbly	1	animate	no_negation	other
+Jehoshaphat wisely requests that they consult the LORD on the matter.	subject-oriented	imediate-pre-verbal	other	declarative	S	False	wisely	1	animate	no_negation	other
+Some went simply to pray.	manner	imediate-pos-verbal	motion	declarative	S	False	simply	1	inanimate	no_negation	other
+Does it roll smoothly?	manner	imediate-pos-verbal	motion	interrogative	S	False	smoothly	1	inanimate	no_negation	other
+They swam, walked briskly, or ran.	manner	imediate-pos-verbal	motion	declarative	S	True	briskly	1	animate	no_negation	other
+How can I prepare my body to help OIT go smoothly?	manner	imediate-pos-verbal	motion	interrogative	VP	False	smoothly	1	animate	no_negation	other
+You can’t ride safely if you can’t see.	manner	imediate-pos-verbal	motion	declarative	S	False	safely	1	inanimate	neg_before_adv	other
+Rather than be afraid, she ran toward it excitedly.	manner	not-modifying-verb	motion	declarative	S	False	Rather	2	animate	no_negation	other
+Much like how the webbed feet of a duck helps to navigate water, a frog's webbed feet help him swim effectively.	manner	not-modifying-verb	motion	declarative	VP	False	Much	2	inanimate	no_negation	other
+So, do you drive aggressively?	manner	sentence-initial	motion	interrogative	S	True	So	2	inanimate	no_negation	degree
+Weighing the chance of survival against the certainty of deportation or death by starvation, Żywulska daringly walked out of the ghetto with her mother on August 26, 1942.	manner	imediate-pre-verbal	motion	declarative	S	False	daringly	1	inanimate	no_negation	other
+- Establishing Justice – Seeking what is right and true and good as we follow the prophet Micah’s admonition to seek justice, love mercy and walk humbly with our Lord.	manner	imediate-pos-verbal	motion	declarative	VP	False	humbly	1	animate	no_negation	other
+“Your servants have simply come to buy food.	speaker-oriented	imediate-pre-verbal	motion	declarative	S	False	simply	1	inanimate	no_negation	other
+Or simply go to the map.	speaker-oriented	imediate-pre-verbal	motion	imperative	S	False	simply	1	inanimate	no_negation	other
+"Can't we simply move ""garbage bears""?"	speaker-oriented	imediate-pre-verbal	motion	interrogative	S	False	simply	1	animate	neg_before_adv	other
+Unfortunately, safety comes at a cost.	speaker-oriented	sentence-initial	motion	declarative	S	True	Unfortunately	1	inanimate	no_negation	evaluative
+Had she invited the king to a feast by sending him a written invitation, the king would have willingly come, but he would not have been ready to listen to her request.	subject-oriented	imediate-pre-verbal	motion	declarative	S	False	willingly	1	animate	adv_before_neg	other
 "Esther boldly went before the King on behalf of her people (Esther 5)
 The Example of Jesus to Us:
-Jesus embodied the initiative of God to reach out to the human race in love and to provide salvation for their lost, wandering souls.",boldly,,subject-oriented,pre-verbal,motion,FALSE,declarative,S,FALSE,1
-Say words silently to your child.,silently,,manner,post-verbal,communication,FALSE,imperative,S,FALSE,1
-"Charles said harshly, “Your crazy mother drowned herself.",harshly,,manner,post-verbal,communication,FALSE,declarative,S,TRUE,1
-Check to see if you answered correctly.,correctly,,manner,post-verbal,communication,FALSE,declarative,VP,FALSE,1
-Doesn't that describe CPAs exactly?,exactly,,manner,post-verbal,communication,TRUE,interrogative,S,FALSE,1
-Do we talk harshly?,harshly,,manner,post-verbal,communication,FALSE,interrogative,S,FALSE,1
-Can humor be used to discuss disability and sexuality effectively?,effectively,,manner,post-verbal,communication,FALSE,interrogative,VP,FALSE,1
-In that time start to hand feed your rabbit treats and speak calmly to them.,calmly,,manner,post-verbal,communication,FALSE,imperative,VP,FALSE,1
-"“No, sir,” he answered nervously, “I didn’t get it”.",nervously,,manner,post-verbal,communication,TRUE,declarative,S,TRUE,1
-"I said shyly, ` What would my salary be?",shyly,,manner,post-verbal,communication,FALSE,interrogative,S,TRUE,1
-The students say I can’t say it correctly!),correctly,manner,manner,post-verbal,communication,TRUE,declarative,VP,FALSE,1
-Men who talked grossly became silent when Dorian Gray entered the room.,grossly,,manner,pre-verbal,communication,FALSE,declarative,VP,FALSE,1
-Then tell your child exactly what you liked.,exactly,degree,manner,sentence-initial,communication,FALSE,declarative,S,FALSE,2
-rudely speak to someone,rudely,,manner,sentence-initial,communication,FALSE,imperative,S,FALSE,1
-"First, State them positively.",positively,,manner,sentence-initial,communication,FALSE,imperative,S,TRUE,2
-"Even if they speak angrily, stay relaxed.",angrily,,manner,sentence-initial,communication,FALSE,declarative,VP,TRUE,2
-Clearly state the objective of the leaflet.,clearly,evaluative,manner,sentence-initial,communication,FALSE,imperative,S,FALSE,1
-It spoke arrogantly and blasphemous against God.,arrogantly,evaluative,manner,post-verbal,communication,FALSE,declarative,S,FALSE,1
-"I think of the scene from the ""I Love Lucy"" show, where she had her friend 'throw her' the fish from the market so she could 'honestly' tell Desi she'd caught them.",honestly,evaluative,manner,post-verbal,communication,FALSE,declarative,VP,FALSE,1
-"The United States mililtary looked into the possibilities, and kindly asked the bishop of Gozo (Mgr Gonzi) for permission to build one.",kindly,evaluative,manner,post-verbal,communication,FALSE,declarative,VP,FALSE,1
-It said simply: AIR RAID ON PEARL HARBOR X THIS IS NOT DRILL.,simiply,,speaker-oriented,post-verbal,communication,TRUE,declarative,S,FALSE,1
-Why didn’t he simply say ages?,simply,,speaker-oriented,pre-verbal,communication,TRUE,interrogative,S,FALSE,1
-"""Now,"" said the ox, ""I have duly heard both sides.",duly,,speaker-oriented,pre-verbal,communication,FALSE,declarative,VP,TRUE,2
-"Most importantly, the charts can’t tell us what your specific sleep requirements are.",importantly,evaluative,speaker-oriented,sentence-initial,communication,TRUE,declarative,S,TRUE,2
-"Crudely stated, flesh rots.",crudely,,speaker-oriented,sentence-initial,communication,FALSE,declarative,VP,FALSE,1
-"Unfortunately for Snake, Marv didn't speak English.",unfortunately,evaluative,speaker-oriented,sentence-initial,communication,TRUE,declarative,S,FALSE,1
-"It states boldly that we could sequester more than 100 percent of current annual CO2 emissions by switching to soil-creating, inexpensive and effective organic agricultural methods….",boldly,evaluative,subject-oriented,post-verbal,communication,FALSE,declarative,S,FALSE,1
-"Because students feel supported within their classroom communities, they willingly speak, share ideas and engage in meaningful discussion with their peers.",willingly,evaluative,subject-oriented,pre-verbal,communication,FALSE,declarative,S,FALSE,1
+Jesus embodied the initiative of God to reach out to the human race in love and to provide salvation for their lost, wandering souls."	subject-oriented	imediate-pre-verbal	motion	declarative	S	False	boldly	1	animate	no_negation	other
+Say words silently to your child.	manner	post-verbal	communication	imperative	S	False	silently	1	inanimate	no_negation	other
+Charles said harshly, “Your crazy mother drowned herself.	manner	imediate-pos-verbal	communication	declarative	S	True	harshly	1	animate	no_negation	other
+Check to see if you answered correctly.	manner	imediate-pos-verbal	communication	declarative	VP	False	correctly	1	inanimate	no_negation	other
+Doesn't that describe CPAs exactly?	manner	post-verbal	communication	interrogative	S	False	exactly	1	inanimate	neg_before_adv	other
+Do we talk harshly?	manner	imediate-pos-verbal	communication	interrogative	S	False	harshly	1	animate	no_negation	other
+Can humor be used to discuss disability and sexuality effectively?	manner	post-verbal	communication	interrogative	VP	False	effectively	1	inanimate	no_negation	other
+In that time start to hand feed your rabbit treats and speak calmly to them.	manner	imediate-pos-verbal	communication	imperative	VP	False	calmly	1	inanimate	no_negation	other
+“No, sir,” he answered nervously, “I didn’t get it”.	manner	imediate-pos-verbal	communication	declarative	S	True	nervously	1	animate	adv_before_neg	other
+I said shyly, ` What would my salary be?	manner	imediate-pos-verbal	communication	interrogative	S	True	shyly	1	animate	no_negation	other
+The students say I can’t say it correctly!)	manner	post-verbal	communication	declarative	VP	False	correctly	1	animate	neg_before_adv	other
+Men who talked grossly became silent when Dorian Gray entered the room.	manner	imediate-pos-verbal	communication	declarative	VP	False	grossly	1	animate	no_negation	other
+Then tell your child exactly what you liked.	manner	sentence-initial	communication	declarative	S	False	Then	2	inanimate	no_negation	other
+rudely speak to someone	manner	sentence-initial	communication	imperative	S	False	rudely	1	inanimate	no_negation	other
+First, State them positively.	manner	sentence-initial	communication	imperative	S	True	First	2	inanimate	no_negation	other
+Even if they speak angrily, stay relaxed.	manner	sentence-initial	communication	declarative	VP	True	Even	2	animate	no_negation	focus
+Clearly state the objective of the leaflet.	manner	sentence-initial	communication	imperative	S	False	Clearly	1	inanimate	no_negation	modal
+It spoke arrogantly and blasphemous against God.	manner	imediate-pos-verbal	communication	declarative	S	False	arrogantly	1	inanimate	no_negation	other
+"I think of the scene from the ""I Love Lucy"" show, where she had her friend 'throw her' the fish from the market so she could 'honestly' tell Desi she'd caught them."	manner	pre-verbal	communication	declarative	VP	False	honestly	1	animate	no_negation	evaluative
+The United States mililtary looked into the possibilities, and kindly asked the bishop of Gozo (Mgr Gonzi) for permission to build one.	manner	imediate-pre-verbal	communication	declarative	VP	False	kindly	1	inanimate	no_negation	other
+It said simply: AIR RAID ON PEARL HARBOR X THIS IS NOT DRILL.	speaker-oriented	imediate-pos-verbal	communication	declarative	S	False	simply	1	inanimate	adv_before_neg	other
+Why didn’t he simply say ages?	speaker-oriented	imediate-pre-verbal	communication	interrogative	S	False	simply	1	animate	neg_before_adv	other
+"""Now,"" said the ox, ""I have duly heard both sides."	speaker-oriented	pre-verbal	communication	declarative	VP	True	Now	2	animate	no_negation	temporal
+Most importantly, the charts can’t tell us what your specific sleep requirements are.	speaker-oriented	not-modifying-verb	communication	declarative	S	True	Most	2	inanimate	adv_before_neg	other
+Crudely stated, flesh rots.	speaker-oriented	sentence-initial	communication	declarative	VP	False	Crudely	1	inanimate	no_negation	other
+Unfortunately for Snake, Marv didn't speak English.	speaker-oriented	sentence-initial	communication	declarative	S	False	Unfortunately	1	animate	adv_before_neg	evaluative
+It states boldly that we could sequester more than 100 percent of current annual CO2 emissions by switching to soil-creating, inexpensive and effective organic agricultural methods….	subject-oriented	imediate-pos-verbal	communication	declarative	S	False	boldly	1	animate	no_negation	other
+Because students feel supported within their classroom communities, they willingly speak, share ideas and engage in meaningful discussion with their peers.	subject-oriented	imediate-pre-verbal	communication	declarative	S	False	willingly	1	animate	no_negation	other
 "“They’re tailor-made.”
-The former board member who told me about the KG D6 bid begrudgingly admitted that this was commonplace.",begrudgingly,evaluative,subject-oriented,post-verbal,communication,FALSE,declarative,S,FALSE,1
+The former board member who told me about the KG D6 bid begrudgingly admitted that this was commonplace."	subject-oriented	imediate-pre-verbal	communication	declarative	S	False	begrudgingly	1	animate	no_negation	other
 "Their case against Jesus was presented in the YouTube movie, Zeitgeist, where author Peter Joseph boldly claims,
-The reality is, Jesus was…a mythical figure….Christianity, along with all other theistic belief systems, is the fraud of the age.",boldly,,subject-oriented,post-verbal,communication,FALSE,declarative,VP,FALSE,1
-"Asimov was one of the most prolific writers of all time, having written or edited more than 500 books and an estimated 90,000 letters and postcards.” His list of books included those on “astronomy, mathematics, the Bible, William Shakespeare’s writing, and chemistry.” He was a long-time member of Mensa, “albeit reluctantly; he described some members of that organization as ‘brain-proud and aggressive about their IQs.’” See Isaac Asimov – Wikipedia.",reluctantly,evaluative,subject-oriented,post-verbal,communication,FALSE,declarative,S,FALSE,1
-"Funakoshi died in 1957 at the age of 88, after <mark>humbly</mark> making a tremendous contribution to the art of karate.",humbly,,manner,,,,,,,
-"In the late medieval context, this <mark>directly</mark> censured the plans of Maximilian of Austria to become regent after the death of Mary of Burgundy.",directly,,manner,,,,,,,
-"<mark>Finally</mark> Sylla crushed his rival's party, and put to death the leaders, filling Rome with slaughter, as Marius had done before him.",,,speaker-oriented,,,,,,,
-"Kenya has ratified the Convention on Biological Diversity, the <mark>globally</mark> negotiated agreement committed to sustainable use of biodiversity.",,,context-free,,,,,,,
-"Like his father, Brown <mark>strongly</mark> opposed the death penalty and vetoed it as governor, which the legislature overrode in 1977.",,,manner,,,,,,,
-"Through this, we hope to <mark>greatly</mark> expand the use of GIS in ecological research, to the benefit of all.",,,context-free,,,,,,,
-"* <mark>So</mark> FDR went to Cairo for his only wartime meeting with Chiang Kai-Shek, the leader of China’s Kuomintang nationalist government.",,,context-free,,,,,,,
-He brought in ruthless anti-German commander Sir Arthur “Bomber” Harris to orchestrate a desperate mission to <mark>quickly</mark> end Hitler’s life.,,,manner,,,,,,,
-Several more CO2 capture plants were <mark>subsequently</mark> built to produce CO2 for commercial applications and markets.,,,context-free,,,,,,,
-"Although this is the second year for this type of hybrid evaluation by Iowa State University, some of the hybrids were <mark>newly</mark> introduced in 1998.",,,context-free,,,,,,,
-"<mark>Finally</mark>, in the year 40 AH, after the peace-treaty, Mu‘awiyah became the absolute ruler of the Muslim world.",,,speaker-oriented,,,,,,,
-"Gould, a Harvard paleontologist and a popular-science writer, who died in 2002, was taking aim <mark>mainly</mark> at the rising ambitions of sociobiology.",,,context-free,,,,,,,
-"Out of the 90 countries with geothermal potential, <mark>only</mark> 27 use it to produce electricity according to the International Geothermal Association.",,,context-free,,,,,,,
-"Festus, who <mark>hardly</mark> knew what to write about Paul in his report to Caesar, was glad of the opportunity to consult Agrippa in the matter.",,,context-free,,,,,,,
-The <mark>massively</mark> increased beaver population has led to increases in fish and duck population by way of the beaver ponds it creates.,,,context-free,,,,,,,
-This preliminary needs assessment is <mark>largely</mark> the result of a workshop held at the Great Lakes Environmental Research Laboratory in August of 2003.,,,context-free,,,,,,,
-"In a Gladstone news release, Todd McDevitt explained why his lab is <mark>particularly</mark> interested in making these cells to treat spinal cord injury.",,,context-free,,,,,,,
-"The Council of Europe released the draft of the treaty, <mark>formally</mark> called the Convention on Cyber Crime, for public discussion in April 2000.",,,manner,,,,,,,
-"Gerrish was a faculty member at the University of Missouri for more than 20 years, helping FSRC become a <mark>nationally</mark> recognized research facility.",,,context-free,,,,,,,
-"The defining issue of the antebellum period was opposition to slavery, and both the college and the town were <mark>closely</mark> associated with ABOLITIONISM.",,,manner,,,,,,,
-But in the late seventeenth-early eighteenth century Hetman Ivan Mazepa <mark>still</mark> tried to retain as much independence for Ukraine as he could.,,,context-free,,,,,,,
-Haaland’s department <mark>recently</mark> released the first volume of an investigative report into the country’s Indian boarding school system.,,,context-free,,,,,,,
-"Several member of that group <mark>subsequently</mark> associated with the First Unitarian Church, a center for reform activity and the site of the convention.",,,context-free,,,,,,,
-"He <mark>currently</mark> holds the position of the director of research of the Whitney Plantation Museum of Slavery, located in St. John the Baptist Parish.",,,context-free,,,,,,,
-"<mark>Grudgingly</mark>, Signora Bondi agrees to replace the broken pump.",,,subject-oriented,,,,,,,
-"<mark>Additionally</mark>, he wants to reinforce the science behind sustainable energy systems and how it's taking us into the future of sustainable energy.",,,context-free,,,,,,,
-The school <mark>currently</mark> has one SMART board in their computer lab and are adding a second one for the library.,,,context-free,,,,,,,
-"The Southern Ocean <mark>currently</mark> absorbs a significant amount of human emitted CO2, but the future behavior of this sink is uncertain.",,,context-free,,,,,,,
-Jehoshaphat <mark>wisely</mark> requests that they consult the LORD on the matter.,,,subject-oriented,,,,,,,
-The first <mark>widely</mark> deployed desktop SIMD was with Intel's MMX extensions to the x86 architecture in 1996.,,,context-free,,,,,,,
-The DMK <mark>briefly</mark> used nati-vist appeals to discredit the AIADMK soon after the latter party’s formation.,,,context-free,,,,,,,
-"<mark>Finally</mark>, the remaining 7% work in higher education such as universities as lecturers, or as research staff in university labs and departments.",,,speaker-oriented,,,,,,,
-"<mark>Finally</mark>, after 44 exhausting days, an anonymous Klan informer led authorities to the earthern dam where the three bodies were buried.",,,speaker-oriented,,,,,,,
-"<mark>Globally</mark>, growing popularity of AR & VR technology amongst various segments is expected to remain a key growth driver during the period of study.",,,context-free,,,,,,,
-"In addition, they partner with other organizations to host seasonal culture camps focusing on and <mark>directly</mark> engaging in conservation efforts.",,,manner,,,,,,,
-"He wants to <mark>ultimately</mark> apply it in industrial practice, and he continues to pioneer creative research directions in academia.",,,context-free,,,,,,,
-"Dore appealed all the way to the state Supreme Court, where he <mark>personally</mark> presented some of the arguments on his behalf, but lost.",,,manner,,,,,,,
-"The firemen <mark>mainly</mark> directed their efforts to saving the block of three-story houses opposite, and succeeded after great exertions.",,,context-free,,,,,,,
-"<mark>Apparently</mark>, the uncertain times and the misery of the lower classes were fertile ground for the monastic traditions of Buddhism.",,,speaker-oriented,,,,,,,
-Chief Black Hawk (1767-1838) and other members of the Sauk questioned the validity of the treaty <mark>ostensibly</mark> ceding their lands.,,,manner,,,,,,,
-"<mark>Conversely</mark>, a well-planned, sophisticated pheromone trap system can be hung in target trees as part of an intricate codling moth control program.",,,context-free,,,,,,,
-He <mark>eventually</mark> convinced a third of the angels to follow him in this rebellion against their Creator (Revelation 12:4).,,,context-free,,,,,,,
-The relic was <mark>only</mark> returned to Peterborough following threats from the then abbot Thorold to burn Ramsey Abbey to the ground.,,,context-free,,,,,,,
-"<mark>Accordingly</mark>, the South-West portion of the building is the load bearing area; and should be strong enough to support heavy weights.",,,speaker-oriented,,,,,,,
-"The text indicates that it was <mark>only</mark> then, after the creation of the man, that the Lord “planted a garden in Eden” and placed the man in the garden.",,,context-free,,,,,,,
-They live in small groups and rest <mark>willingly</mark> under the shady trees of the savannah and the steppe.,,,manner,,,,,,,
-Cranfield University has <mark>just</mark> commissioned the UK’s largest BESS system using entirely second life batteries.,,,speaker-oriented,,,,,,,
-"<mark>Previously</mark>, third parties such as the FAO, the UNDP and World Bank supported the proposal preparation for donor funds.",,,context-free,,,,,,,
-This will be made possible with the government’s initiative to <mark>gradually</mark> install biometric machines in all of its relevant agencies.,,,manner,,,,,,,
-The regulations were put in place by the Tennessee Wildlife Resources Agency for the <mark>newly</mark> begun hunting season.,,,context-free,,,,,,,
-Municipalities in more than 20 states and the District of Columbia <mark>currently</mark> operate PACE programs or have enacted PACE-enabling legislation.,,,context-free,,,,,,,
-"The resilience plan is the first of its kind in the Bay Area and <mark>only</mark> the sixth such official plan in the world, according to the city.",,,context-free,,,,,,,
-"In addition to more theological schools, Zaytuna College, a <mark>newly</mark> established Muslim liberal arts college, has taken 'Holy Hill' as its new home.",,,context-free,,,,,,,
-Virginia SARE will work <mark>closely</mark> with VSU’s Small Farm Outreach Program to conduct and achieve these objectives.,,,manner,,,,,,,
-"<mark>Immediately</mark> after the conquest of the city of Den Bosch in 1629, the monasteries were closed and the clergy expelled from the city.",,,context-free,,,,,,,
-"The three separate groups of international researchers reported <mark>strikingly</mark> similar scientific findings related to SCCOHT, as provided below.",,,context-free,,,,,,,
-"Moses, checking that there are no witnesses, <mark>immediately</mark> intercedes and slays the Egyptian thereby saving the Jew from his oppressor.",,,context-free,,,,,,,
-"After 1830 a <mark>newly</mark> established settlement at Port Arthur, on the south coast, became the major site for housing repeat offenders.",,,context-free,,,,,,,
-This <mark>recently</mark> published research led to the new state law and development of the new mapping tool called the Vermont Environmental Disparity Index.,,,context-free,,,,,,,
-"The answers are not <mark>only</mark> instructive, but demolish the evolutionary geologist’s case for a 4.5-billion-year old earth.",,,context-free,,,,,,,
-"Residents of Bangor, Maine, claim the city as not <mark>only</mark> the birthplace of the lumber industry, but the birthplace of Paul Bunyan, as well.",,,context-free,,,,,,,
-Showcasing Data Science is <mark>broadly</mark> utilized in the advertising area as it helps assemble and assess bits of knowledge.,,,context-free,,,,,,,
-EPA is <mark>still</mark> considering greenhouse gas regulations for the oil and gas sector more broadly.,,,context-free,,,,,,,
-"Abraham <mark>consequently</mark> sought to get the cave as a burial possession, as Genesis 23 reports.",,,context-free,,,,,,,
-"Offering to employ the French in his service, the shah <mark>subsequently</mark> dispatched his own envoy to accompany Jaubert back to France (Jaubert, pp.",,,context-free,,,,,,,
-discovers that both COFI and PGL are unable to supply any mass spec analysis results and that there are <mark>only</mark> three that have been done.,,,context-free,,,,,,,
-"<mark>Additionally</mark>, it is known that Newton and his students used calculus in the analysis of forces and motion.",,,context-free,,,,,,,
-"Kingsley <mark>briefly</mark> served on the Florida Territorial Council, planning the transition when Florida was annexed by the United States.",,,context-free,,,,,,,
-"The <mark>digitally</mark>-programmable potentiometer (DPP) is a mixed signal, system-level control device performing a component-level function.",,,manner,,,,,,,
-These <mark>highly</mark> trained people will lead the way in building the world’s new energy systems with lower greenhouse gas emissions.,,,context-free,,,,,,,
-"He <mark>eventually</mark> settled in Chicago, where he had his first solo exhibition in 1932 at the Little Gallery.",,,context-free,,,,,,,
-"<mark>Moreover</mark>, Socrates was ready to probe fully the materialist (and therefore Popperian) objection to the soul’s immortality.",,,context-free,,,,,,,
+The reality is, Jesus was…a mythical figure….Christianity, along with all other theistic belief systems, is the fraud of the age."	subject-oriented	imediate-pre-verbal	communication	declarative	VP	False	boldly	1	animate	no_negation	other
+Asimov was one of the most prolific writers of all time, having written or edited more than 500 books and an estimated 90,000 letters and postcards.” His list of books included those on “astronomy, mathematics, the Bible, William Shakespeare’s writing, and chemistry.” He was a long-time member of Mensa, “albeit reluctantly; he described some members of that organization as ‘brain-proud and aggressive about their IQs.’” See Isaac Asimov – Wikipedia.	subject-oriented	pre-verbal	communication	declarative	S	False	reluctantly	1	animate	no_negation	other
+Funakoshi died in 1957 at the age of 88, after humbly making a tremendous contribution to the art of karate.	manner	imediate-pre-verbal	other	declarative	VP	False	humbly	1	animate	no_negation	other
+In the late medieval context, this directly censured the plans of Maximilian of Austria to become regent after the death of Mary of Burgundy.	manner	imediate-pre-verbal	other	declarative	S	False	directly	1	inanimate	no_negation	other
+Finally Sylla crushed his rival's party, and put to death the leaders, filling Rome with slaughter, as Marius had done before him.	speaker-oriented	sentence-initial	other	declarative	S	False	Finally	1	animate	no_negation	other
+Kenya has ratified the Convention on Biological Diversity, the globally negotiated agreement committed to sustainable use of biodiversity.	context-free	imediate-pre-verbal	other	declarative	VP	False	globally	1	inanimate	no_negation	other
+Like his father, Brown strongly opposed the death penalty and vetoed it as governor, which the legislature overrode in 1977.	manner	imediate-pre-verbal	other	declarative	S	False	strongly	1	animate	no_negation	other
+Through this, we hope to greatly expand the use of GIS in ecological research, to the benefit of all.	context-free	imediate-pre-verbal	other	declarative	VP	False	greatly	1	animate	no_negation	other
+* So FDR went to Cairo for his only wartime meeting with Chiang Kai-Shek, the leader of China’s Kuomintang nationalist government.	context-free	pre-verbal	motion	declarative	S	False	So	1	animate	no_negation	degree
+He brought in ruthless anti-German commander Sir Arthur “Bomber” Harris to orchestrate a desperate mission to quickly end Hitler’s life.	manner	imediate-pre-verbal	other	declarative	VP	False	quickly	1	animate	no_negation	manner
+Several more CO2 capture plants were subsequently built to produce CO2 for commercial applications and markets.	context-free	imediate-pre-verbal	other	declarative	S	False	subsequently	1	inanimate	no_negation	other
+Although this is the second year for this type of hybrid evaluation by Iowa State University, some of the hybrids were newly introduced in 1998.	context-free	imediate-pre-verbal	other	declarative	S	False	newly	1	inanimate	no_negation	other
+Finally, in the year 40 AH, after the peace-treaty, Mu‘awiyah became the absolute ruler of the Muslim world.	speaker-oriented	sentence-initial	other	declarative	S	True	Finally	1	inanimate	no_negation	other
+Gould, a Harvard paleontologist and a popular-science writer, who died in 2002, was taking aim mainly at the rising ambitions of sociobiology.	context-free	post-verbal	transfer	declarative	S	False	mainly	1	inanimate	no_negation	focus
+Out of the 90 countries with geothermal potential, only 27 use it to produce electricity according to the International Geothermal Association.	context-free	not-modifying-verb	no_head_verb	declarative	unknown	False	only	1	inanimate	no_negation	focus
+Festus, who hardly knew what to write about Paul in his report to Caesar, was glad of the opportunity to consult Agrippa in the matter.	context-free	imediate-pre-verbal	stative	declarative	VP	False	hardly	1	inanimate	no_negation	other
+The massively increased beaver population has led to increases in fish and duck population by way of the beaver ponds it creates.	context-free	imediate-pre-verbal	other	declarative	VP	False	massively	1	inanimate	no_negation	other
+This preliminary needs assessment is largely the result of a workshop held at the Great Lakes Environmental Research Laboratory in August of 2003.	context-free	not-modifying-verb	no_head_verb	declarative	S	False	largely	1	inanimate	no_negation	other
+In a Gladstone news release, Todd McDevitt explained why his lab is particularly interested in making these cells to treat spinal cord injury.	context-free	not-modifying-verb	no_head_verb	declarative	unknown	False	particularly	1	animate	no_negation	focus
+The Council of Europe released the draft of the treaty, formally called the Convention on Cyber Crime, for public discussion in April 2000.	manner	imediate-pre-verbal	other	declarative	VP	False	formally	1	animate	no_negation	other
+Gerrish was a faculty member at the University of Missouri for more than 20 years, helping FSRC become a nationally recognized research facility.	context-free	imediate-pre-verbal	other	declarative	VP	False	nationally	1	inanimate	no_negation	other
+The defining issue of the antebellum period was opposition to slavery, and both the college and the town were closely associated with ABOLITIONISM.	manner	imediate-pre-verbal	other	declarative	VP	False	closely	1	inanimate	no_negation	other
+But in the late seventeenth-early eighteenth century Hetman Ivan Mazepa still tried to retain as much independence for Ukraine as he could.	context-free	imediate-pre-verbal	other	declarative	S	False	still	2	animate	no_negation	temporal
+Haaland’s department recently released the first volume of an investigative report into the country’s Indian boarding school system.	context-free	imediate-pre-verbal	other	declarative	S	False	recently	1	inanimate	no_negation	temporal
+Several member of that group subsequently associated with the First Unitarian Church, a center for reform activity and the site of the convention.	context-free	imediate-pre-verbal	other	declarative	VP	False	subsequently	1	inanimate	no_negation	other
+He currently holds the position of the director of research of the Whitney Plantation Museum of Slavery, located in St. John the Baptist Parish.	context-free	imediate-pre-verbal	other	declarative	S	False	currently	1	animate	no_negation	other
+Grudgingly, Signora Bondi agrees to replace the broken pump.	subject-oriented	sentence-initial	other	declarative	S	True	Grudgingly	1	animate	no_negation	other
+Additionally, he wants to reinforce the science behind sustainable energy systems and how it's taking us into the future of sustainable energy.	context-free	sentence-initial	stative	declarative	S	True	Additionally	1	animate	no_negation	other
+The school currently has one SMART board in their computer lab and are adding a second one for the library.	context-free	imediate-pre-verbal	stative	declarative	S	False	currently	1	inanimate	no_negation	other
+The Southern Ocean currently absorbs a significant amount of human emitted CO2, but the future behavior of this sink is uncertain.	context-free	imediate-pre-verbal	other	declarative	S	False	currently	1	inanimate	no_negation	other
+Jehoshaphat wisely requests that they consult the LORD on the matter.	subject-oriented	imediate-pre-verbal	other	declarative	S	False	wisely	1	animate	no_negation	other
+The first widely deployed desktop SIMD was with Intel's MMX extensions to the x86 architecture in 1996.	context-free	imediate-pre-verbal	other	declarative	VP	False	widely	1	inanimate	no_negation	other
+The DMK briefly used nati-vist appeals to discredit the AIADMK soon after the latter party’s formation.	context-free	imediate-pre-verbal	other	declarative	S	False	briefly	2	animate	no_negation	temporal
+Finally, the remaining 7% work in higher education such as universities as lecturers, or as research staff in university labs and departments.	speaker-oriented	not-modifying-verb	no_head_verb	declarative	S	True	Finally	1	inanimate	no_negation	other
+Finally, after 44 exhausting days, an anonymous Klan informer led authorities to the earthern dam where the three bodies were buried.	speaker-oriented	sentence-initial	other	declarative	S	True	Finally	1	inanimate	no_negation	other
+Globally, growing popularity of AR & VR technology amongst various segments is expected to remain a key growth driver during the period of study.	context-free	sentence-initial	other	declarative	S	True	Globally	1	inanimate	no_negation	other
+In addition, they partner with other organizations to host seasonal culture camps focusing on and directly engaging in conservation efforts.	manner	imediate-pre-verbal	other	declarative	VP	False	directly	1	animate	no_negation	other
+He wants to ultimately apply it in industrial practice, and he continues to pioneer creative research directions in academia.	context-free	imediate-pre-verbal	other	declarative	VP	False	ultimately	1	animate	no_negation	other
+Dore appealed all the way to the state Supreme Court, where he personally presented some of the arguments on his behalf, but lost.	manner	imediate-pre-verbal	transfer	declarative	VP	False	personally	1	animate	no_negation	other
+The firemen mainly directed their efforts to saving the block of three-story houses opposite, and succeeded after great exertions.	context-free	imediate-pre-verbal	other	declarative	S	False	mainly	1	inanimate	no_negation	focus
+Apparently, the uncertain times and the misery of the lower classes were fertile ground for the monastic traditions of Buddhism.	speaker-oriented	not-modifying-verb	no_head_verb	declarative	S	True	Apparently	1	inanimate	no_negation	other
+Chief Black Hawk (1767-1838) and other members of the Sauk questioned the validity of the treaty ostensibly ceding their lands.	manner	imediate-pre-verbal	other	declarative	VP	False	ostensibly	1	animate	no_negation	other
+Conversely, a well-planned, sophisticated pheromone trap system can be hung in target trees as part of an intricate codling moth control program.	context-free	sentence-initial	other	declarative	S	True	Conversely	2	inanimate	no_negation	other
+He eventually convinced a third of the angels to follow him in this rebellion against their Creator (Revelation 12:4).	context-free	imediate-pre-verbal	other	declarative	S	False	eventually	1	animate	no_negation	temporal
+The relic was only returned to Peterborough following threats from the then abbot Thorold to burn Ramsey Abbey to the ground.	context-free	imediate-pre-verbal	transfer	declarative	S	False	only	2	inanimate	no_negation	focus
+Accordingly, the South-West portion of the building is the load bearing area; and should be strong enough to support heavy weights.	speaker-oriented	not-modifying-verb	no_head_verb	declarative	S	True	Accordingly	2	inanimate	no_negation	other
+The text indicates that it was only then, after the creation of the man, that the Lord “planted a garden in Eden” and placed the man in the garden.	context-free	not-modifying-verb	no_head_verb	declarative	unknown	True	only	2	inanimate	no_negation	focus
+They live in small groups and rest willingly under the shady trees of the savannah and the steppe.	manner	imediate-pos-verbal	other	declarative	VP	False	willingly	1	animate	no_negation	other
+Cranfield University has just commissioned the UK’s largest BESS system using entirely second life batteries.	speaker-oriented	imediate-pre-verbal	other	declarative	S	False	just	2	animate	no_negation	focus
+Previously, third parties such as the FAO, the UNDP and World Bank supported the proposal preparation for donor funds.	context-free	sentence-initial	other	declarative	S	True	Previously	1	inanimate	no_negation	other
+This will be made possible with the government’s initiative to gradually install biometric machines in all of its relevant agencies.	manner	imediate-pre-verbal	other	declarative	VP	False	gradually	1	inanimate	no_negation	other
+The regulations were put in place by the Tennessee Wildlife Resources Agency for the newly begun hunting season.	context-free	imediate-pre-verbal	other	declarative	VP	False	newly	1	inanimate	no_negation	other
+Municipalities in more than 20 states and the District of Columbia currently operate PACE programs or have enacted PACE-enabling legislation.	context-free	imediate-pre-verbal	other	declarative	S	False	currently	1	inanimate	no_negation	other
+The resilience plan is the first of its kind in the Bay Area and only the sixth such official plan in the world, according to the city.	context-free	not-modifying-verb	no_head_verb	declarative	unknown	False	only	1	inanimate	no_negation	focus
+In addition to more theological schools, Zaytuna College, a newly established Muslim liberal arts college, has taken 'Holy Hill' as its new home.	context-free	imediate-pre-verbal	other	declarative	VP	False	newly	1	animate	no_negation	other
+Virginia SARE will work closely with VSU’s Small Farm Outreach Program to conduct and achieve these objectives.	manner	imediate-pos-verbal	other	declarative	S	False	closely	1	animate	no_negation	other
+Immediately after the conquest of the city of Den Bosch in 1629, the monasteries were closed and the clergy expelled from the city.	context-free	not-modifying-verb	no_head_verb	declarative	unknown	False	Immediately	1	inanimate	no_negation	other
+The three separate groups of international researchers reported strikingly similar scientific findings related to SCCOHT, as provided below.	context-free	not-modifying-verb	other	declarative	VP	False	strikingly	2	inanimate	no_negation	other
+Moses, checking that there are no witnesses, immediately intercedes and slays the Egyptian thereby saving the Jew from his oppressor.	context-free	not-modifying-verb	other	declarative	VP	False	immediately	2	inanimate	no_negation	other
+After 1830 a newly established settlement at Port Arthur, on the south coast, became the major site for housing repeat offenders.	context-free	imediate-pre-verbal	other	declarative	VP	False	newly	1	inanimate	no_negation	other
+This recently published research led to the new state law and development of the new mapping tool called the Vermont Environmental Disparity Index.	context-free	imediate-pre-verbal	other	declarative	VP	False	recently	1	inanimate	no_negation	temporal
+The answers are not only instructive, but demolish the evolutionary geologist’s case for a 4.5-billion-year old earth.	context-free	not-modifying-verb	no_head_verb	declarative	unknown	False	only	1	inanimate	no_negation	focus
+Residents of Bangor, Maine, claim the city as not only the birthplace of the lumber industry, but the birthplace of Paul Bunyan, as well.	context-free	not-modifying-verb	no_head_verb	declarative	unknown	False	only	3	inanimate	no_negation	focus
+Showcasing Data Science is broadly utilized in the advertising area as it helps assemble and assess bits of knowledge.	context-free	imediate-pre-verbal	other	declarative	S	False	broadly	1	animate	no_negation	other
+EPA is still considering greenhouse gas regulations for the oil and gas sector more broadly.	context-free	imediate-pre-verbal	other	declarative	S	False	still	3	animate	no_negation	temporal
+Abraham consequently sought to get the cave as a burial possession, as Genesis 23 reports.	context-free	imediate-pre-verbal	other	declarative	S	False	consequently	1	animate	no_negation	other
+Offering to employ the French in his service, the shah subsequently dispatched his own envoy to accompany Jaubert back to France (Jaubert, pp.	context-free	imediate-pre-verbal	other	declarative	S	False	subsequently	2	inanimate	no_negation	other
+discovers that both COFI and PGL are unable to supply any mass spec analysis results and that there are only three that have been done.	context-free	not-modifying-verb	no_head_verb	declarative	unknown	False	only	1	inanimate	no_negation	focus
+Additionally, it is known that Newton and his students used calculus in the analysis of forces and motion.	context-free	sentence-initial	stative	declarative	S	True	Additionally	1	inanimate	no_negation	other
+Kingsley briefly served on the Florida Territorial Council, planning the transition when Florida was annexed by the United States.	context-free	imediate-pre-verbal	other	declarative	S	False	briefly	1	animate	no_negation	temporal
+The digitally-programmable potentiometer (DPP) is a mixed signal, system-level control device performing a component-level function.	manner	not-modifying-verb	no_head_verb	declarative	unknown	False	digitally	1	inanimate	no_negation	other
+These highly trained people will lead the way in building the world’s new energy systems with lower greenhouse gas emissions.	context-free	imediate-pre-verbal	other	declarative	VP	False	highly	1	inanimate	no_negation	degree
+He eventually settled in Chicago, where he had his first solo exhibition in 1932 at the Little Gallery.	context-free	imediate-pre-verbal	other	declarative	S	False	eventually	1	animate	no_negation	temporal
+Moreover, Socrates was ready to probe fully the materialist (and therefore Popperian) objection to the soul’s immortality.	context-free	not-modifying-verb	other	declarative	S	True	Moreover	3	animate	no_negation	other
