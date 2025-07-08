@@ -8,3 +8,7 @@ accelerate
 spacy
 jupyter
 notebook
+matplotlib
+umap-learn
+protobuf
+sentencepiece
