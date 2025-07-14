@@ -157,7 +157,7 @@ adverb.domain
 
 ⸻
 
-Example: 
+Example:
 
 Adverb: wisely
 Usage: “Wisely, he did not sign the contract.”
@@ -179,16 +179,17 @@ Answer: adverb.frequency
 Adverb: {adverb}
 Usage: {sentence}
 Reasoning: {gen(max_tokens=512, stop='\n')}
-Answer: {select([adverb.manner
-adverb.subject_oriented
-adverb.epistemic
-adverb.evaluative
-adverb.speech_act
-adverb.frequency
-adverb.temporal
-adverb.spatial
-adverb.degree
-adverb.domain], name="s1", max_tokens=100)}
+Answer: {select([
+    "adverb.manner",
+    "adverb.subject_oriented",
+    "adverb.epistemic",
+    "adverb.evaluative",
+    "adverb.speech_act",
+    "adverb.frequency",
+    "adverb.temporal",
+    "adverb.spatial",
+    "adverb.degree",
+    "adverb.domain"], name="s1", max_tokens=100)}
 """
     )
 
