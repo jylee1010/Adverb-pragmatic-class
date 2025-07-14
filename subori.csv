@@ -1,11 +1,11 @@
 sentence,adverb_type,adverb_position,verb_class,sentence_mood,adverb_scope,comma_intonation,adverb_text,adverb_count,subject_animacy,negation_scope,lexical_adverb_category
 Prepare for an honest conversation with your kids by first processing through these questions honestly.,manner,not-modifying-verb,no_head_verb,imperative,unknown,False,honestly,1,inanimate,no_negation,evaluative
-But what exactly sparked the rise of the holistic dentistry movement?,speaker-oriented,not-modifying-verb,no_head_verb,interrogative,unknown,False,exactly,1,inanimate,no_negation,other
-"Clearly, Larry is a power-hungry jerk.",speaker-oriented,not-modifying-verb,no_head_verb,declarative,S,True,Clearly,1,animate,no_negation,modal
-"Unfortunately, it isnt a simple answer.",speaker-oriented,not-modifying-verb,no_head_verb,declarative,S,True,Unfortunately,1,inanimate,adv_before_neg,evaluative
-"Unfortunately, it didn’t work.",speaker-oriented,not-modifying-verb,no_head_verb,declarative,unknown,True,Unfortunately,1,inanimate,no_negation,evaluative
-"Clearly, it didn’t work.",speaker-oriented,not-modifying-verb,no_head_verb,declarative,unknown,True,Clearly,1,inanimate,adv_before_neg,modal
-"Honestly, the list is endless!",speaker-oriented,not-modifying-verb,no_head_verb,declarative,S,True,Honestly,1,inanimate,no_negation,evaluative
+But what exactly sparked the rise of the holistic dentistry movement?,context-free,not-modifying-verb,no_head_verb,interrogative,unknown,False,exactly,1,inanimate,no_negation,degree
+"Clearly, Larry is a power-hungry jerk.",context-free,not-modifying-verb,no_head_verb,declarative,S,True,Clearly,1,animate,no_negation,epistemic
+"Unfortunately, it isnt a simple answer.",context-free,not-modifying-verb,no_head_verb,declarative,S,True,Unfortunately,1,inanimate,adv_before_neg,evaluative
+"Unfortunately, it didn’t work.",context-free,not-modifying-verb,no_head_verb,declarative,unknown,True,Unfortunately,1,inanimate,no_negation,evaluative
+"Clearly, it didn’t work.",context-free,not-modifying-verb,no_head_verb,declarative,unknown,True,Clearly,1,inanimate,adv_before_neg,epistemic
+"Honestly, the list is endless!",context-free,not-modifying-verb,no_head_verb,declarative,S,True,Honestly,1,inanimate,no_negation,evaluative
 "By asking questions and exploring appetizing answers, he came to be known in Pesce and grudgingly in Pizza as the Father of Topping Science.",subject-oriented,not-modifying-verb,no_head_verb,declarative,unknown,False,grudgingly,1,animate,no_negation,other
 "Boldly, He declared, I am the first ",subject-oriented,not-modifying-verb,no_head_verb,declarative,S,True,Boldly,1,animate,no_negation,other
 Root canal treatment should be taken seriously.,manner,imediate-pos-verbal,transfer,declarative,S,False,seriously,1,inanimate,no_negation,other
@@ -14,61 +14,59 @@ You want to be taken seriously?,manner,imediate-pos-verbal,transfer,interrogativ
 Do we send our children to Jewish day schools grumpily?,manner,post-verbal,transfer,interrogative,S,False,grumpily,1,animate,no_negation,other
 "They are taken seriously, compared to their sisters.",manner,imediate-pos-verbal,transfer,declarative,S,True,seriously,1,inanimate,no_negation,other
 Why didn’t politicians take women seriously?,manner,post-verbal,transfer,interrogative,S,False,seriously,1,inanimate,neg_before_adv,other
-And who says hot food can’t be taken safely to school?,manner,imediate-pos-verbal,transfer,interrogative,VP,False,safely,1,inanimate,neg_before_adv,other
+And who says hot food can’t be taken safely to school?,manner,imediate-pos-verbal,transfer,interrogative,VP,False,safely,1,inanimate,neg_before_adv,manner
 "Because they didn't take it seriously, these SS men.",manner,post-verbal,transfer,declarative,S,True,seriously,1,animate,neg_before_adv,other
 "In 1855, Accou secretly returned to New Orleans.",manner,imediate-pre-verbal,transfer,declarative,S,False,secretly,1,animate,no_negation,other
-Can you randomly get a tumor?,manner,imediate-pre-verbal,transfer,interrogative,S,False,randomly,1,inanimate,no_negation,other
+Can you randomly get a tumor?,manner,imediate-pre-verbal,transfer,interrogative,S,False,randomly,1,inanimate,no_negation,manner
 So you wouldn’t take what he says seriously?,manner,sentence-initial,transfer,interrogative,S,False,So,2,animate,adv_before_neg,degree
-Maybe you get anxious when people try to communicate with you and you can’t quit hear them or communicate effectively with them.,manner,sentence-initial,transfer,declarative,S,False,Maybe,2,inanimate,adv_before_neg,modal
-He received them kindly.,manner,post-verbal,transfer,declarative,S,False,kindly,1,animate,no_negation,other
-Why can't they simply take the mother's word for it?,speaker-oriented,imediate-pre-verbal,transfer,interrogative,S,False,simply,1,animate,neg_before_adv,other
-"First, you can simply buy bees.",speaker-oriented,sentence-initial,transfer,declarative,S,True,First,2,inanimate,no_negation,other
-"Unfortunately, I didn't get to go to Siberia.",speaker-oriented,sentence-initial,transfer,declarative,S,True,Unfortunately,1,animate,adv_before_neg,evaluative
-"From all accounts, Tanton politely handed Hacker his hat.",subject-oriented,imediate-pre-verbal,transfer,declarative,S,False,politely,1,inanimate,no_negation,other
-As an added bonus John McMaster has kindly offered to donate original material and photographs relating to his family to the John Oxley Library.,subject-oriented,imediate-pre-verbal,transfer,declarative,S,False,kindly,1,animate,no_negation,other
-"But what does that mean, exactly, and does it matter?",manner,post-verbal,stative,interrogative,S,True,exactly,1,inanimate,no_negation,other
+Maybe you get anxious when people try to communicate with you and you can’t quit hear them or communicate effectively with them.,manner,sentence-initial,transfer,declarative,S,False,Maybe,2,inanimate,adv_before_neg,epistemic
+He received them kindly.,manner,post-verbal,transfer,declarative,S,False,kindly,1,animate,no_negation,evaluative
+Why can't they simply take the mother's word for it?,context-free,imediate-pre-verbal,transfer,interrogative,S,False,simply,1,animate,neg_before_adv,other
+"First, you can simply buy bees.",context-free,sentence-initial,transfer,declarative,S,True,First,2,inanimate,no_negation,other
+"Unfortunately, I didn't get to go to Siberia.",context-free,sentence-initial,transfer,declarative,S,True,Unfortunately,1,animate,adv_before_neg,evaluative
+"From all accounts, Tanton politely handed Hacker his hat.",subject-oriented,imediate-pre-verbal,transfer,declarative,S,False,politely,1,inanimate,no_negation,evaluative
+As an added bonus John McMaster has kindly offered to donate original material and photographs relating to his family to the John Oxley Library.,subject-oriented,imediate-pre-verbal,transfer,declarative,S,False,kindly,1,animate,no_negation,evaluative
+"But what does that mean, exactly, and does it matter?",manner,post-verbal,stative,interrogative,S,True,exactly,1,inanimate,no_negation,degree
 We can’t rub a magic lamp and make it simply appear.,manner,imediate-pre-verbal,stative,declarative,VP,False,simply,1,animate,neg_before_adv,other
-But rukh doesn't exactly mean a chariot.,manner,imediate-pre-verbal,stative,declarative,S,False,exactly,1,inanimate,neg_before_adv,other
+But rukh doesn't exactly mean a chariot.,manner,imediate-pre-verbal,stative,declarative,S,False,exactly,1,inanimate,neg_before_adv,degree
 "“So we that are the poets’ favorites/ Must have a love,” gently speaks a love-struck artist.",manner,pre-verbal,stative,declarative,VP,False,So,2,animate,no_negation,degree
-We chose this simply because we have a lot of them available.,speaker-oriented,pre-verbal,stative,declarative,VP,False,simply,1,animate,no_negation,other
-"To a Skylark Summary
-""To a Skylark"" doesn't exactly have a plot.",speaker-oriented,imediate-pre-verbal,stative,imperative,S,False,exactly,1,inanimate,neg_before_adv,other
-"Most importantly, did you have fun?",speaker-oriented,not-modifying-verb,stative,interrogative,S,True,Most,2,inanimate,no_negation,other
-So why exactly do you need to get rid of them if they aren’t dangerous?,speaker-oriented,sentence-initial,stative,interrogative,S,False,So,2,animate,adv_before_neg,degree
-"“I did it because, frankly, I needed to have perspective.",speaker-oriented,pre-verbal,stative,declarative,VP,True,frankly,1,animate,no_negation,other
-"Quite frankly, they didn’t need a lot to survive.",speaker-oriented,not-modifying-verb,stative,declarative,S,True,Quite,2,animate,adv_before_neg,degree
-Unfortunately didn't have my camera with me.,speaker-oriented,sentence-initial,stative,imperative,S,False,Unfortunately,1,inanimate,adv_before_neg,evaluative
-but to learn whether “virtual reality could alter behaviors that tax the environment and contribute to climate change.” Why in the world that required them to feel like a cow I honestly don’t know.,speaker-oriented,pre-verbal,stative,declarative,VP,False,honestly,1,animate,adv_before_neg,evaluative
-"Honestly, Paris needs to find an alternative solution to this problem because the practice won’t stop.",speaker-oriented,sentence-initial,stative,declarative,S,True,Honestly,1,inanimate,adv_before_neg,evaluative
-"Honestly, I don't know.",speaker-oriented,sentence-initial,stative,declarative,S,True,Honestly,1,animate,adv_before_neg,evaluative
-"He noted that the Trudeau government had tabled similar bills to this effect in the 1970s:
-They [the previous iterations of this bill] were not proceeded with in the other place [the House of Commons] because opposition to them was such that the [Trudeau] government wisely did not want to make an issue out of the legislation.",subject-oriented,pre-verbal,stative,declarative,VP,False,wisely,1,animate,neg_before_adv,other
+We chose this simply because we have a lot of them available.,context-free,pre-verbal,stative,declarative,VP,False,simply,1,animate,no_negation,other
+"To a Skylark Summary""To a Skylark"" doesn't exactly have a plot.",context-free,imediate-pre-verbal,stative,imperative,S,False,exactly,1,inanimate,neg_before_adv,degree
+"Most importantly, did you have fun?",context-free,not-modifying-verb,stative,interrogative,S,True,Most,2,inanimate,no_negation,other
+So why exactly do you need to get rid of them if they aren’t dangerous?,context-free,sentence-initial,stative,interrogative,S,False,So,2,animate,adv_before_neg,degree
+"“I did it because, frankly, I needed to have perspective.",context-free,pre-verbal,stative,declarative,VP,True,frankly,1,animate,no_negation,evaluative
+"Quite frankly, they didn’t need a lot to survive.",context-free,not-modifying-verb,stative,declarative,S,True,Quite,2,animate,adv_before_neg,evaluative
+Unfortunately didn't have my camera with me.,context-free,sentence-initial,stative,imperative,S,False,Unfortunately,1,inanimate,adv_before_neg,evaluative
+but to learn whether “virtual reality could alter behaviors that tax the environment and contribute to climate change.” Why in the world that required them to feel like a cow I honestly don’t know.,context-free,pre-verbal,stative,declarative,VP,False,honestly,1,animate,adv_before_neg,evaluative
+"Honestly, Paris needs to find an alternative solution to this problem because the practice won’t stop.",context-free,sentence-initial,stative,declarative,S,True,Honestly,1,inanimate,adv_before_neg,evaluative
+"Honestly, I don't know.",context-free,sentence-initial,stative,declarative,S,True,Honestly,1,animate,adv_before_neg,evaluative
+He noted that the Trudeau government had tabled similar bills to this effect in the 1970s:They [the previous iterations of this bill] were not proceeded with in the other place [the House of Commons] because opposition to them was such that the [Trudeau] government wisely did not want to make an issue out of the legislation.,subject-oriented,pre-verbal,stative,declarative,VP,False,wisely,1,animate,neg_before_adv,other
 His mother said that he simply doesn't like hospitals.,manner,pre-verbal,psychological,declarative,VP,False,simply,1,animate,adv_before_neg,other
-How can I enjoy alcohol safely?,manner,post-verbal,psychological,interrogative,S,False,safely,1,animate,no_negation,other
-Enjoy your tranquil campfire moment safely.,manner,post-verbal,psychological,imperative,S,False,safely,1,inanimate,no_negation,other
-"Visit, appreciate, calmly enjoy, help.",manner,imediate-pre-verbal,psychological,imperative,VP,False,calmly,1,inanimate,no_negation,other
-What do they tell him who loves his native country ardently?,manner,post-verbal,psychological,interrogative,VP,False,ardently,1,animate,no_negation,other
+How can I enjoy alcohol safely?,manner,post-verbal,psychological,interrogative,S,False,safely,1,animate,no_negation,manner
+Enjoy your tranquil campfire moment safely.,manner,post-verbal,psychological,imperative,S,False,safely,1,inanimate,no_negation,manner
+"Visit, appreciate, calmly enjoy, help.",manner,imediate-pre-verbal,psychological,imperative,VP,False,calmly,1,inanimate,no_negation,manner
+What do they tell him who loves his native country ardently?,manner,post-verbal,psychological,interrogative,VP,False,ardently,1,animate,no_negation,manner
 Doesn't the scholar obviously love G-d?,manner,imediate-pre-verbal,psychological,interrogative,S,False,obviously,1,inanimate,neg_before_adv,other
 Dearly loved.,manner,sentence-initial,psychological,declarative,S,False,Dearly,1,inanimate,no_negation,other
 So how do we enjoy the sun safely?,manner,sentence-initial,psychological,interrogative,S,False,So,2,animate,no_negation,degree
-"That didn't worry the army, apparently.",speaker-oriented,post-verbal,psychological,declarative,S,False,apparently,1,inanimate,neg_before_adv,other
-"Unfortunately, we like it.",speaker-oriented,sentence-initial,psychological,declarative,S,True,Unfortunately,1,animate,no_negation,evaluative
-"Clearly, the country of Italy doesn’t love art history.",speaker-oriented,sentence-initial,psychological,declarative,S,True,Clearly,1,inanimate,adv_before_neg,modal
+"That didn't worry the army, apparently.",context-free,post-verbal,psychological,declarative,S,False,apparently,1,inanimate,neg_before_adv,epistemic
+"Unfortunately, we like it.",context-free,sentence-initial,psychological,declarative,S,True,Unfortunately,1,animate,no_negation,evaluative
+"Clearly, the country of Italy doesn’t love art history.",context-free,sentence-initial,psychological,declarative,S,True,Clearly,1,inanimate,adv_before_neg,epistemic
 The PRODUCT-INSTANCES are treated similarly.,manner,imediate-pos-verbal,other,declarative,S,False,similarly,1,inanimate,no_negation,other
 See a dentist if your saliva levels change suddenly.,manner,imediate-pos-verbal,other,declarative,VP,False,suddenly,1,inanimate,no_negation,other
 Can you derive the result differently?,manner,post-verbal,other,interrogative,S,False,differently,1,inanimate,no_negation,other
-Remember to navigate safely.,manner,imediate-pos-verbal,other,imperative,VP,False,safely,1,inanimate,no_negation,other
-Can’t wait to learn how to anchor your aquarium plants safely?,manner,post-verbal,other,interrogative,VP,False,safely,1,inanimate,neg_before_adv,other
+Remember to navigate safely.,manner,imediate-pos-verbal,other,imperative,VP,False,safely,1,inanimate,no_negation,manner
+Can’t wait to learn how to anchor your aquarium plants safely?,manner,post-verbal,other,interrogative,VP,False,safely,1,inanimate,neg_before_adv,manner
 "If yes, how do you do it exactly?",manner,pre-verbal,other,interrogative,S,True,yes,2,inanimate,no_negation,other
 "To put it simply, yes.",manner,post-verbal,other,imperative,S,True,simply,1,inanimate,no_negation,other
-"I can see that perfectly, why can't you?",manner,post-verbal,other,interrogative,S,True,perfectly,1,animate,adv_before_neg,other
-"If metal artifacts are NOT treated and stabilized correctly, THEY WILL CONTINUE TO CORRODE AND COULD EVENTUALLY FALL APART.",manner,imediate-pos-verbal,other,declarative,VP,True,correctly,2,animate,neg_before_adv,other
-"""But what if your oven isn't calibrated correctly?",manner,imediate-pos-verbal,other,interrogative,S,False,correctly,1,inanimate,neg_before_adv,other
+"I can see that perfectly, why can't you?",manner,post-verbal,other,interrogative,S,True,perfectly,1,animate,adv_before_neg,degree
+"If metal artifacts are NOT treated and stabilized correctly, THEY WILL CONTINUE TO CORRODE AND COULD EVENTUALLY FALL APART.",manner,imediate-pos-verbal,other,declarative,VP,True,correctly,2,animate,neg_before_adv,manner
+"""But what if your oven isn't calibrated correctly?",manner,imediate-pos-verbal,other,interrogative,S,False,correctly,1,inanimate,neg_before_adv,manner
 "Enjoy your media and use them wisely,",manner,post-verbal,other,imperative,VP,True,wisely,1,inanimate,no_negation,other
 Summarize the article (DO NOT simply re-word the abstract).,manner,imediate-pre-verbal,other,imperative,VP,False,simply,1,inanimate,neg_before_adv,other
-"Not per meal, yes, you heard me correctly, per day.",manner,post-verbal,other,declarative,S,True,correctly,1,inanimate,neg_before_adv,other
+"Not per meal, yes, you heard me correctly, per day.",manner,post-verbal,other,declarative,S,True,correctly,1,inanimate,neg_before_adv,manner
 "Let’s use them wisely, huh?",manner,post-verbal,other,interrogative,VP,True,wisely,1,inanimate,no_negation,other
-Stephen politely refuses.,manner,imediate-pre-verbal,other,declarative,S,False,politely,1,inanimate,no_negation,other
+Stephen politely refuses.,manner,imediate-pre-verbal,other,declarative,S,False,politely,1,inanimate,no_negation,evaluative
 Why Do They Often Emerge from the Gums Incorrectly?,manner,imediate-pre-verbal,other,interrogative,S,False,Often,2,animate,no_negation,frequency
 "So why isn’t the relative humidity 90%, or vary randomly?",manner,not-modifying-verb,other,interrogative,S,False,So,2,inanimate,no_negation,degree
 Negligently performed surgery.,manner,sentence-initial,other,declarative,VP,False,Negligently,1,inanimate,no_negation,other
@@ -82,16 +80,15 @@ Generously use your hot glue gun and glue over the top of where the floral wire 
 I pray these thoughts in this article will help the average student who honestly seeks to know God’s divine will.,manner,imediate-pre-verbal,other,declarative,VP,False,honestly,1,animate,no_negation,evaluative
 "Others signed up eagerly, wanting the honor of dying for their gods.",manner,post-verbal,other,declarative,S,True,eagerly,1,inanimate,no_negation,other
 This can be done cleverly by feeding snippets details in a natural manner during conversations with non-player character types.,manner,imediate-pos-verbal,other,declarative,S,False,cleverly,1,inanimate,no_negation,other
-King Fonoti le Tupu Tafa’ifa (King of all Samoa) had rewarded the village districts of Faleapuna and Fagaloa in Atua for fighting bravely for him in his struggle for power by conferring as Va’a o Fonoti was the fleet of the Fonoti the King that was named the “Le laulualofaiga”.,manner,imediate-pos-verbal,other,declarative,VP,False,bravely,1,inanimate,no_negation,other
-"They were encountered by Ethel wulf, earl of Berkshire, with his men, at a place called Englefield ; both sides fought bravely, and made long resistance.",manner,imediate-pos-verbal,other,declarative,VP,True,bravely,1,inanimate,no_negation,other
-"Azizah Y. al-Hibri states that the relevant hadith regarding marriage and slavery draw an analogy between the status of women and slaves in Muhammad's society in order to beseech the male audience to treat them kindly: ""Be good to women; for they are powerless captives (awan) in your households.",manner,post-verbal,other,declarative,VP,False,kindly,1,animate,no_negation,other
-"Niyama 6 – Scriptural Listening, Siddhanta Shravana
-Eagerly hear the scriptures, study the teachings and listen to the wise of your lineage.",manner,imediate-pre-verbal,other,declarative,S,False,Eagerly,1,animate,no_negation,other
-"2 types of norms-Pivotal and Peripheral Norms, members use reason and logic in treating other members politely.",manner,post-verbal,other,declarative,VP,False,politely,1,inanimate,no_negation,other
+King Fonoti le Tupu Tafa’ifa (King of all Samoa) had rewarded the village districts of Faleapuna and Fagaloa in Atua for fighting bravely for him in his struggle for power by conferring as Va’a o Fonoti was the fleet of the Fonoti the King that was named the “Le laulualofaiga”.,manner,imediate-pos-verbal,other,declarative,VP,False,bravely,1,inanimate,no_negation,manner
+"They were encountered by Ethel wulf, earl of Berkshire, with his men, at a place called Englefield ; both sides fought bravely, and made long resistance.",manner,imediate-pos-verbal,other,declarative,VP,True,bravely,1,inanimate,no_negation,manner
+"Azizah Y. al-Hibri states that the relevant hadith regarding marriage and slavery draw an analogy between the status of women and slaves in Muhammad's society in order to beseech the male audience to treat them kindly: ""Be good to women; for they are powerless captives (awan) in your households.",manner,post-verbal,other,declarative,VP,False,kindly,1,animate,no_negation,evaluative
+"Niyama 6 – Scriptural Listening, Siddhanta ShravanaEagerly hear the scriptures, study the teachings and listen to the wise of your lineage.",manner,no-adverb-found,no_head_verb,declarative,unknown,False,,0,inanimate,no_negation,no_adverb
+"2 types of norms-Pivotal and Peripheral Norms, members use reason and logic in treating other members politely.",manner,post-verbal,other,declarative,VP,False,politely,1,inanimate,no_negation,evaluative
 She begins to read it eagerly.,manner,post-verbal,other,declarative,VP,False,eagerly,1,animate,no_negation,other
 "And Aaron said unto Moses, Alas, my lord, I beseech thee, lay not the sin upon us, wherein we have done foolishly, and wherein we have sinned.",manner,imediate-pos-verbal,other,declarative,VP,True,foolishly,1,animate,neg_before_adv,other
-"They do not have a clear vision about their aims and ambitions, courage to own responsibilities, face bravely the challenges in life and a balanced approach towards one’s rights and duties, which are the basic ingredients of any cultured/matured/civil society.",manner,imediate-pos-verbal,other,declarative,VP,False,bravely,1,animate,neg_before_adv,other
-"He ‘politely declined’ his friends’ invitation to join the Theosophical Society, though he read, at their instance, Madame Blavatsky’s Key to Theosophy.]",manner,imediate-pre-verbal,other,declarative,S,False,politely,1,animate,no_negation,other
+"They do not have a clear vision about their aims and ambitions, courage to own responsibilities, face bravely the challenges in life and a balanced approach towards one’s rights and duties, which are the basic ingredients of any cultured/matured/civil society.",manner,imediate-pos-verbal,other,declarative,VP,False,bravely,1,animate,neg_before_adv,manner
+"He ‘politely declined’ his friends’ invitation to join the Theosophical Society, though he read, at their instance, Madame Blavatsky’s Key to Theosophy.]",manner,imediate-pre-verbal,other,declarative,S,False,politely,1,animate,no_negation,evaluative
 That might mean helping them develop a budget to get their finances under control or teaching them how to use credit wisely.,manner,post-verbal,other,declarative,VP,False,wisely,1,inanimate,no_negation,other
 "For example, eating a healthy diet, drinking sensibly, giving up smoking and staying covered up in the sun help to keep your skin healthy.",manner,imediate-pos-verbal,other,declarative,VP,True,sensibly,1,inanimate,no_negation,other
 Make your vaccine decisions wisely.,manner,post-verbal,other,declarative,S,False,wisely,1,inanimate,no_negation,other
@@ -99,23 +96,20 @@ The citizens turned out to shout their approval as she passed and she smiled and
 How to spend or save wisely?,manner,imediate-pos-verbal,other,interrogative,VP,False,wisely,1,inanimate,no_negation,other
 Choose wisely!,manner,imediate-pos-verbal,other,imperative,S,False,wisely,1,inanimate,no_negation,other
 "Wisely placed lawn ornaments in the landscape can create a sense of elegance and warmth, and a few gnomes or cute animals may delight and amuse visitors and passersby.",manner,sentence-initial,other,declarative,VP,False,Wisely,1,inanimate,no_negation,other
-"Or, simply listen.",speaker-oriented,imediate-pre-verbal,other,imperative,S,False,simply,1,inanimate,no_negation,other
-"Unfortunately, this doesn't help the harvest.",speaker-oriented,sentence-initial,other,declarative,S,True,Unfortunately,1,inanimate,adv_before_neg,evaluative
-"Unfortunately, we couldn’t save her leg,” Bailey says.",speaker-oriented,sentence-initial,other,declarative,VP,True,Unfortunately,1,animate,adv_before_neg,evaluative
-It has honestly become quite a chore to do any sort of research on this idea.,speaker-oriented,imediate-pre-verbal,other,declarative,S,False,honestly,1,inanimate,no_negation,evaluative
-I’m honestly not sure.,speaker-oriented,imediate-pos-verbal,other,declarative,S,False,honestly,1,animate,adv_before_neg,evaluative
-"The Benefits of Two Hearing Aids
-If our eye doctor informs us that we have vision impairment in both eyes, we don’t honestly think about the benefits of getting fitted with one lens.",speaker-oriented,imediate-pre-verbal,other,declarative,S,False,honestly,1,animate,neg_before_adv,evaluative
-"Honestly, if you have some empty soda bottles you could make your own cookie cutters at no cost.",speaker-oriented,sentence-initial,other,declarative,S,True,Honestly,1,inanimate,no_negation,evaluative
+"Or, simply listen.",context-free,imediate-pre-verbal,other,imperative,S,False,simply,1,inanimate,no_negation,other
+"Unfortunately, this doesn't help the harvest.",context-free,sentence-initial,other,declarative,S,True,Unfortunately,1,inanimate,adv_before_neg,evaluative
+"Unfortunately, we couldn’t save her leg,” Bailey says.",context-free,sentence-initial,other,declarative,VP,True,Unfortunately,1,animate,adv_before_neg,evaluative
+It has honestly become quite a chore to do any sort of research on this idea.,context-free,imediate-pre-verbal,other,declarative,S,False,honestly,1,inanimate,no_negation,evaluative
+I’m honestly not sure.,context-free,imediate-pos-verbal,other,declarative,S,False,honestly,1,animate,adv_before_neg,evaluative
+"The Benefits of Two Hearing AidsIf our eye doctor informs us that we have vision impairment in both eyes, we don’t honestly think about the benefits of getting fitted with one lens.",context-free,imediate-pre-verbal,other,declarative,S,False,honestly,1,animate,neg_before_adv,evaluative
+"Honestly, if you have some empty soda bottles you could make your own cookie cutters at no cost.",context-free,sentence-initial,other,declarative,S,True,Honestly,1,inanimate,no_negation,evaluative
 "According to Greek legend, the goddess Athena and the mortal Arachne engaged in a weaving contest wherein Arachne arrogantly mocked the gods.",subject-oriented,imediate-pre-verbal,other,declarative,VP,False,arrogantly,1,animate,no_negation,other
-For extra information on essential oils kindly check out: http://ikhoedep.com/,subject-oriented,imediate-pre-verbal,other,declarative,S,False,kindly,1,inanimate,no_negation,other
-"I am called upon to sing of the Parilia, and not in vain shall be the call, if kindly Pales favours me.",subject-oriented,pre-verbal,other,declarative,VP,False,kindly,1,inanimate,neg_before_adv,other
+For extra information on essential oils kindly check out: http://ikhoedep.com/,subject-oriented,imediate-pre-verbal,other,declarative,S,False,kindly,1,inanimate,no_negation,evaluative
+"I am called upon to sing of the Parilia, and not in vain shall be the call, if kindly Pales favours me.",subject-oriented,pre-verbal,other,declarative,VP,False,kindly,1,inanimate,neg_before_adv,evaluative
 "In this study, the researchers cleverly decided to take advantage of the central temperature controlling region of the hypothalamus to modify the core body temperature itself.",subject-oriented,imediate-pre-verbal,other,declarative,S,False,cleverly,1,inanimate,no_negation,other
-"But what of the one-hundred plus countries that refused to join the boycott, that found nothing wrong with having Mahmoud Ahmadinejad serve as keynote speaker and guest of honor of the conference, and that remained in their seats to politely applaud the little Iranian dictator’s renewed call for Israel’s destruction?",subject-oriented,imediate-pre-verbal,other,interrogative,VP,False,politely,1,animate,no_negation,other
-Kindly share the investment principles that you follow.,subject-oriented,sentence-initial,other,declarative,S,False,Kindly,1,inanimate,no_negation,other
-"In contemporary forums for
-Jewish-Christian or Muslim-Christian dialogue, the ""common Abrahamic
-roots"" are eagerly highlighted.",subject-oriented,imediate-pre-verbal,other,declarative,S,False,eagerly,1,inanimate,no_negation,other
+"But what of the one-hundred plus countries that refused to join the boycott, that found nothing wrong with having Mahmoud Ahmadinejad serve as keynote speaker and guest of honor of the conference, and that remained in their seats to politely applaud the little Iranian dictator’s renewed call for Israel’s destruction?",subject-oriented,imediate-pre-verbal,other,interrogative,VP,False,politely,1,animate,no_negation,evaluative
+Kindly share the investment principles that you follow.,subject-oriented,sentence-initial,other,declarative,S,False,Kindly,1,inanimate,no_negation,evaluative
+"In contemporary forums forJewish-Christian or Muslim-Christian dialogue, the ""common Abrahamicroots"" are eagerly highlighted.",subject-oriented,imediate-pre-verbal,other,declarative,S,False,eagerly,1,inanimate,no_negation,other
 "Grudgingly, Signora Bondi agrees to replace the broken pump.",subject-oriented,sentence-initial,other,declarative,S,True,Grudgingly,1,animate,no_negation,other
 They live in small groups and rest willingly under the shady trees of the savannah and the steppe.,subject-oriented,imediate-pos-verbal,other,declarative,VP,False,willingly,1,animate,no_negation,other
 "Between 1842 and 1854 John C. Fremont, renowned as the nineteenth century's greatest explorer, and Kit Carson, the legendary scout and Indian fighter, boldly ventured into untamed territory to fulfill America's ""manifest destiny.""",subject-oriented,imediate-pre-verbal,other,declarative,S,False,boldly,1,animate,no_negation,other
@@ -127,14 +121,11 @@ The second trick consisted in neutralising the effects of the remaining C-13 nuc
 Philosophers have said for thousands of years that people do not willingly do what is bad for themselves but may do what is bad for others if it appears that good for themselves will result.,subject-oriented,imediate-pre-verbal,other,declarative,VP,False,willingly,1,inanimate,neg_before_adv,other
 "Whether the prophet willingly accepts the task is untold, but the command of Yahweh serves as an “open-ended” conclusion.",subject-oriented,imediate-pre-verbal,other,declarative,S,False,willingly,1,inanimate,no_negation,other
 "As we walked through the National Museum of African American History and Culture, I pushed my grandfather in a wheelchair he had reluctantly agreed to sit in.",subject-oriented,imediate-pre-verbal,other,declarative,VP,False,reluctantly,1,animate,no_negation,other
-Kindly visit our order/inquiry page for further assistance.,subject-oriented,sentence-initial,other,imperative,S,False,Kindly,1,inanimate,no_negation,other
+Kindly visit our order/inquiry page for further assistance.,subject-oriented,sentence-initial,other,imperative,S,False,Kindly,1,inanimate,no_negation,evaluative
 Ed broke a few rules and boldly used Federal Innovation and Expansion Grant funds to start Independent Living Centres throughout California.,subject-oriented,imediate-pre-verbal,other,declarative,VP,False,boldly,1,animate,no_negation,other
-"Politely greet them, introduce yourself, and ask if they need help.",subject-oriented,sentence-initial,other,declarative,S,False,Politely,1,animate,no_negation,other
-"for any technical questions about those industrial valves, kindly contact us:",subject-oriented,imediate-pre-verbal,other,imperative,S,False,kindly,1,inanimate,no_negation,other
-"Much blood have they spilt, and much harm have they done,
-For both, when the ancient religions were gone,
-Combin’d their wild strength to destroy the new race,
-Who were boldly beginning their shrines to deface.",subject-oriented,imediate-pre-verbal,other,declarative,S,False,boldly,1,animate,no_negation,other
+"Politely greet them, introduce yourself, and ask if they need help.",subject-oriented,sentence-initial,other,declarative,S,False,Politely,1,animate,no_negation,evaluative
+"for any technical questions about those industrial valves, kindly contact us:",subject-oriented,imediate-pre-verbal,other,imperative,S,False,kindly,1,inanimate,no_negation,evaluative
+"Much blood have they spilt, and much harm have they done,For both, when the ancient religions were gone,Combin’d their wild strength to destroy the new race,Who were boldly beginning their shrines to deface.",subject-oriented,imediate-pre-verbal,other,declarative,S,False,boldly,1,animate,no_negation,other
 "Eagerly, King Izates invited him to become his teacher, to which the rabbi agreed.",subject-oriented,sentence-initial,other,declarative,S,True,Eagerly,1,animate,no_negation,other
 "It seems that in our attempt to create our own little wilderness, peat compost users are selfishly robbing another.",subject-oriented,imediate-pre-verbal,other,declarative,VP,False,selfishly,1,inanimate,no_negation,other
 "Funakoshi died in 1957 at the age of 88, after humbly making a tremendous contribution to the art of karate.",subject-oriented,imediate-pre-verbal,other,declarative,VP,False,humbly,1,animate,no_negation,other
@@ -143,121 +134,124 @@ Some went simply to pray.,manner,imediate-pos-verbal,motion,declarative,S,False,
 Does it roll smoothly?,manner,imediate-pos-verbal,motion,interrogative,S,False,smoothly,1,inanimate,no_negation,other
 "They swam, walked briskly, or ran.",manner,imediate-pos-verbal,motion,declarative,S,True,briskly,1,animate,no_negation,other
 How can I prepare my body to help OIT go smoothly?,manner,imediate-pos-verbal,motion,interrogative,VP,False,smoothly,1,animate,no_negation,other
-You can’t ride safely if you can’t see.,manner,imediate-pos-verbal,motion,declarative,S,False,safely,1,inanimate,neg_before_adv,other
+You can’t ride safely if you can’t see.,manner,imediate-pos-verbal,motion,declarative,S,False,safely,1,inanimate,neg_before_adv,manner
 "Rather than be afraid, she ran toward it excitedly.",manner,not-modifying-verb,motion,declarative,S,False,Rather,2,animate,no_negation,other
 "Much like how the webbed feet of a duck helps to navigate water, a frog's webbed feet help him swim effectively.",manner,not-modifying-verb,motion,declarative,VP,False,Much,2,inanimate,no_negation,other
 "So, do you drive aggressively?",manner,sentence-initial,motion,interrogative,S,True,So,2,inanimate,no_negation,degree
 "Weighing the chance of survival against the certainty of deportation or death by starvation, Żywulska daringly walked out of the ghetto with her mother on August 26, 1942.",manner,imediate-pre-verbal,motion,declarative,S,False,daringly,1,inanimate,no_negation,other
 "- Establishing Justice – Seeking what is right and true and good as we follow the prophet Micah’s admonition to seek justice, love mercy and walk humbly with our Lord.",manner,imediate-pos-verbal,motion,declarative,VP,False,humbly,1,animate,no_negation,other
-“Your servants have simply come to buy food.,speaker-oriented,imediate-pre-verbal,motion,declarative,S,False,simply,1,inanimate,no_negation,other
-Or simply go to the map.,speaker-oriented,imediate-pre-verbal,motion,imperative,S,False,simply,1,inanimate,no_negation,other
-"Can't we simply move ""garbage bears""?",speaker-oriented,imediate-pre-verbal,motion,interrogative,S,False,simply,1,animate,neg_before_adv,other
-"Unfortunately, safety comes at a cost.",speaker-oriented,sentence-initial,motion,declarative,S,True,Unfortunately,1,inanimate,no_negation,evaluative
+“Your servants have simply come to buy food.,context-free,imediate-pre-verbal,motion,declarative,S,False,simply,1,inanimate,no_negation,other
+Or simply go to the map.,context-free,imediate-pre-verbal,motion,imperative,S,False,simply,1,inanimate,no_negation,other
+"Can't we simply move ""garbage bears""?",context-free,imediate-pre-verbal,motion,interrogative,S,False,simply,1,animate,neg_before_adv,other
+"Unfortunately, safety comes at a cost.",context-free,sentence-initial,motion,declarative,S,True,Unfortunately,1,inanimate,no_negation,evaluative
 "Had she invited the king to a feast by sending him a written invitation, the king would have willingly come, but he would not have been ready to listen to her request.",subject-oriented,imediate-pre-verbal,motion,declarative,S,False,willingly,1,animate,adv_before_neg,other
-"Esther boldly went before the King on behalf of her people (Esther 5)
-The Example of Jesus to Us:
-Jesus embodied the initiative of God to reach out to the human race in love and to provide salvation for their lost, wandering souls.",subject-oriented,imediate-pre-verbal,motion,declarative,S,False,boldly,1,animate,no_negation,other
-Say words silently to your child.,manner,post-verbal,communication,imperative,S,False,silently,1,inanimate,no_negation,other
+"Esther boldly went before the King on behalf of her people (Esther 5)The Example of Jesus to Us:Jesus embodied the initiative of God to reach out to the human race in love and to provide salvation for their lost, wandering souls.",subject-oriented,imediate-pre-verbal,motion,declarative,VP,False,boldly,1,animate,no_negation,other
+Say words silently to your child.,manner,post-verbal,communication,imperative,S,False,silently,1,inanimate,no_negation,manner
 "Charles said harshly, “Your crazy mother drowned herself.",manner,imediate-pos-verbal,communication,declarative,S,True,harshly,1,animate,no_negation,other
-Check to see if you answered correctly.,manner,imediate-pos-verbal,communication,declarative,VP,False,correctly,1,inanimate,no_negation,other
-Doesn't that describe CPAs exactly?,manner,post-verbal,communication,interrogative,S,False,exactly,1,inanimate,neg_before_adv,other
+Check to see if you answered correctly.,manner,imediate-pos-verbal,communication,declarative,VP,False,correctly,1,inanimate,no_negation,manner
+Doesn't that describe CPAs exactly?,manner,post-verbal,communication,interrogative,S,False,exactly,1,inanimate,neg_before_adv,degree
 Do we talk harshly?,manner,imediate-pos-verbal,communication,interrogative,S,False,harshly,1,animate,no_negation,other
 Can humor be used to discuss disability and sexuality effectively?,manner,post-verbal,communication,interrogative,VP,False,effectively,1,inanimate,no_negation,other
-In that time start to hand feed your rabbit treats and speak calmly to them.,manner,imediate-pos-verbal,communication,imperative,VP,False,calmly,1,inanimate,no_negation,other
+In that time start to hand feed your rabbit treats and speak calmly to them.,manner,imediate-pos-verbal,communication,imperative,VP,False,calmly,1,inanimate,no_negation,manner
 "“No, sir,” he answered nervously, “I didn’t get it”.",manner,imediate-pos-verbal,communication,declarative,S,True,nervously,1,animate,adv_before_neg,other
 "I said shyly, ` What would my salary be?",manner,imediate-pos-verbal,communication,interrogative,S,True,shyly,1,animate,no_negation,other
-The students say I can’t say it correctly!),manner,post-verbal,communication,declarative,VP,False,correctly,1,animate,neg_before_adv,other
+The students say I can’t say it correctly!),manner,post-verbal,communication,declarative,VP,False,correctly,1,animate,neg_before_adv,manner
 Men who talked grossly became silent when Dorian Gray entered the room.,manner,imediate-pos-verbal,communication,declarative,VP,False,grossly,1,animate,no_negation,other
-Then tell your child exactly what you liked.,manner,sentence-initial,communication,declarative,S,False,Then,2,inanimate,no_negation,other
+Then tell your child exactly what you liked.,manner,sentence-initial,communication,declarative,S,False,Then,2,inanimate,no_negation,temporal
 rudely speak to someone,manner,sentence-initial,communication,imperative,S,False,rudely,1,inanimate,no_negation,other
 "First, State them positively.",manner,sentence-initial,communication,imperative,S,True,First,2,inanimate,no_negation,other
-"Even if they speak angrily, stay relaxed.",manner,sentence-initial,communication,declarative,VP,True,Even,2,animate,no_negation,focus
-Clearly state the objective of the leaflet.,manner,sentence-initial,communication,imperative,S,False,Clearly,1,inanimate,no_negation,modal
+"Even if they speak angrily, stay relaxed.",manner,sentence-initial,communication,declarative,VP,True,Even,2,animate,no_negation,contrastive
+Clearly state the objective of the leaflet.,manner,sentence-initial,communication,imperative,S,False,Clearly,1,inanimate,no_negation,epistemic
 It spoke arrogantly and blasphemous against God.,manner,imediate-pos-verbal,communication,declarative,S,False,arrogantly,1,inanimate,no_negation,other
 "I think of the scene from the ""I Love Lucy"" show, where she had her friend 'throw her' the fish from the market so she could 'honestly' tell Desi she'd caught them.",manner,pre-verbal,communication,declarative,VP,False,honestly,1,animate,no_negation,evaluative
-"The United States mililtary looked into the possibilities, and kindly asked the bishop of Gozo (Mgr Gonzi) for permission to build one.",manner,imediate-pre-verbal,communication,declarative,VP,False,kindly,1,inanimate,no_negation,other
-It said simply: AIR RAID ON PEARL HARBOR X THIS IS NOT DRILL.,speaker-oriented,imediate-pos-verbal,communication,declarative,S,False,simply,1,inanimate,adv_before_neg,other
-Why didn’t he simply say ages?,speaker-oriented,imediate-pre-verbal,communication,interrogative,S,False,simply,1,animate,neg_before_adv,other
-"""Now,"" said the ox, ""I have duly heard both sides.",speaker-oriented,pre-verbal,communication,declarative,VP,True,Now,2,animate,no_negation,temporal
-"Most importantly, the charts can’t tell us what your specific sleep requirements are.",speaker-oriented,not-modifying-verb,communication,declarative,S,True,Most,2,inanimate,adv_before_neg,other
-"Crudely stated, flesh rots.",speaker-oriented,sentence-initial,communication,declarative,VP,False,Crudely,1,inanimate,no_negation,other
-"Unfortunately for Snake, Marv didn't speak English.",speaker-oriented,sentence-initial,communication,declarative,S,False,Unfortunately,1,animate,adv_before_neg,evaluative
+"The United States mililtary looked into the possibilities, and kindly asked the bishop of Gozo (Mgr Gonzi) for permission to build one.",manner,imediate-pre-verbal,communication,declarative,VP,False,kindly,1,inanimate,no_negation,evaluative
+It said simply: AIR RAID ON PEARL HARBOR X THIS IS NOT DRILL.,context-free,imediate-pos-verbal,communication,declarative,S,False,simply,1,inanimate,adv_before_neg,other
+Why didn’t he simply say ages?,context-free,imediate-pre-verbal,communication,interrogative,S,False,simply,1,animate,neg_before_adv,other
+"""Now,"" said the ox, ""I have duly heard both sides.",context-free,pre-verbal,communication,declarative,VP,True,Now,2,animate,no_negation,temporal
+"Most importantly, the charts can’t tell us what your specific sleep requirements are.",context-free,not-modifying-verb,communication,declarative,S,True,Most,2,inanimate,adv_before_neg,other
+"Crudely stated, flesh rots.",context-free,sentence-initial,communication,declarative,VP,False,Crudely,1,inanimate,no_negation,other
+"Unfortunately for Snake, Marv didn't speak English.",context-free,sentence-initial,communication,declarative,S,False,Unfortunately,1,animate,adv_before_neg,evaluative
 "It states boldly that we could sequester more than 100 percent of current annual CO2 emissions by switching to soil-creating, inexpensive and effective organic agricultural methods….",subject-oriented,imediate-pos-verbal,communication,declarative,S,False,boldly,1,animate,no_negation,other
 "Because students feel supported within their classroom communities, they willingly speak, share ideas and engage in meaningful discussion with their peers.",subject-oriented,imediate-pre-verbal,communication,declarative,S,False,willingly,1,animate,no_negation,other
-"“They’re tailor-made.”
-The former board member who told me about the KG D6 bid begrudgingly admitted that this was commonplace.",subject-oriented,imediate-pre-verbal,communication,declarative,S,False,begrudgingly,1,animate,no_negation,other
-"Their case against Jesus was presented in the YouTube movie, Zeitgeist, where author Peter Joseph boldly claims,
-The reality is, Jesus was…a mythical figure….Christianity, along with all other theistic belief systems, is the fraud of the age.",subject-oriented,imediate-pre-verbal,communication,declarative,VP,False,boldly,1,animate,no_negation,other
+“They’re tailor-made.”The former board member who told me about the KG D6 bid begrudgingly admitted that this was commonplace.,subject-oriented,imediate-pre-verbal,communication,declarative,S,False,begrudgingly,1,animate,no_negation,other
+"Their case against Jesus was presented in the YouTube movie, Zeitgeist, where author Peter Joseph boldly claims,The reality is, Jesus was…a mythical figure….Christianity, along with all other theistic belief systems, is the fraud of the age.",subject-oriented,imediate-pre-verbal,communication,declarative,VP,False,boldly,1,animate,no_negation,other
 "Asimov was one of the most prolific writers of all time, having written or edited more than 500 books and an estimated 90,000 letters and postcards.” His list of books included those on “astronomy, mathematics, the Bible, William Shakespeare’s writing, and chemistry.” He was a long-time member of Mensa, “albeit reluctantly; he described some members of that organization as ‘brain-proud and aggressive about their IQs.’” See Isaac Asimov – Wikipedia.",subject-oriented,pre-verbal,communication,declarative,S,False,reluctantly,1,animate,no_negation,other
 "Funakoshi died in 1957 at the age of 88, after humbly making a tremendous contribution to the art of karate.",manner,imediate-pre-verbal,other,declarative,VP,False,humbly,1,animate,no_negation,other
 "In the late medieval context, this directly censured the plans of Maximilian of Austria to become regent after the death of Mary of Burgundy.",manner,imediate-pre-verbal,other,declarative,S,False,directly,1,inanimate,no_negation,other
-"Finally Sylla crushed his rival's party, and put to death the leaders, filling Rome with slaughter, as Marius had done before him.",speaker-oriented,sentence-initial,other,declarative,S,False,Finally,1,animate,no_negation,other
-"Kenya has ratified the Convention on Biological Diversity, the globally negotiated agreement committed to sustainable use of biodiversity.",place,imediate-pre-verbal,other,declarative,VP,False,globally,1,inanimate,no_negation,other
+"Finally Sylla crushed his rival's party, and put to death the leaders, filling Rome with slaughter, as Marius had done before him.",context-free,sentence-initial,other,declarative,S,False,Finally,1,animate,no_negation,other
+"Kenya has ratified the Convention on Biological Diversity, the globally negotiated agreement committed to sustainable use of biodiversity.",context-free,imediate-pre-verbal,other,declarative,VP,False,globally,1,inanimate,no_negation,other
 "Like his father, Brown strongly opposed the death penalty and vetoed it as governor, which the legislature overrode in 1977.",manner,imediate-pre-verbal,other,declarative,S,False,strongly,1,animate,no_negation,other
-"Through this, we hope to greatly expand the use of GIS in ecological research, to the benefit of all.",degree,imediate-pre-verbal,other,declarative,VP,False,greatly,1,animate,no_negation,other
-"* So FDR went to Cairo for his only wartime meeting with Chiang Kai-Shek, the leader of China’s Kuomintang nationalist government.",manner,pre-verbal,motion,declarative,S,False,So,1,animate,no_negation,degree
+"Through this, we hope to greatly expand the use of GIS in ecological research, to the benefit of all.",context-free,imediate-pre-verbal,other,declarative,VP,False,greatly,1,animate,no_negation,degree
+"* So FDR went to Cairo for his only wartime meeting with Chiang Kai-Shek, the leader of China’s Kuomintang nationalist government.",context-free,pre-verbal,motion,declarative,S,False,So,1,animate,no_negation,degree
 He brought in ruthless anti-German commander Sir Arthur “Bomber” Harris to orchestrate a desperate mission to quickly end Hitler’s life.,manner,imediate-pre-verbal,other,declarative,VP,False,quickly,1,animate,no_negation,manner
-Several more CO2 capture plants were subsequently built to produce CO2 for commercial applications and markets.,temporal,imediate-pre-verbal,other,declarative,S,False,subsequently,1,inanimate,no_negation,other
-"Although this is the second year for this type of hybrid evaluation by Iowa State University, some of the hybrids were newly introduced in 1998.",temporal,imediate-pre-verbal,other,declarative,S,False,newly,1,inanimate,no_negation,other
-"Finally, in the year 40 AH, after the peace-treaty, Mu‘awiyah became the absolute ruler of the Muslim world.",speaker-oriented,sentence-initial,other,declarative,S,True,Finally,1,inanimate,no_negation,other
-"Gould, a Harvard paleontologist and a popular-science writer, who died in 2002, was taking aim mainly at the rising ambitions of sociobiology.",degree,post-verbal,transfer,declarative,S,False,mainly,1,inanimate,no_negation,focus
-"Out of the 90 countries with geothermal potential, only 27 use it to produce electricity according to the International Geothermal Association.",degree,not-modifying-verb,no_head_verb,declarative,unknown,False,only,1,inanimate,no_negation,focus
-"Festus, who hardly knew what to write about Paul in his report to Caesar, was glad of the opportunity to consult Agrippa in the matter.",degree,imediate-pre-verbal,stative,declarative,VP,False,hardly,1,inanimate,no_negation,other
-The massively increased beaver population has led to increases in fish and duck population by way of the beaver ponds it creates.,degree,imediate-pre-verbal,other,declarative,VP,False,massively,1,inanimate,no_negation,other
-This preliminary needs assessment is largely the result of a workshop held at the Great Lakes Environmental Research Laboratory in August of 2003.,degree,not-modifying-verb,no_head_verb,declarative,S,False,largely,1,inanimate,no_negation,other
-"In a Gladstone news release, Todd McDevitt explained why his lab is particularly interested in making these cells to treat spinal cord injury.",degree,not-modifying-verb,no_head_verb,declarative,unknown,False,particularly,1,animate,no_negation,focus
+Several more CO2 capture plants were subsequently built to produce CO2 for commercial applications and markets.,context-free,imediate-pre-verbal,other,declarative,S,False,subsequently,1,inanimate,no_negation,other
+"Although this is the second year for this type of hybrid evaluation by Iowa State University, some of the hybrids were newly introduced in 1998.",context-free,imediate-pre-verbal,other,declarative,S,False,newly,1,inanimate,no_negation,other
+"Finally, in the year 40 AH, after the peace-treaty, Mu‘awiyah became the absolute ruler of the Muslim world.",context-free,sentence-initial,other,declarative,S,True,Finally,1,inanimate,no_negation,other
+"Gould, a Harvard paleontologist and a popular-science writer, who died in 2002, was taking aim mainly at the rising ambitions of sociobiology.",context-free,post-verbal,transfer,declarative,S,False,mainly,1,inanimate,no_negation,contrastive
+"Out of the 90 countries with geothermal potential, only 27 use it to produce electricity according to the International Geothermal Association.",context-free,not-modifying-verb,no_head_verb,declarative,unknown,False,only,1,inanimate,no_negation,contrastive
+"Festus, who hardly knew what to write about Paul in his report to Caesar, was glad of the opportunity to consult Agrippa in the matter.",context-free,imediate-pre-verbal,stative,declarative,VP,False,hardly,1,inanimate,no_negation,degree
+The massively increased beaver population has led to increases in fish and duck population by way of the beaver ponds it creates.,context-free,imediate-pre-verbal,other,declarative,VP,False,massively,1,inanimate,no_negation,other
+This preliminary needs assessment is largely the result of a workshop held at the Great Lakes Environmental Research Laboratory in August of 2003.,context-free,not-modifying-verb,no_head_verb,declarative,S,False,largely,1,inanimate,no_negation,other
+"In a Gladstone news release, Todd McDevitt explained why his lab is particularly interested in making these cells to treat spinal cord injury.",context-free,not-modifying-verb,no_head_verb,declarative,unknown,False,particularly,1,animate,no_negation,contrastive
 "The Council of Europe released the draft of the treaty, formally called the Convention on Cyber Crime, for public discussion in April 2000.",manner,imediate-pre-verbal,other,declarative,VP,False,formally,1,animate,no_negation,other
-"Gerrish was a faculty member at the University of Missouri for more than 20 years, helping FSRC become a nationally recognized research facility.",place,imediate-pre-verbal,other,declarative,VP,False,nationally,1,inanimate,no_negation,other
+"Gerrish was a faculty member at the University of Missouri for more than 20 years, helping FSRC become a nationally recognized research facility.",context-free,imediate-pre-verbal,other,declarative,VP,False,nationally,1,inanimate,no_negation,other
 "The defining issue of the antebellum period was opposition to slavery, and both the college and the town were closely associated with ABOLITIONISM.",manner,imediate-pre-verbal,other,declarative,VP,False,closely,1,inanimate,no_negation,other
-But in the late seventeenth-early eighteenth century Hetman Ivan Mazepa still tried to retain as much independence for Ukraine as he could.,temporal,imediate-pre-verbal,other,declarative,S,False,still,2,animate,no_negation,temporal
-Haaland’s department recently released the first volume of an investigative report into the country’s Indian boarding school system.,temporal,imediate-pre-verbal,other,declarative,S,False,recently,1,inanimate,no_negation,temporal
-"Several member of that group subsequently associated with the First Unitarian Church, a center for reform activity and the site of the convention.",temporal,imediate-pre-verbal,other,declarative,VP,False,subsequently,1,inanimate,no_negation,other
-"He currently holds the position of the director of research of the Whitney Plantation Museum of Slavery, located in St. John the Baptist Parish.",temporal,imediate-pre-verbal,other,declarative,S,False,currently,1,animate,no_negation,other
+But in the late seventeenth-early eighteenth century Hetman Ivan Mazepa still tried to retain as much independence for Ukraine as he could.,context-free,imediate-pre-verbal,other,declarative,S,False,still,2,animate,no_negation,temporal
+Haaland’s department recently released the first volume of an investigative report into the country’s Indian boarding school system.,context-free,imediate-pre-verbal,other,declarative,S,False,recently,1,inanimate,no_negation,temporal
+"Several member of that group subsequently associated with the First Unitarian Church, a center for reform activity and the site of the convention.",context-free,imediate-pre-verbal,other,declarative,VP,False,subsequently,1,inanimate,no_negation,other
+"He currently holds the position of the director of research of the Whitney Plantation Museum of Slavery, located in St. John the Baptist Parish.",context-free,imediate-pre-verbal,other,declarative,S,False,currently,1,animate,no_negation,other
 "Grudgingly, Signora Bondi agrees to replace the broken pump.",subject-oriented,sentence-initial,other,declarative,S,True,Grudgingly,1,animate,no_negation,other
-"Additionally, he wants to reinforce the science behind sustainable energy systems and how it's taking us into the future of sustainable energy.",contrastive,sentence-initial,stative,declarative,S,True,Additionally,1,animate,no_negation,other
-The school currently has one SMART board in their computer lab and are adding a second one for the library.,temporal,imediate-pre-verbal,stative,declarative,S,False,currently,1,inanimate,no_negation,other
-"The Southern Ocean currently absorbs a significant amount of human emitted CO2, but the future behavior of this sink is uncertain.",temporal,imediate-pre-verbal,other,declarative,S,False,currently,1,inanimate,no_negation,other
+"Additionally, he wants to reinforce the science behind sustainable energy systems and how it's taking us into the future of sustainable energy.",context-free,sentence-initial,stative,declarative,S,True,Additionally,1,animate,no_negation,other
+The school currently has one SMART board in their computer lab and are adding a second one for the library.,context-free,imediate-pre-verbal,stative,declarative,S,False,currently,1,inanimate,no_negation,other
+"The Southern Ocean currently absorbs a significant amount of human emitted CO2, but the future behavior of this sink is uncertain.",context-free,imediate-pre-verbal,other,declarative,S,False,currently,1,inanimate,no_negation,other
 Jehoshaphat wisely requests that they consult the LORD on the matter.,subject-oriented,imediate-pre-verbal,other,declarative,S,False,wisely,1,animate,no_negation,other
-The first widely deployed desktop SIMD was with Intel's MMX extensions to the x86 architecture in 1996.,degree,imediate-pre-verbal,other,declarative,VP,False,widely,1,inanimate,no_negation,other
-The DMK briefly used nati-vist appeals to discredit the AIADMK soon after the latter party’s formation.,temporal,imediate-pre-verbal,other,declarative,S,False,briefly,2,animate,no_negation,temporal
-"Finally, the remaining 7% work in higher education such as universities as lecturers, or as research staff in university labs and departments.",speaker-oriented,not-modifying-verb,no_head_verb,declarative,S,True,Finally,1,inanimate,no_negation,other
-"Finally, after 44 exhausting days, an anonymous Klan informer led authorities to the earthern dam where the three bodies were buried.",speaker-oriented,sentence-initial,other,declarative,S,True,Finally,1,inanimate,no_negation,other
-"Globally, growing popularity of AR & VR technology amongst various segments is expected to remain a key growth driver during the period of study.",place,sentence-initial,other,declarative,S,True,Globally,1,inanimate,no_negation,other
+The first widely deployed desktop SIMD was with Intel's MMX extensions to the x86 architecture in 1996.,context-free,imediate-pre-verbal,other,declarative,VP,False,widely,1,inanimate,no_negation,other
+The DMK briefly used nati-vist appeals to discredit the AIADMK soon after the latter party’s formation.,context-free,imediate-pre-verbal,other,declarative,S,False,briefly,2,animate,no_negation,temporal
+"Finally, the remaining 7% work in higher education such as universities as lecturers, or as research staff in university labs and departments.",context-free,not-modifying-verb,no_head_verb,declarative,S,True,Finally,1,inanimate,no_negation,other
+"Finally, after 44 exhausting days, an anonymous Klan informer led authorities to the earthern dam where the three bodies were buried.",context-free,sentence-initial,other,declarative,S,True,Finally,1,inanimate,no_negation,other
+"Globally, growing popularity of AR & VR technology amongst various segments is expected to remain a key growth driver during the period of study.",context-free,sentence-initial,other,declarative,S,True,Globally,1,inanimate,no_negation,other
 "In addition, they partner with other organizations to host seasonal culture camps focusing on and directly engaging in conservation efforts.",manner,imediate-pre-verbal,other,declarative,VP,False,directly,1,animate,no_negation,other
-"He wants to ultimately apply it in industrial practice, and he continues to pioneer creative research directions in academia.",temporal,imediate-pre-verbal,other,declarative,VP,False,ultimately,1,animate,no_negation,other
+"He wants to ultimately apply it in industrial practice, and he continues to pioneer creative research directions in academia.",context-free,imediate-pre-verbal,other,declarative,VP,False,ultimately,1,animate,no_negation,other
 "Dore appealed all the way to the state Supreme Court, where he personally presented some of the arguments on his behalf, but lost.",manner,imediate-pre-verbal,transfer,declarative,VP,False,personally,1,animate,no_negation,other
-"The firemen mainly directed their efforts to saving the block of three-story houses opposite, and succeeded after great exertions.",degree,imediate-pre-verbal,other,declarative,S,False,mainly,1,inanimate,no_negation,focus
-"Apparently, the uncertain times and the misery of the lower classes were fertile ground for the monastic traditions of Buddhism.",speaker-oriented,not-modifying-verb,no_head_verb,declarative,S,True,Apparently,1,inanimate,no_negation,other
+"The firemen mainly directed their efforts to saving the block of three-story houses opposite, and succeeded after great exertions.",context-free,imediate-pre-verbal,other,declarative,S,False,mainly,1,inanimate,no_negation,contrastive
+"Apparently, the uncertain times and the misery of the lower classes were fertile ground for the monastic traditions of Buddhism.",context-free,not-modifying-verb,no_head_verb,declarative,S,True,Apparently,1,inanimate,no_negation,epistemic
 Chief Black Hawk (1767-1838) and other members of the Sauk questioned the validity of the treaty ostensibly ceding their lands.,manner,imediate-pre-verbal,other,declarative,VP,False,ostensibly,1,animate,no_negation,other
-"Conversely, a well-planned, sophisticated pheromone trap system can be hung in target trees as part of an intricate codling moth control program.",contrastive,sentence-initial,other,declarative,S,True,Conversely,2,inanimate,no_negation,other
-He eventually convinced a third of the angels to follow him in this rebellion against their Creator (Revelation 12:4).,temporal,imediate-pre-verbal,other,declarative,S,False,eventually,1,animate,no_negation,temporal
-The relic was only returned to Peterborough following threats from the then abbot Thorold to burn Ramsey Abbey to the ground.,degree,imediate-pre-verbal,transfer,declarative,S,False,only,2,inanimate,no_negation,focus
-"Accordingly, the South-West portion of the building is the load bearing area; and should be strong enough to support heavy weights.",speaker-oriented,not-modifying-verb,no_head_verb,declarative,S,True,Accordingly,2,inanimate,no_negation,other
-"The text indicates that it was only then, after the creation of the man, that the Lord “planted a garden in Eden” and placed the man in the garden.",degree,not-modifying-verb,no_head_verb,declarative,unknown,True,only,2,inanimate,no_negation,focus
+"Conversely, a well-planned, sophisticated pheromone trap system can be hung in target trees as part of an intricate codling moth control program.",context-free,sentence-initial,other,declarative,S,True,Conversely,2,inanimate,no_negation,contrastive
+He eventually convinced a third of the angels to follow him in this rebellion against their Creator (Revelation 12:4).,context-free,imediate-pre-verbal,other,declarative,S,False,eventually,1,animate,no_negation,temporal
+The relic was only returned to Peterborough following threats from the then abbot Thorold to burn Ramsey Abbey to the ground.,context-free,imediate-pre-verbal,transfer,declarative,S,False,only,2,inanimate,no_negation,contrastive
+"Accordingly, the South-West portion of the building is the load bearing area; and should be strong enough to support heavy weights.",context-free,not-modifying-verb,no_head_verb,declarative,S,True,Accordingly,2,inanimate,no_negation,other
+"The text indicates that it was only then, after the creation of the man, that the Lord “planted a garden in Eden” and placed the man in the garden.",context-free,not-modifying-verb,no_head_verb,declarative,unknown,True,only,2,inanimate,no_negation,contrastive
 They live in small groups and rest willingly under the shady trees of the savannah and the steppe.,manner,imediate-pos-verbal,other,declarative,VP,False,willingly,1,animate,no_negation,other
-Cranfield University has just commissioned the UK’s largest BESS system using entirely second life batteries.,speaker-oriented,imediate-pre-verbal,other,declarative,S,False,just,2,animate,no_negation,focus
-"Previously, third parties such as the FAO, the UNDP and World Bank supported the proposal preparation for donor funds.",temporal,sentence-initial,other,declarative,S,True,Previously,1,inanimate,no_negation,other
+Cranfield University has just commissioned the UK’s largest BESS system using entirely second life batteries.,context-free,imediate-pre-verbal,other,declarative,S,False,just,2,animate,no_negation,contrastive
+"Previously, third parties such as the FAO, the UNDP and World Bank supported the proposal preparation for donor funds.",context-free,sentence-initial,other,declarative,S,True,Previously,1,inanimate,no_negation,other
 This will be made possible with the government’s initiative to gradually install biometric machines in all of its relevant agencies.,manner,imediate-pre-verbal,other,declarative,VP,False,gradually,1,inanimate,no_negation,other
-The regulations were put in place by the Tennessee Wildlife Resources Agency for the newly begun hunting season.,temporal,imediate-pre-verbal,other,declarative,VP,False,newly,1,inanimate,no_negation,other
-Municipalities in more than 20 states and the District of Columbia currently operate PACE programs or have enacted PACE-enabling legislation.,temporal,imediate-pre-verbal,other,declarative,S,False,currently,1,inanimate,no_negation,other
-"The resilience plan is the first of its kind in the Bay Area and only the sixth such official plan in the world, according to the city.",degree,not-modifying-verb,no_head_verb,declarative,unknown,False,only,1,inanimate,no_negation,focus
-"In addition to more theological schools, Zaytuna College, a newly established Muslim liberal arts college, has taken 'Holy Hill' as its new home.",temporal,imediate-pre-verbal,other,declarative,VP,False,newly,1,animate,no_negation,other
+The regulations were put in place by the Tennessee Wildlife Resources Agency for the newly begun hunting season.,context-free,imediate-pre-verbal,other,declarative,VP,False,newly,1,inanimate,no_negation,other
+Municipalities in more than 20 states and the District of Columbia currently operate PACE programs or have enacted PACE-enabling legislation.,context-free,imediate-pre-verbal,other,declarative,S,False,currently,1,inanimate,no_negation,other
+"The resilience plan is the first of its kind in the Bay Area and only the sixth such official plan in the world, according to the city.",context-free,not-modifying-verb,no_head_verb,declarative,unknown,False,only,1,inanimate,no_negation,contrastive
+"In addition to more theological schools, Zaytuna College, a newly established Muslim liberal arts college, has taken 'Holy Hill' as its new home.",context-free,imediate-pre-verbal,other,declarative,VP,False,newly,1,animate,no_negation,other
 Virginia SARE will work closely with VSU’s Small Farm Outreach Program to conduct and achieve these objectives.,manner,imediate-pos-verbal,other,declarative,S,False,closely,1,animate,no_negation,other
-"Immediately after the conquest of the city of Den Bosch in 1629, the monasteries were closed and the clergy expelled from the city.",temporal,not-modifying-verb,no_head_verb,declarative,unknown,False,Immediately,1,inanimate,no_negation,other
-"The three separate groups of international researchers reported strikingly similar scientific findings related to SCCOHT, as provided below.",degree,not-modifying-verb,other,declarative,VP,False,strikingly,2,inanimate,no_negation,other
-"Moses, checking that there are no witnesses, immediately intercedes and slays the Egyptian thereby saving the Jew from his oppressor.",temporal,not-modifying-verb,other,declarative,VP,False,immediately,2,inanimate,no_negation,other
-"After 1830 a newly established settlement at Port Arthur, on the south coast, became the major site for housing repeat offenders.",temporal,imediate-pre-verbal,other,declarative,VP,False,newly,1,inanimate,no_negation,other
-This recently published research led to the new state law and development of the new mapping tool called the Vermont Environmental Disparity Index.,temporal,imediate-pre-verbal,other,declarative,VP,False,recently,1,inanimate,no_negation,temporal
-"The answers are not only instructive, but demolish the evolutionary geologist’s case for a 4.5-billion-year old earth.",degree,not-modifying-verb,no_head_verb,declarative,unknown,False,only,1,inanimate,no_negation,focus
-"Residents of Bangor, Maine, claim the city as not only the birthplace of the lumber industry, but the birthplace of Paul Bunyan, as well.",degree,not-modifying-verb,no_head_verb,declarative,unknown,False,only,3,inanimate,no_negation,focus
-Showcasing Data Science is broadly utilized in the advertising area as it helps assemble and assess bits of knowledge.,degree,imediate-pre-verbal,other,declarative,S,False,broadly,1,animate,no_negation,other
-EPA is still considering greenhouse gas regulations for the oil and gas sector more broadly.,temporal,imediate-pre-verbal,other,declarative,S,False,still,3,animate,no_negation,temporal
-"Abraham consequently sought to get the cave as a burial possession, as Genesis 23 reports.",temporal,imediate-pre-verbal,other,declarative,S,False,consequently,1,animate,no_negation,other
-"Offering to employ the French in his service, the shah subsequently dispatched his own envoy to accompany Jaubert back to France (Jaubert, pp.",temporal,imediate-pre-verbal,other,declarative,S,False,subsequently,2,inanimate,no_negation,other
-discovers that both COFI and PGL are unable to supply any mass spec analysis results and that there are only three that have been done.,degree,not-modifying-verb,no_head_verb,declarative,unknown,False,only,1,inanimate,no_negation,focus
-"Additionally, it is known that Newton and his students used calculus in the analysis of forces and motion.",contrastive,sentence-initial,stative,declarative,S,True,Additionally,1,inanimate,no_negation,other
-"Kingsley briefly served on the Florida Territorial Council, planning the transition when Florida was annexed by the United States.",temporal,imediate-pre-verbal,other,declarative,S,False,briefly,1,animate,no_negation,temporal
+"Immediately after the conquest of the city of Den Bosch in 1629, the monasteries were closed and the clergy expelled from the city.",context-free,not-modifying-verb,no_head_verb,declarative,unknown,False,Immediately,1,inanimate,no_negation,temporal
+"The three separate groups of international researchers reported strikingly similar scientific findings related to SCCOHT, as provided below.",context-free,not-modifying-verb,other,declarative,VP,False,strikingly,2,inanimate,no_negation,other
+"Moses, checking that there are no witnesses, immediately intercedes and slays the Egyptian thereby saving the Jew from his oppressor.",context-free,not-modifying-verb,other,declarative,VP,False,immediately,2,inanimate,no_negation,temporal
+"After 1830 a newly established settlement at Port Arthur, on the south coast, became the major site for housing repeat offenders.",context-free,imediate-pre-verbal,other,declarative,VP,False,newly,1,inanimate,no_negation,other
+This recently published research led to the new state law and development of the new mapping tool called the Vermont Environmental Disparity Index.,context-free,imediate-pre-verbal,other,declarative,VP,False,recently,1,inanimate,no_negation,temporal
+"The answers are not only instructive, but demolish the evolutionary geologist’s case for a 4.5-billion-year old earth.",context-free,not-modifying-verb,no_head_verb,declarative,unknown,False,only,1,inanimate,no_negation,contrastive
+"Residents of Bangor, Maine, claim the city as not only the birthplace of the lumber industry, but the birthplace of Paul Bunyan, as well.",context-free,not-modifying-verb,no_head_verb,declarative,unknown,False,only,3,inanimate,no_negation,contrastive
+Showcasing Data Science is broadly utilized in the advertising area as it helps assemble and assess bits of knowledge.,context-free,imediate-pre-verbal,other,declarative,S,False,broadly,1,animate,no_negation,other
+EPA is still considering greenhouse gas regulations for the oil and gas sector more broadly.,context-free,imediate-pre-verbal,other,declarative,S,False,still,3,animate,no_negation,temporal
+"Abraham consequently sought to get the cave as a burial possession, as Genesis 23 reports.",context-free,imediate-pre-verbal,other,declarative,S,False,consequently,1,animate,no_negation,other
+"Offering to employ the French in his service, the shah subsequently dispatched his own envoy to accompany Jaubert back to France (Jaubert, pp.",context-free,imediate-pre-verbal,other,declarative,S,False,subsequently,2,inanimate,no_negation,other
+discovers that both COFI and PGL are unable to supply any mass spec analysis results and that there are only three that have been done.,context-free,not-modifying-verb,no_head_verb,declarative,unknown,False,only,1,inanimate,no_negation,contrastive
+"Additionally, it is known that Newton and his students used calculus in the analysis of forces and motion.",context-free,sentence-initial,stative,declarative,S,True,Additionally,1,inanimate,no_negation,other
+"Kingsley briefly served on the Florida Territorial Council, planning the transition when Florida was annexed by the United States.",context-free,imediate-pre-verbal,other,declarative,S,False,briefly,1,animate,no_negation,temporal
 "The digitally-programmable potentiometer (DPP) is a mixed signal, system-level control device performing a component-level function.",manner,not-modifying-verb,no_head_verb,declarative,unknown,False,digitally,1,inanimate,no_negation,other
-These highly trained people will lead the way in building the world’s new energy systems with lower greenhouse gas emissions.,degree,imediate-pre-verbal,other,declarative,VP,False,highly,1,inanimate,no_negation,degree
-"He eventually settled in Chicago, where he had his first solo exhibition in 1932 at the Little Gallery.",temporal,imediate-pre-verbal,other,declarative,S,False,eventually,1,animate,no_negation,temporal
-"Moreover, Socrates was ready to probe fully the materialist (and therefore Popperian) objection to the soul’s immortality.",contrastive,not-modifying-verb,other,declarative,S,True,Moreover,3,animate,no_negation,other
+These highly trained people will lead the way in building the world’s new energy systems with lower greenhouse gas emissions.,context-free,imediate-pre-verbal,other,declarative,VP,False,highly,1,inanimate,no_negation,degree
+"He eventually settled in Chicago, where he had his first solo exhibition in 1932 at the Little Gallery.",context-free,imediate-pre-verbal,other,declarative,S,False,eventually,1,animate,no_negation,temporal
+"Moreover, Socrates was ready to probe fully the materialist (and therefore Popperian) objection to the soul’s immortality.",context-free,not-modifying-verb,other,declarative,S,True,Moreover,3,animate,no_negation,other
+"He would like to inform his parents of this good news, but is fearful that they may angrily reject him.",manner,imediate-pre-verbal,other,declarative,VP,False,angrily,1,animate,no_negation,manner
+"Mr Downes flew at him in a rage, angrily blaming him for the murder and even throwing Mr Cuffini’s glasses to the ground!",manner,imediate-pre-verbal,other,declarative,VP,False,angrily,2,animate,no_negation,manner
+"“(Gilmore, Smith 31) God needs his followers to speak the reality in the face of falsehood and bids us to obediently follow his commands.",manner,imediate-pre-verbal,other,declarative,VP,False,obediently,1,inanimate,no_negation,other
+The woman in blue listens to the discussion taking place to her right with her hands crossed passively on the table.,manner,imediate-pos-verbal,other,declarative,VP,False,passively,1,inanimate,no_negation,other
+They did not expect to have an opening in the ERK trial but one happened on Thursday so they eagerly jumped on it.,context-free,pre-verbal,motion,declarative,VP,False,so,2,animate,neg_before_adv,degree
+"At a book reading he gave in Washington, several protesters angrily heckled him before being forced by the bookstore's employees to leave.",manner,imediate-pre-verbal,other,declarative,S,False,angrily,1,animate,no_negation,manner
+The eagerly-expected explanations of Lord Palmerston's ejection from the Cabinet were made in the debate on the Address.,manner,pre-verbal,other,declarative,VP,False,eagerly,1,inanimate,no_negation,other
