@@ -9,38 +9,187 @@ def adverb_diagnose(lm, adverb, sentence):
     return (
         lm
         + f"""
-    You are an expert linguist.
-    You are presented with a sentence that contains an adverb.
-    Your task is to diagnose if the adverb is subject-oriented or manner.
-    Follow these steps to complete the task:
-        Step 1. Rewrite the sentence in a simplified form preserving the adverb and its modified.
-        Step 2. Analyze the adverb's usage in the sentence.
-            If you can paraphrase the sentence as "X did Y in a (adjective form of the adverb) manner."
-        Step 3. Check if it sounds correctly.
-            If it does, write 'manner', otherwise, write 'non-manner'.
-    Examples:
-    Adverb: Stupidly
-    Sentence: He stupidly ran into the wall, and I couldn't stop him.
-    <think>
-    Here the adverb is stupidly, so I have to analyze its usage in the sentence.
-    First I will rewrite the sentence as described in Step 1, I can say:
-    Step 1. He stupidly ran into the wall.
-    Now I will paraphrase the sentence as described in Step 2:
-    Step 2. He ran into the wall in a stupid manner.
-    Now I will check if it sounds correctly as described in Step 3:
-    Step 3. Yes, it does sound correctly, so I will write 'manner'.
-    </think>
-    1) He stupidly ran into the wall.
-    2) He ran into the wall in a stupid manner.
-    Answer: manner
-    ---
-    Adverb: {adverb}
-    Sentence: {sentence}
-    <think>
-    {gen(max_tokens=512, stop='</think>')}
-    </think>
-    1) {gen("s1", max_tokens=100)}
-    """
+You are a linguistics expert trained to assign supersense labels to adverbs in context.
+Given an adverb and the sentence in which it occurs, your task is to classify the adverb into one of the categories below. Use the paraphrase-based diagnostics and guiding questions provided for each type.
+
+Return only one label that best fits the adverb’s usage in the given sentence.
+
+⸻
+
+MANNER (adverb.manner)
+
+Describes how the event or action is performed.
+
+Paraphrase Test: Can it be rephrased as “in a [X] manner”?
+
+Example:
+Sentence: “He danced stupidly.”
+Paraphrase: “He danced in a stupid manner.”
+
+⸻
+
+SUBJECT-ORIENTED (adverb.subject_oriented)
+
+Attributes a property or attitude to the subject of the sentence in relation to the event.
+
+Paraphrase Test: Can it be rephrased as “It was [X] of [SUBJECT] to [VERB]”?
+
+Example:
+Sentence: “Stupidly, he walked into traffic.”
+Paraphrase: “It was stupid of him to walk into traffic.”
+
+⸻
+
+SPEAKER-ORIENTED (Select one subtype)
+
+These adverbs express the speaker’s stance toward the proposition or the speech act. Use the following subtypes:
+
+a. Epistemic (adverb.epistemic)
+
+Conveys degree of certainty or source of knowledge.
+
+Paraphrase: “I [believe / presume / suspect] that…” or “It is [presumed / inferred] that…”
+
+Example:
+Sentence: “Presumably, he missed the deadline.”
+Paraphrase: “I presume that he missed the deadline.”
+
+⸻
+
+b. Evaluative (adverb.evaluative)
+
+Conveys speaker’s emotional or normative judgment of the proposition.
+
+Paraphrase: “It is [unfortunate / amazing / regrettable] that…” or “From my perspective, it is X that…”
+
+Example:
+Sentence: “Unfortunately, the project failed.”
+Paraphrase: “It is unfortunate that the project failed.”
+
+⸻
+
+c. Speech-Act Oriented (adverb.speech_act)
+
+Modifies the act of speaking rather than the proposition itself.
+
+Paraphrase: “I say this [frankly / honestly / confidentially]…”
+
+Example:
+Sentence: “Frankly, I disagree.”
+Paraphrase: “I say this frankly.”
+
+⸻
+
+FREQUENCY (adverb.frequency)
+
+Describes how often the event occurs.
+
+Question Test: “How often?”
+
+Example:
+Sentence: “She frequently visits her grandmother.”
+Answer: “Frequently.” → Frequency adverb
+
+⸻
+
+TEMPORAL (adverb.temporal)
+
+Specifies when the event happens or its duration.
+
+Question Test: “When?” or “For how long?”
+
+Examples:
+Sentence: “She arrived yesterday.” → When? → Yesterday
+Sentence: “He stayed briefly.” → For how long? → Briefly
+
+⸻
+
+SPATIAL (LOCATIVE) (adverb.spatial)
+
+Specifies where the event takes place.
+
+Question Test: “Where?”
+
+Example:
+Sentence: “He stood outside.”
+Answer: “Outside.” → Spatial adverb
+
+⸻
+
+DEGREE (adverb.degree)
+
+Describes the intensity, extent, or scalar position of another element (adjective, adverb, verb).
+
+Question Test: “To what extent?” or “How much?”
+
+Example:
+Sentence: “She is very happy.”
+Question: “To what extent is she happy?”
+Answer: “Very.” → Degree adverb
+
+⸻
+
+DOMAIN (adverb.domain)
+
+Limits the proposition to a particular semantic or disciplinary domain.
+
+Paraphrase Test: “In a [X] sense” or “From a [X] perspective”
+
+Example:
+Sentence: “Politically, the policy is controversial.”
+Paraphrase: “In a political sense, the policy is controversial.”
+
+⸻
+
+Output Format
+
+Return the label only:
+adverb.manner
+adverb.subject_oriented
+adverb.epistemic
+adverb.evaluative
+adverb.speech_act
+adverb.frequency
+adverb.temporal
+adverb.spatial
+adverb.degree
+adverb.domain
+
+⸻
+
+Example: 
+
+Adverb: wisely
+Usage: “Wisely, he did not sign the contract.”
+Reasoning: The sentence can be paraphrased as “It was wise of him to not sign the contract,” which assigns a property (wisdom) to the subject with respect to the action. This indicates a subject-oriented adverb.
+Answer: adverb.subject_oriented
+⸻
+Adverb: frankly
+Usage: “Frankly, I don’t agree with that decision.”
+Reasoning: The sentence can be paraphrased as “I say this frankly,” where the adverb qualifies the act of speaking, not the proposition itself. This indicates a speech-act adverb.
+Answer: adverb.speech_act
+
+⸻
+Adverb: daily
+Usage: “He exercises daily.”
+Reasoning: The adverb answers the question “How often?” with “daily,” describing the frequency of the event.
+Answer: adverb.frequency
+⸻
+
+Adverb: {adverb}
+Usage: {sentence}
+Reasoning: {gen(max_tokens=512, stop='\n')}
+Answer: {select([adverb.manner
+adverb.subject_oriented
+adverb.epistemic
+adverb.evaluative
+adverb.speech_act
+adverb.frequency
+adverb.temporal
+adverb.spatial
+adverb.degree
+adverb.domain], name="s1", max_tokens=100)}
+"""
     )
 
 
