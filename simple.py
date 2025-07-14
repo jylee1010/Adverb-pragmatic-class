@@ -189,7 +189,7 @@ Answer: {select([
     "adverb.temporal",
     "adverb.spatial",
     "adverb.degree",
-    "adverb.domain"], name="s1", max_tokens=100)}
+    "adverb.domain"], name="s1")}
 """
     )
 
@@ -291,14 +291,6 @@ def main(raw_args=None):
     )
 
     lm = model
-    # lemma = input("Lemma> ")
-    # usage1 = input("Usage1> ")
-    # usage2 = input("Usage2> ")
-    # print(f"Lemma: {lemma}")
-    # print(f"Usage1: {usage1}")
-    # print(f"Usage2: {usage2}")
-    # print("Generating prompt...")
-    # lm += rhetorical(lemma, usage1, usage2)
     adverb = input("Adverb> ")
     sentence = input("Sentence> ")
     print(f"Adverb: {adverb}")
@@ -306,14 +298,6 @@ def main(raw_args=None):
     print("Generating prompt...")
     lm += adverb_diagnose(adverb, sentence)
     print(str(lm))
-    # output = {
-    #     "s1": lm["s1"],
-    #     "s2": lm["s2"],
-    #     "s3": lm["s3"],
-    #     "conclude": lm["conclude"],
-    #     "answer": lm["answer"],
-    # }
-    # pprint(output)
 
 
 if __name__ == "__main__":

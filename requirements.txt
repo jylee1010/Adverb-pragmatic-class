@@ -12,3 +12,5 @@ matplotlib
 umap-learn
 protobuf
 sentencepiece
+llama-cpp-python
+guidance
