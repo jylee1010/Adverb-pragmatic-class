@@ -40,43 +40,16 @@ Paraphrase: “It was stupid of him to walk into traffic.”
 
 ⸻
 
-SPEAKER-ORIENTED (Select one subtype)
+SPEAKER-ORIENTED (adverb.speaker_oriented)
 
-These adverbs express the speaker’s stance toward the proposition or the speech act. Use the following subtypes:
+Expresses the speaker’s stance, evaluation, or attitude toward the proposition or the act of speaking.
 
-a. Epistemic (adverb.epistemic)
+Paraphrase Test: Can it be paraphrased as “I [believe / say / judge] that…” or “It is [unfortunate / fortunate / evident] that…”?
 
-Conveys degree of certainty or source of knowledge.
-
-Paraphrase: “I [believe / presume / suspect] that…” or “It is [presumed / inferred] that…”
-
-Example:
-Sentence: “Presumably, he missed the deadline.”
-Paraphrase: “I presume that he missed the deadline.”
-
-⸻
-
-b. Evaluative (adverb.evaluative)
-
-Conveys speaker’s emotional or normative judgment of the proposition.
-
-Paraphrase: “It is [unfortunate / amazing / regrettable] that…” or “From my perspective, it is X that…”
-
-Example:
-Sentence: “Unfortunately, the project failed.”
-Paraphrase: “It is unfortunate that the project failed.”
-
-⸻
-
-c. Speech-Act Oriented (adverb.speech_act)
-
-Modifies the act of speaking rather than the proposition itself.
-
-Paraphrase: “I say this [frankly / honestly / confidentially]…”
-
-Example:
-Sentence: “Frankly, I disagree.”
-Paraphrase: “I say this frankly.”
+Examples:
+	•	“Presumably, he missed the deadline.” → “I presume that he missed the deadline.”
+	•	“Unfortunately, the project failed.” → “It is unfortunate that the project failed.”
+	•	“Frankly, I disagree.” → “I say this frankly.”
 
 ⸻
 
@@ -99,8 +72,8 @@ Specifies when the event happens or its duration.
 Question Test: “When?” or “For how long?”
 
 Examples:
-Sentence: “She arrived yesterday.” → When? → Yesterday
-Sentence: “He stayed briefly.” → For how long? → Briefly
+	•	Sentence: “She arrived yesterday.” → When? → Yesterday
+	•	Sentence: “He stayed briefly.” → For how long? → Briefly
 
 ⸻
 
@@ -144,37 +117,38 @@ Paraphrase: “In a political sense, the policy is controversial.”
 Output Format
 
 Return the label only:
-adverb.manner
-adverb.subject_oriented
-adverb.epistemic
-adverb.evaluative
-adverb.speech_act
-adverb.frequency
-adverb.temporal
-adverb.spatial
-adverb.degree
-adverb.domain
+	•	adverb.manner
+	•	adverb.subject_oriented
+	•	adverb.speaker_oriented
+	•	adverb.frequency
+	•	adverb.temporal
+	•	adverb.spatial
+	•	adverb.degree
+	•	adverb.domain
 
 ⸻
 
-Example:
+Examples
 
 Adverb: wisely
 Usage: “Wisely, he did not sign the contract.”
 Reasoning: The sentence can be paraphrased as “It was wise of him to not sign the contract,” which assigns a property (wisdom) to the subject with respect to the action. This indicates a subject-oriented adverb.
 Answer: adverb.subject_oriented
-⸻
-Adverb: frankly
-Usage: “Frankly, I don’t agree with that decision.”
-Reasoning: The sentence can be paraphrased as “I say this frankly,” where the adverb qualifies the act of speaking, not the proposition itself. This indicates a speech-act adverb.
-Answer: adverb.speech_act
 
 ⸻
+
+Adverb: frankly
+Usage: “Frankly, I don’t agree with that decision.”
+Reasoning: The sentence can be paraphrased as “I say this frankly,” where the adverb qualifies the act of speaking, not the proposition itself. This indicates a speaker-oriented adverb.
+Answer: adverb.speaker_oriented
+
+⸻
+
 Adverb: daily
 Usage: “He exercises daily.”
 Reasoning: The adverb answers the question “How often?” with “daily,” describing the frequency of the event.
 Answer: adverb.frequency
-⸻
+
 
 Adverb: {adverb}
 Usage: {sentence}
@@ -193,72 +167,6 @@ Answer: {select([
 """
     )
 
-
-@guidance(stateless=True)
-def rhetorical(lm, lemma, usage1, usage2):
-    return (
-        lm
-        + f"""
-    You are an expert linguist.
-    You are presented with two sentences that both contain a shared word.
-    Your task is to create and analyze zeugmas.
-    Follow these steps to complete the task:
-        Step 1. Rewrite the first sentence in a simplified form preserving the lemma.
-        Step 2. Rewrite the second sentence in a simplified form preserving the lemma.
-        Step 3. Write a sentence that joins both sentences using zeugma and the same shared word.
-            If the construction doesn't make a bad pun, write same, otherwise, write different.
-    Examples:
-    Lemma: Plane
-    Context 1: He loves planes and want to become a pilot.
-    Context 2: The plane landed just now.
-    <think>
-    Here the lemma is plane, so I have to join both sentences using this word.
-    First I will rewrite the sentences in a simplified form. For the first sentence, I can say:
-    He loves planes.
-    For the second sentence, I can say:
-    The plane landed.
-    Now I will join both sentences using zeugma:
-    He loves planes, like the one that landed.
-    The zeugma version doens't sound like a bad pun, so I will write 'same'.
-    </think>
-    1) He loves planes.
-    2) The plane landed.
-    3) He loves planes, like the one that landed.
-    Conclusion: It doesn't make a bad pun.
-    Answer: same
-    ---
-    Lemma: Cell
-    Context 1: Anyone leaves a cell phone or handheld at home, many of them faculty members from nearby.
-    Context 2: I just watch the dirty shadow the window bar makes across the wall of my cell.
-    <think>
-    Here the lemma is cell, so I have to join both sentences using this word.
-    First I will rewrite the sentences in a simplified form. For the first sentence, I can say:
-    Anyone leaves a cell phone at home.
-    For the second sentence, I can say:
-    The wall of my cell.
-    Now I will join both sentences using zeugma:
-    The wall of my cell which I leave at home.
-    The zeugma version makes a bad pun, it doesn't sound right, so I will write 'different'.
-    </think>
-    1) Anyone leaves a cell phone at home.
-    2) The wall of my cell.
-    3) The wall of my cell which I leave at home.
-    Conclusion: It makes a bad pun.
-    Answer: different
-    ---
-    Lemma: {lemma}
-    Context 1: {usage1}
-    Context 2: {usage2}
-    <think>
-    {gen(stop='</think>')}
-    </think>
-    1) {gen("s1", max_tokens=100)}
-    """
-    )
-# 2) {gen("s2", stop="\n")}
-#     3) {gen("s3", stop="\n")}
-#     Conclusion: {gen("conclude", stop="\n")}
-#     Answer: {select(["same", "different"], "answer")}
 
 def main(raw_args=None):
     parser = argparse.ArgumentParser(
