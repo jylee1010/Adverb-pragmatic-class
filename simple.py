@@ -184,7 +184,7 @@ def main(raw_args=None):
     pipe = pipeline(
         "text-generation",
         model=model_id,
-        torch_dtype="auto",
+        dtype="auto",
         device_map="auto",
     )
 
