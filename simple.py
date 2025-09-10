@@ -1,14 +1,12 @@
 import argparse
-from pprint import pprint
+import pandas as pd
 from tqdm import tqdm
-import guidance
-from guidance import models, gen, select
 
-@guidance(stateless=True)
-def adverb_diagnose(lm, adverb, sentence):
-    return (
-        lm
-        + f"""
+from transformers import pipeline
+
+
+def adverb_diagnose(adverb, sentence):
+    return f"""
 You are a linguistics expert trained to assign supersense labels to adverbs in context.
 Given an adverb and the sentence in which it occurs, your task is to classify the adverb into one of the categories below. Use the paraphrase-based diagnostics and guiding questions provided for each type.
 
@@ -152,20 +150,7 @@ Answer: adverb.frequency
 
 Adverb: {adverb}
 Usage: {sentence}
-Reasoning: {gen(max_tokens=512, stop='\n')}
-Answer: {select([
-    "adverb.manner",
-    "adverb.subject_oriented",
-    "adverb.epistemic",
-    "adverb.evaluative",
-    "adverb.speech_act",
-    "adverb.frequency",
-    "adverb.temporal",
-    "adverb.spatial",
-    "adverb.degree",
-    "adverb.domain"], name="s1")}
 """
-    )
 
 
 def main(raw_args=None):
@@ -190,22 +175,34 @@ def main(raw_args=None):
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--model", required=True)
     args = parser.parse_args(raw_args)
-    model = models.LlamaCpp(
-        args.model,
-        n_ctx=args.ctx,
-        # n_gpu_layers=-1,
-        # flash_attn=True,
-        # echo=False,
+
+    data = pd.read_csv("adverbs_os.tsv", sep="\t")
+    results = []
+
+    model_id = "openai/gpt-oss-20b"
+
+    pipe = pipeline(
+        "text-generation",
+        model=model_id,
+        torch_dtype="auto",
+        device_map="auto",
     )
 
-    lm = model
-    adverb = input("Adverb> ")
-    sentence = input("Sentence> ")
-    print(f"Adverb: {adverb}")
-    print(f"Sentence: {sentence}")
-    print("Generating prompt...")
-    lm += adverb_diagnose(adverb, sentence)
-    print(str(lm))
+    for index, row in tqdm(data.iterrows(), total=len(data)):
+        prompt = adverb_diagnose(row["adverb"], row["sentence"])
+        messages = [
+            {"role": "user", "content": prompt},
+        ]
+
+        outputs = pipe(
+            messages,
+            max_new_tokens=256,
+        )
+        results.append(outputs[0]["generated_text"][-1])
+
+    data["llm"] = results
+
+    data.to_csv("adverb_os_llm.tsv", index=False, sep="\t")
 
 
 if __name__ == "__main__":
