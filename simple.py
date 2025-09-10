@@ -176,7 +176,7 @@ def main(raw_args=None):
     parser.add_argument("--model", required=True)
     args = parser.parse_args(raw_args)
 
-    data = pd.read_csv("adverbs_os.tsv")
+    data = pd.read_csv("adverbs_os.tsv", sep="\t")
     results = []
 
     model_id = "openai/gpt-oss-20b"
