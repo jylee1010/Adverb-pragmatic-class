@@ -220,7 +220,7 @@ def main(raw_args=None):
 
     data["llm"] = results
 
-    data.to_csv("adverb_os_llm.tsv", index=False)
+    data.to_csv("adverb_os_llm.tsv", index=False, sep="\t")
 
 
 if __name__ == "__main__":
