@@ -1,8 +1,10 @@
 import argparse
+import pandas as pd
 from pprint import pprint
 from tqdm import tqdm
 import guidance
 from guidance import models, gen, select
+
 
 @guidance(stateless=True)
 def adverb_diagnose(lm, adverb, sentence):
@@ -152,18 +154,24 @@ Answer: adverb.frequency
 
 Adverb: {adverb}
 Usage: {sentence}
-Reasoning: {gen(max_tokens=512, stop='\n')}
-Answer: {select([
-    "adverb.manner",
-    "adverb.subject_oriented",
-    "adverb.epistemic",
-    "adverb.evaluative",
-    "adverb.speech_act",
-    "adverb.frequency",
-    "adverb.temporal",
-    "adverb.spatial",
-    "adverb.degree",
-    "adverb.domain"], name="s1")}
+Reasoning: {gen(max_tokens=512, stop="\n")}
+Answer: {
+            select(
+                [
+                    "adverb.manner",
+                    "adverb.subject_oriented",
+                    "adverb.epistemic",
+                    "adverb.evaluative",
+                    "adverb.speech_act",
+                    "adverb.frequency",
+                    "adverb.temporal",
+                    "adverb.spatial",
+                    "adverb.degree",
+                    "adverb.domain",
+                ],
+                name="s1",
+            )
+        }
 """
     )
 
@@ -204,8 +212,15 @@ def main(raw_args=None):
     print(f"Adverb: {adverb}")
     print(f"Sentence: {sentence}")
     print("Generating prompt...")
-    lm += adverb_diagnose(adverb, sentence)
-    print(str(lm))
+    data = pd.read_csv("adverb_os.tsv")
+    results = []
+    for index, row in data.iterrows():
+        lm += adverb_diagnose(row["adverb"], row["sentence"])
+        results.append(str(lm))
+
+    data["llm"] = results
+
+    data.to_csv("adverb_os_llm.tsv", index=False)
 
 
 if __name__ == "__main__":
