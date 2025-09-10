@@ -176,11 +176,6 @@ def main(raw_args=None):
     parser.add_argument("--model", required=True)
     args = parser.parse_args(raw_args)
 
-    adverb = input("Adverb> ")
-    sentence = input("Sentence> ")
-    print(f"Adverb: {adverb}")
-    print(f"Sentence: {sentence}")
-    print("Generating prompt...")
     data = pd.read_csv("adverb_os.tsv")
     results = []
 
