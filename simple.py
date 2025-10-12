@@ -194,7 +194,7 @@ def main(raw_args=None):
     client = openai.OpenAI(api_key=openai.api_key)
 
     # Load data
-    data = pd.read_csv("adverbs_os.csv")
+    data = pd.read_csv("adverbs.csv").sample(10)
 
     # Process prompts
     results = []
