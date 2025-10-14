@@ -1,229 +1,362 @@
-adverb,cluster,sentence,jooyoung,Column 1,jader,Column 1.1,match?,Column 2,llm
-arrogantly,0,maybe <t>arrogantly</t> is a better word.,,,,?,,Answer: adverb.manner,adverb.manner
-arrogantly,1,"if you have three steps to do, and you take those steps <t>arrogantly</t>, if you think you are invincible, you're going to die.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-arrogantly,2,that is so <t>arrogantly</t> phallic!,degree,?,manner,,*,Answer: adverb.manner,adverb.manner
-boldly,0,"its continuing mission, to explore strange new worlds,... ..to seek out new life and new civilisations,... ..to <t>boldly</t> go where no one has gone before.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-boldly,1,"the swimming-pool, <t>boldly</t> projected in the sea...",manner,,manner,,,Answer: adverb.manner,adverb.manner
-boldly,2,"no, it's <t>boldly</t> retro, but i'm thinking something involving heisenberg's uncertainty principle.",degree,manner?,manner,,*,Answer: adverb.manner,adverb.manner
-bravely,0,(i used to guard these mountains and forests <t>bravely</t>),manner,,manner,,,"Okay, let's see. The adverb here is ""bravely,"" and the sentence is ""I used to guard these mountains and forests bravely."" So I need to figure out which category this falls into.",adverb.manner
-bravely,1,"the next, our ship - which but three glasses since we gave out split - is tight and yare, and <t>bravely</t> rigg'd, as when we first put out to sea.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-bravely,2,"i didn't know whether to be brave for jordie and casey or cry it out. so, i cried <t>bravely</t>. you know, like a man, in a low voice, while i was changing the oil on my car.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-cleverly,0,"<t>cleverly</t>, he deactivates the weapons system, and the crowd goes wild.",subject-oriented,,subject-oriented,,,"Okay, let's tackle this. The adverb in question is ""cleverly,"" and the sentence is ""Cleverly, he deactivates the weapons system, and the crowd goes wild.""",adverb.subject_oriented
-cleverly,1,- you shouldn't look at me so <t>cleverly</t>...,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""cleverly,"" and the sentence is ""You shouldn't look at me so cleverly.""",adverb.manner
-cleverly,2,"this is a painting of the cliffs at Ã©tretat, <t>cleverly</t> titled the cliffs at Ã©tretat.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""cleverly,"" and the sentence is: ""this is a painting of the cliffs at Étretat, cleverly titled the cliffs at Étretat.""",adverb.manner
-clumsily,0,"<t>clumsily</t>, with more mess than necessary.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-clumsily,1,i hadn't thought to put on my climbing boots and stumbled <t>clumsily</t> behind him across the sharp stones.,manner,,manner,,,"Okay, let's see. The adverb here is ""clumsily,"" and the sentence is about someone stumbling behind another person across sharp stones. The task is to figure out which category this adverb falls into.",adverb.manner
-clumsily,2,those books were tied <t>clumsily</t>.,manner,,manner,,,"Okay, let's see. The adverb here is ""clumsily,"" and the sentence is ""those books were tied clumsily."" I need to figure out which category this falls into.",adverb.manner
-considerately,0,how about that? whereupon a dead man very <t>considerately</t> gets up and locks the door from the inside.,subject-oriented,?,subject-oriented,,,Answer: adverb.manner,adverb.manner
-considerately,1,the coupling device that you so <t>considerately</t> left us on your decoy warhead is accurate to 10 feet.,subject-oriented,,manner,,*,"Okay, let's tackle this. The adverb in question is ""considerately,"" and the sentence is: ""the coupling device that you so considerately left us on your decoy warhead is accurate to 10 feet.""",adverb.subject_oriented
-considerately,2,"well, i didn't want to disturb you, and hogan very <t>considerately</t> asked me out.",subject-oriented,,manner,,*,"Okay, let's tackle this. The adverb in question is ""considerately,"" and the sentence is ""well, i didn't want to disturb you, and hogan very considerately asked me out.""",adverb.manner
-cowardly,0,why are you so <t>cowardly</t>?,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""cowardly,"" and the sentence is ""Why are you so cowardly?""",adverb.subject_oriented
-cowardly,1,the first survivors from the ships <t>cowardly</t> bombed... by nazi submarines have arrived on the coast of pernambuco.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""cowardly,"" and the sentence is about survivors from ships who ""cowardly bombed"" something by Nazi submarines arriving on the coast of Pernambuco. Hmm, first, I need to figure out what type of adverb ""cowardly"" is here.",adverb.manner
-cowardly,2,they had <t>cowardly</t> chosen a specialty in their measure.,subject-oriented,,manner,,*,"Okay, let's tackle this. The adverb in question is ""cowardly,"" and the sentence is ""they had cowardly chosen a specialty in their measure."" First, I need to determine which category this adverb falls into.",adverb.manner
-daringly,0,what the countess had so <t>daringly</t> conceived now began to unravel at a frightening pace.,manner,,manner,,,Answer: adverb.manner,adverb.manner
-daringly,1,right into the snowstorm we will <t>daringly</t> dash!,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""daringly,"" and the sentence is ""right into the snowstorm we will daringly dash!""",adverb.manner
-daringly,2,"<t>daringly</t>, the fugitive's bride-to-be convinces the town that he's not guilty... by forging a telegram from a u.s. marshal.",subject-oriented,,subject-oriented,,,"Okay, let's tackle this. The adverb in question is ""daringly,"" and the sentence is: ""Daringly, the fugitive's bride-to-be convinces the town that he's not guilty... by forging a telegram from a U.S. marshal.""",adverb.subject_oriented
-eagerly,0,dearest helen... aunt juley better and <t>eagerly</t> expecting you as am i.,manner,,manner,,,Answer: adverb.manner,adverb.manner
-eagerly,1,"without the weapons of mass destruction your people so <t>eagerly</t> hurled at one another,",manner,,manner,,,Answer: adverb.manner,adverb.manner
-eagerly,2,"carried forward, on a wave of exhaultation, i worked <t>eagerly</t> to complete the portrait.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""eagerly,"" and the sentence is ""carried forward, on a wave of exultation, I worked eagerly to complete the portrait.""",adverb.manner
-early,0,"she did cut out <t>early</t>, so...",temporal,,temporal,,,Answer: adverb.temporal,adverb.temporal
-early,1,"says a male black, <t>early</t> 20s, wearing a white t-shirt, put a gun on him and swiped his bag coming off the number six",temporal,,temporal,,,Answer: adverb.temporal,adverb.temporal
-early,2,"so our killer wanted to make an <t>early</t> withdrawal, and our victim didn't want to go along.",temporal,,temporal,,,"Okay, let's tackle this. The adverb in question is ""early,"" and the sentence is: ""so our killer wanted to make an early withdrawal, and our victim didn't want to go along.""",adverb.temporal
-earnestly,0,i just want to <t>earnestly</t> pray for once.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""earnestly,"" and the sentence is ""I just want to earnestly pray for once.""",adverb.manner
-earnestly,1,you are taking your best man's duties rather <t>earnestly</t>!,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""earnestly,"" and the sentence is ""you are taking your best man's duties rather earnestly!""",adverb.manner
-earnestly,2,so his followers <t>earnestly</t> waited for that day.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""earnestly,"" and the sentence is ""so his followers earnestly waited for that day."" I need to figure out which category this adverb falls into.",adverb.manner
-easily,0,gentlemen... 0bjections to the exploitation of an oil deposit can <t>easily</t> be solved with the agreements that will be concluded later,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""easily,"" and the sentence is about objections to an oil deposit being easily solved with agreements.",adverb.manner
-easily,1,"upon an ambler <t>easily</t> she sat,",manner,,manner,,,Answer: adverb.manner,adverb.manner
-foolishly,0,"you know, i mean, i moved here, um, from new york, <t>foolishly</t> thinking that the country was gonna be good for me, right?",subject-oriented,,speaker-oriented,,*,"Okay, let's see. The adverb here is ""foolishly."" The sentence is: ""I moved here... foolishly thinking that the country was gonna be good for me.""",adverb.subject_oriented
-foolishly,1,"since the route was dangerous and we didn't want to die <t>foolishly</t>, we left the red car and took the blue train.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-foolishly,2,"she did not wish us to sacrifice the life of another jaffa to save her own, even one who still <t>foolishly</t> worshipped the false gods.",subject-oriented,,,?,*,Answer: adverb.manner,adverb.subject_oriented
-generously,0,to give <t>generously</t> to the abbey.,manner,,manner,,,"Okay, let's tackle this. The adverb is ""generously"" in the sentence ""to give generously to the abbey."" First, I need to figure out which category it fits into. Let's go through the options.",adverb.manner
-generously,1,a house in bel air with a <t>generously</t> sized swimming pool.,degree,,speaker-oriented,,*,"Okay, let's tackle this. The adverb here is ""generously,"" and the sentence is about a house in Bel Air with a ""generously sized swimming pool."" So, I need to figure out which category this falls into.",adverb.degree
-generously,2,i am making chicken breasts... ooh. <t>generously</t> seasoned with paprika.,degree,,manner,,,Answer: adverb.manner,adverb.manner
-graciously,0,thank you for so <t>graciously</t> accepting.,subject-oriented,,,,*,"Okay, let's tackle this. The adverb in question is ""graciously,"" and the sentence is ""thank you for so graciously accepting.""",adverb.manner
-graciously,1,"member of the british empire, <t>graciously</t> bestowed upon myself for services to the tilling hospital.",subject-oriented,,,,*,Answer: adverb.manner,adverb.manner
-graciously,2,"running <t>graciously</t>, they filled the woods with laughter... they carried baskets of fruit to where the tablecloth had been.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-greedily,0,<t>greedily</t> i retained his gold,subject-oriented,,subject-oriented,,,"Okay, let's tackle this. The adverb in question is ""greedily,"" and the sentence is ""greedily i retained his gold."" First, I need to determine which category this adverb falls into.",adverb.subject_oriented
-greedily,1,"it was a terrible vision, my son living the saint's life, <t>greedily</t> acquiring women.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-greedily,2,"her pussy was a neat, discreet little cleft... but as soon as the animal within... was roused by my caresses, it would stir... draw aside the silken curtain covering its lair... and become a carnivorous flower... a baby's mouth... <t>greedily</t> sucking my finger.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-grudgingly,0,"i would rather, albeit <t>grudgingly</t>, have renounced that happiness than betrayed my convictions and duty.",manner,,speaker-oriented,?,*,"Okay, let's tackle this. The adverb in question is ""grudgingly,"" and the sentence is: ""I would rather, albeit grudgingly, have renounced that happiness than betrayed my convictions and duty.""",adverb.subject_oriented
-grudgingly,1,"to those of us who be<t>grudgingly</t> call allan a friend, it seems impossible that any woman could handle him for an hour, let alone a lifetime.",manner,,speaker-oriented,?,*,Answer: adverb.subject_oriented,adverb.manner
-grudgingly,2,he said he died <t>grudgingly</t>.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""grudgingly,"" and the sentence is: ""to those of us who grudgingly call allan a friend, it seems impossible that any woman could handle him for an hour, let alone a lifetime.""",adverb.manner
-honestly,0,i've lived my life as <t>honestly</t> as i can.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""grudgingly,"" and the sentence is ""he said he died grudgingly."" First, I need to figure out which category this falls into. Let me recall the different types.",adverb.manner
-honestly,1,"<t>honestly</t>, everything stefan said after, ""damon is back,"" is kind of a blur.",speaker-oriented,,speaker-oriented,,,"Okay, let's tackle this. The adverb in question is ""honestly,"" and the sentence is ""I've lived my life as honestly as I can.""",adverb.speaker_oriented
-honestly,2,you must take it. it has been <t>honestly</t> earned.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""honestly,"" and the sentence is ""Honestly, everything Stefan said after, 'Damon is back,' is kind of a blur.""",adverb.manner
-humbly,0,"i beg you, i <t>humbly</t> appeal to your courage and... in spite of all... to your common sense.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""honestly,"" and the sentence is ""you must take it. it has been honestly earned."" So, I need to figure out which category ""honestly"" falls into here.",adverb.speaker_oriented
-humbly,1,gamblers should live <t>humbly</t> in the shadows of honest people.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""humbly,"" and the sentence is ""I beg you, I humbly appeal to your courage and... in spite of all... to your common sense.""",adverb.manner
-humbly,2,i shall wait <t>humbly</t> for the goulash at midnight.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""humbly,"" and the sentence is ""gamblers should live humbly in the shadows of honest people."" I need to figure out which category this falls into.",adverb.manner
-jealously,0,"rodney, please. tell me this isn't just petty <t>jealously</t>.",,,speaker-oriented,?,,"Okay, let's see. The adverb here is ""humbly,"" and the sentence is ""I shall wait humbly for the goulash at midnight."" I need to figure out which category this falls into.",adverb.manner
-jealously,1,every portal to katrina's heart was <t>jealously</t> guarded by a host of rustic admirers.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""jealously,"" and the sentence is ""rodney, please. tell me this isn't just petty <t>jealously</t>."" Hmm, first, I need to figure out what the adverb is modifying here. The sentence seems to be someone addressing Rodney, asking if something isn't just petty, and the adverb ""jealously"" is inserted there.",adverb.manner
-jealously,2,"zoe babes, are you <t>jealously</t> suggesting that i'm... resistible?",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""jealously,"" and the sentence is ""every portal to katrina's heart was jealously guarded by a host of rustic admirers.""",adverb.manner
-kindly,0,i'm afraid history will not look too <t>kindly</t> on your tenure as leadinvestigator.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""jealously,"" and the sentence is ""Zoe babes, are you jealously suggesting that I'm... resistible?""",adverb.manner
-kindly,1,"i'm a doer, now friend, <t>kindly</t> step aside, and let this great eagle soar, on the back of that bull.",subject-oriented,,manner,*,,"Okay, let's tackle this. The adverb in question is ""kindly,"" and the sentence is ""I'm afraid history will not look too kindly on your tenure as lead investigator.""",adverb.speaker_oriented
-kindly,2,bow your head... and read <t>kindly</t> his epitaph.,subject-oriented,,manner,*,,Answer: adverb.manner,adverb.manner
-meanly,0,and miss tharp has to support mr. <t>meanly</t>.,,,manner,?,,"Okay, let's tackle this. The adverb in question is ""kindly,"" and the sentence is ""bow your head... and read kindly his epitaph."" First, I need to figure out which category this falls into.",adverb.manner
-meanly,1,"you meant well, perhaps but my rewards are for unselfish effort, not for things half or <t>meanly</t> done.",subject-oriented,,manner,,*,"Okay, let's try to figure out the label for the adverb ""meanly"" in the given sentence. The sentence is: ""and miss tharp has to support mr. <t>meanly</t>.""",adverb.manner
-meanly,2,you are treating this poor child <t>meanly</t>,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""meanly,"" and the sentence is: ""you meant well, perhaps but my rewards are for unselfish effort, not for things half or meanly done.""",adverb.manner
-nobly,0,"susanna has done <t>nobly</t> by you all these years, but she won't give up any part of the load.",subject-oriented,,manner,,*,"Okay, let's see. The adverb here is ""meanly,"" and the sentence is ""you are treating this poor child meanly."" I need to figure out which category this falls into.",adverb.subject_oriented
-nobly,1,"okay, we gotta find the cher<t>nobly</t> to get out of here.",,,,?,,"Okay, let's tackle this. The adverb in question is ""nobly,"" and the sentence is ""Susanna has done nobly by you all these years, but she won't give up any part of the load.""",adverb.manner
-nobly,2,"come, bring your luggage <t>nobly</t> on your back.",manner,,manner,,,"Okay, let's see. The adverb here is ""nobly."" The sentence is ""Okay, we gotta find the cher<t>nobly</t> to get out of here."" Wait, ""cher"" might be a typo or part of a word? Maybe ""cherry""? Or perhaps ""chert""? Not sure, but maybe it's not important for the classification.",adverb.manner
-politely,0,"<t>politely</t> ask them to sit, and, uh, be prepared for a physical reaction.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-politely,1,queuing up <t>politely</t> is what makes us civilized.,manner,,manner,,,Answer: adverb.manner,adverb.manner
-politely,2,"then wait for further instructions, <t>politely</t> seated, with your hands crossed on your lap.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""politely,"" and the sentence is ""queuing up politely is what makes us civilized.""",adverb.manner
-reluctantly,0,"portrait of an english gentleman, yielding <t>reluctantly</t> to superior force. oh!",manner,?,manner,,,Answer: adverb.manner,adverb.manner
-reluctantly,1,"i have been, <t>reluctantly</t>, forced to conclude that cmdr shelby, our expert on the borg, is an ideal choice for first officer.",manner,?,speaker-oriented,,*,"Okay, let's tackle this. The adverb in question is ""reluctantly,"" and the sentence is ""portrait of an english gentleman, yielding reluctantly to superior force. oh!""",adverb.speaker_oriented
-reluctantly,2,let it read that this competency hearing was ordered by commodore stocker and <t>reluctantly</t> called by myself.,manner,,manner,,,⸻,adverb.subject_oriented
-selfishly,0,give up the sword if you want to live <t>selfishly</t>.,manner,,manner,,,Answer: adverb.subject_oriented,adverb.manner
-selfishly,1,you got there by playing <t>selfishly</t> and losing.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""reluctantly,"" and the sentence is: ""let it read that this competency hearing was ordered by commodore stocker and reluctantly called by myself.""",adverb.manner
-selfishly,2,"<t>selfishly</t>, i'd love to go, i'd love to experience it, but if we got to go, so would bloated tourists who want to make that a honeymoon.",domain,,speaker-oriented,,*,"Okay, let's tackle this. The adverb in question is ""selfishly,"" and the sentence is ""give up the sword if you want to live selfishly."" Hmm, first, I need to figure out what type of adverb ""selfishly"" is here.",adverb.subject_oriented
-sensibly,0,"that i am guiltless of your father's death, and am most <t>sensibly</t> in grief for it, it shall to you be clear as a day.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""selfishly,"" and the sentence is ""you got there by playing selfishly and losing.""",adverb.degree
-sensibly,1,"within, walls continue upright, bricks meet... floors are firm, and doors are <t>sensibly</t> shut.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""selfishly,"" and the sentence is: ""Selfishly, I'd love to go, I'd love to experience it, but if we got to go, so would bloated tourists who want to make that a honeymoon.""",adverb.manner
-sensibly,2,"okay, i am not racing my mom's <t>sensibly</t> priced utility wagon across the australian outback.",degree,manner?,manner,,*,"Okay, let's tackle this. The adverb in question is ""sensibly,"" and the sentence is: ""that I am guiltless of your father's death, and am most sensibly in grief for it, it shall to you be clear as a day.""",adverb.manner
-willingly,0,meaning no one would <t>willingly</t> leave it behind.,manner,,manner,,,Answer: adverb.manner,adverb.subject_oriented
-willingly,1,"embrace me <t>willingly</t>, and i vow not to spoil that portion of your soul which is the wellspring of your artistry.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""sensibly,"" and the sentence is: ""Okay, I am not racing my mom's sensibly priced utility wagon across the Australian outback.""",adverb.manner
-willingly,2,"in dressage, the rider should appear effort-free while the horse <t>willingly</t> performs the requested movement.",manner,,manner,,,Answer: adverb.manner,adverb.subject_oriented
-wisely,0,"a woman who... loved not <t>wisely</t>, but too well.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-wisely,1,the child is so unhappy. she's not being treated <t>wisely</t>.,manner,,manner,,,Answer: adverb.manner,adverb.manner
-wisely,2,"i'm so sorry, mrs <t>wisely</t>, i'm so sorry...",,,,?,,Answer: adverb.manner,adverb.speaker_oriented
-abundantly,0,and let him return to the lord and he will have compassion on him. for he will <t>abundantly</t> pardon.,degree,,degree,,,"Okay, let's tackle this. The adverb in question is ""wisely,"" and the sentence is ""the child is so unhappy. she's not being treated wisely.""",adverb.degree
-abundantly,1,you've been <t>abundantly</t> clear on the subject.,degree,,degree,,,Answer: adverb.subject_oriented,adverb.degree
-abundantly,2,"""it shall blossom <t>abundantly</t>, and rejoice even with joy and singing:",degree,,manner,,*,"Okay, let's tackle this. The adverb in question is ""wisely,"" and the sentence is ""I'm so sorry, Mrs. Wisely, I'm so sorry..."" Hmm, first, I need to figure out the context here. The person is apologizing to someone named Mrs. Wisely. The adverb ""wisely"" is used here, but how?",adverb.degree
-allegorically,0,"i was talking <t>allegorically</t>, nathan.",manner,,manner,,,Answer: adverb.degree,adverb.manner
-allegorically,1,"fondle a donkey's cock while felching it, <t>allegorically</t>",speaker-oriented,,,?,*,"Okay, let's tackle this. The adverb in question is ""abundantly,"" and the sentence is ""you've been abundantly clear on the subject."" I need to figure out which category this falls into.",adverb.manner
-allegorically,2,"the book of revelations may be portrayed <t>allegorically</t>, but the overarching idea of the apocalypse is real.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""abundantly"" in the sentence ""it shall blossom abundantly, and rejoice even with joy and singing.""",adverb.manner
-amorously,0,"she came to me and she put her hands on my neck in a loving way, and she <t>amorously</t> said, ""philippe, i would like to be the first person",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""amorously,"" and the sentence is ""Gee, it's so glamorously decorated, I thought I was in Vegas."" First, I need to figure out which category this adverb falls into.",adverb.manner
-amorously,1,"gee, it's so gl<t>amorously</t> decorated, i thought i was in vegas.",,,,?,,"Okay, let's tackle this. The adverb in question is ""amorously,"" and the sentence is ""In a moment like this. people should die gl<t>amorously</t>."" First, I need to figure out which category this adverb falls into.",adverb.manner
-amorously,2,in a moment like this. people should die gl<t>amorously</t>.,,,,?,,Answer: adverb.manner,adverb.manner
-authoritatively,0,"i have for some time been compiling exhaustive notes on the peculiarities of spices and herbs in common use, and i have discovered that it can be <t>authoritatively</t> proved that the excessive indulgence in nutmeg leads to hallucination and general debilitation.",manner,,domain,,*,"Okay, let's tackle this. The adverb in question is ""authoritatively,"" and the sentence is: ""she kept a diary and with home-made inks whose strength waxed and waned, wrote authoritatively about everything.""",adverb.manner
-authoritatively,1,"she kept a diary and with home-made inks whose strength waxed and waned, wrote <t>authoritatively</t> about everything.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""authoritatively,"" and the sentence is ""condemning me before the facts have been authoritatively established!""",adverb.manner
-authoritatively,2,condemning me before the facts have been <t>authoritatively</t> established!,manner,,speaker-oriented,,*,Answer: adverb.manner,adverb.manner
-blankly,0,"we would, like a deaf man, stare <t>blankly</t> as your mouth moves.",manner,,speaker-oriented,?,*,Answer: adverb.manner,adverb.manner
-blankly,1,you just ejaculate <t>blankly</t> and move on.,manner,,degree,,*,"Okay, let's try to figure out the supersense label for the adverb ""blankly"" in this context. The sentence is a bit fragmented, but from what's given: ""you know after i finish my prepared speech ...i just lot of ... <t>blankly</t> you know - besides this...""",adverb.manner
-blankly,2,you know after i finish my prepared speech ...i just lot of ... <t>blankly</t> you know - besides this...,,,,?,,Answer: adverb.manner,adverb.manner
-confidently,0,but as you would expect... <t>confidently</t>.,,,,?,,Answer: adverb.manner,adverb.manner
-confidently,1,"i've been recollecting the arrival of a new first officer on board the enterprise, and a manual docking <t>confidently</t> achieved.",subject-oriented,?,,,,"Okay, let's see. The adverb here is ""confidently,"" and the sentence is ""He waits confidently for her."" I need to figure out which category this falls into.",adverb.manner
-confidently,2,he waits <t>confidently</t> for her.,manner,,manner,speaker-oriented,,Answer: adverb.frequency,adverb.manner
-constantly,0,"look, you know, aud, we've been together <t>constantly</t> for all these years.",temporal,,frequency,,,Answer: adverb.manner,adverb.frequency
-constantly,1,"leo people are <t>constantly</t> on my neck therefore act in this role. so, please back soon, okay?",temporal,,frequency,,,Answer: adverb.manner,adverb.frequency
-constantly,2,i get that. trying to figure out who you are and what you're gonna do with your life while <t>constantly</t> distracted with hormones.,temporal,,frequency,,,Answer: adverb.temporal,adverb.frequency
-currently,0,"but i'm <t>currently</t> writing a comedy i'm fond of, a comedy i like very much.",temporal,,temporal,,,Answer: adverb.temporal,adverb.temporal
-currently,1,"...fighting for the rights of the basque people and to form an independent nation on this historic territory, <t>currently</t> occupied by the spanish and french states.",temporal,,temporal,,,Answer: adverb.temporal,adverb.temporal
-currently,2,"there's talk of another wave, <t>currently</t> unfounded, though it looks like this one ricocheted down the coast.",temporal,,temporal,,,"Okay, let's tackle this. The adverb in question is ""cynically,"" and the sentence is ""I have proof that a woman was cynically taken in marriage.""",adverb.temporal
-cynically,0,i have proof that a woman was <t>cynically</t> taken in marriage.,manner,,speaker-oriented,,*,"Okay, let's tackle this. The adverb in question is ""cynically,"" and the sentence is: ""but the brave shepherd ruslan shamaev turned up detailing how i tortured him ...how i cynically slaughtered chechen women and children.""",adverb.manner
-cynically,1,but the brave shepherd ruslan shamaev turned up detailing how i tortured him ...how i <t>cynically</t> slaughtered chechen women and children,manner,,speaker-oriented,,*,Answer: adverb.manner,adverb.manner
-cynically,2,"the comfortable position of ""auxiliary"", or ""support sector"" for a criminal organization, whose aim is, through turning brazil into a battlefield, the setting-up of a communist regime. when uncovered, it will disclose, <t>cynically</t>, that the church is being persecuted in brazil.",speaker-oriented,,subject-oriented,,*,"Okay, let's tackle this. The adverb in question is ""decently,"" and the sentence is ""I assumed you wanted her decently dressed.""",adverb.manner
-decently,0,i assumed you wanted her <t>decently</t> dressed.,manner,,manner,,,,adverb.manner
-decently,1,"""a full fair-mindedness requires us also to report that within the gem, on deadwood's main thoroughfare, comely whores, <t>decently</t> priced liquor and the squarest games of chance in the hills remain unabatedly available at all hours,",manner,degree?,manner,degree?speaker oriented,,Answer: adverb.frequency,adverb.degree
-decently,2,remember your manners. and don't forget to cross your ankles <t>decently</t> when you sit down.,manner,,subject-oriented,,,Answer: adverb.frequency,adverb.manner
-deucedly,0,pretty girls are <t>deucedly</t> scarce but they do exist.,degree,,degree,,,Answer: adverb.manner,adverb.degree
-deucedly,1,blast these waves! they're so <t>deucedly</t> erratic!,degree,,degree,,,"Okay, let's tackle this. The adverb in question is ""haphazardly,"" and the sentence is: ""as we went to the gig, they had the fans organised with police patrols on each corner so there weren't fans haphazardly waving along the streets.""",adverb.degree
-deucedly,2,<t>deucedly</t> fine blades. considering they were made by trolls.,degree,,degree,,,Answer: adverb.manner,adverb.degree
-differently,0,you'd speak <t>differently</t> if she were here.,manner,,manner,,,"Okay, let's see. The adverb here is ""hoarsely,"" and the sentence is ""today is my last day hoarsely as a--excuse me."" Hmm, first, I need to figure out what the adverb is modifying. The sentence seems a bit fragmented, but the structure is ""last day hoarsely as a..."" Maybe the person is speaking hoarsely, which would be their manner of speaking.",adverb.manner
-differently,1,that golf ball under your eye suggests <t>differently</t>.,manner,,,?,,"Okay, let's tackle this. The adverb in question is ""hoarsely,"" and the sentence is ""hoarsely car, call gina linetti."" Wait, that sentence doesn't make much sense. Maybe there's a typo or missing words? Let me think. If the sentence is supposed to be something like ""He spoke hoarsely, calling Gina Linetti,"" then ""hoarsely"" would describe the manner in which he spoke. But the original input is a bit unclear. Assuming the intended sentence is something like ""He spoke hoarsely,"" then ""hoarsely"" would be a manner adverb because it describes how the speaking was done. Alternatively, if the sentence is ""Hoarsely, he called Gina Linetti,"" then it might be subject-oriented, but that's less likely. Given the ambiguity, but based on the example where ""stupidly"" was manner, I think ""hoarsely"" here is describing the manner of the action, so adverb.manner.",adverb.manner
-differently,2,"i do care, but you're just another teacher that doesn't know how to reach me because i learn <t>differently</t>.",manner,,manner,,,</think>,adverb.manner
-dimly,0,"we are here to make limbo tolerable, to ferry wounded souls across the river of dread until the point where hope is <t>dimly</t> visible.",manner,,degree,,*,Answer: adverb.manner,adverb.degree
-dimly,1,"bad things happen in darkness, mr. castle. <t>dimly</t> lit tunnels, darkened stairwells.",manner,,degree,,*,Answer: adverb.manner,adverb.manner
-dimly,2,<t>dimly</t>'s body was recovered 2 weeks ago by two bargemen. he'll be tried,,,,?,,Answer: adverb.manner,adverb.manner
-disastrously,0,"all ending <t>disastrously</t>, killing both mother and child.",manner,,degree,,,"Okay, let's tackle this. The adverb in question is ""hurriedly,"" and the sentence is: ""When I was going through the Daniels file, I realized one of the papers had been hurriedly removed.""",adverb.manner
-disastrously,1,or so it would have been if certain modern theories concerning the shape of the world had not proved to be <t>disastrously</t> wrong.,degree,manner?,degree,,,"Okay, let's see. The adverb here is ""intimately"" in the sentence ""I know her intimately."" I need to figure out which category it fits into.",adverb.degree
-disastrously,2,it wasn't a date so much as a <t>disastrously</t> uncomfortable sexual experience.,degree,,degree,,,Answer: adverb.manner,adverb.degree
-easily,0,and for those who've yet to experience the sublime benevolence of jasmine this will <t>easily</t> be the most momentous day in recorded history.,,?,speaker-oriented,,*,"Okay, let's tackle this. The adverb in question is ""intimately,"" and the sentence is ""flirts and behaves intimately with them."" I need to figure out which category this falls into.",adverb.degree
-easily,1,"we'll build a new, light house so that everyone in it can breathe <t>easily</t>.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""logically,"" and the sentence is ""Logically, there's nothing wrong with you."" First, I need to figure out which category this adverb falls into.",adverb.manner
-easily,2,don't allow her to turn you <t>easily</t>.,,?,speaker-oriented,,manner,"Okay, let's try to figure out the supersense label for the adverb ""logically"" in the given sentence: ""I'm saying, logically-- or even negative files,"".",adverb.manner
-emotionally,0,"i invested <t>emotionally</t>,and i lost millions.",manner,,speaker-oriented,,*,Answer: adverb.manner,adverb.manner
-emotionally,1,latin lover narrator: you know where you don't want to go after you've spent an <t>emotionally</t>,,,,?,,"Okay, let's see. The adverb here is ""magnanimously,"" and the sentence is ""I think you're behaving very magnanimously this time."" So, I need to figure out which category this falls into.",adverb.manner
-emotionally,2,"a lot of us women eat <t>emotionally</t>, liz. and while we're not always in control of our feelings we do control of the decisions we make.",manner,,speaker-oriented,,,"Okay, let's tackle this. The adverb in question is ""magnanimously,"" and the sentence is: ""you yang boys are each worse than the last. the first five died for me magnanimously.""",adverb.manner
-enthusiastically,0,that the generous warmth of the sentiments... expressed by mr. beenstock... and so <t>enthusiastically</t> seconded -,,speaker?,,?,,"Okay, let's tackle this. The adverb in question is ""magnanimously,"" and the sentence is: ""I think he's gonna have an ulcer, but the good news is he'll never disappoint you again, so you can go and magnanimously hire him back now.""",adverb.manner
-enthusiastically,1,the news of the people's liberation army's march into tibet... was <t>enthusiastically</t> supported... by all sections of the population.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""maniacally,"" and the sentence is ""this is what i'm supposed to play <t>maniacally</t> down in the catacombs?""",adverb.manner
-enthusiastically,2,landed a little too <t>enthusiastically</t> and tore my achilles.,manner,,speaker-oriented,,,"Okay, let's tackle this. The adverb in question is ""maniacally,"" and the sentence is ""her maniacally detailed, pseudo-fascist threshold plan."" Hmm, first, I need to figure out what type of adverb ""maniacally"" is here.",adverb.manner
-entirely,0,soon the man and the woman they will sleep <t>entirely</t> without the bonds of money.,degree,temporal?,degree,?,,"Okay, let's see. The adverb here is ""maniacally,"" and the usage is in the context of someone laughing maniacally. The sentence is ""-ugh! -[beeps] [all screaming] [laughing <t>maniacally</t>].""",adverb.degree
-entirely,1,"in an <t>entirely</t> spiritual way, of course.",degree,,degree,?,,Answer: adverb.degree,adverb.degree
-entirely,2,"but the fish seemed to have eaten several of the victim's internal organs <t>entirely</t>, while others were left intact.",degree,,degree,,,"Okay, let's see. The adverb here is ""mostly."" The sentence is ""they're mostly about either the girl or the guy got away."" Hmm, I need to figure out what type of adverb ""mostly"" is in this context.",adverb.degree
-exactly,0,red john thought <t>exactly</t> the same thing.,degree,,degree,,,"Okay, let's see. The adverb here is ""mostly,"" and the sentence given is ""mostly, as in, 'mind your own business'?"" Hmm, that's a bit tricky. First, I need to figure out what ""mostly"" is modifying here. The sentence seems a bit fragmented, but maybe it's part of a larger context. Let me think about the possible roles of ""mostly.""",adverb.degree
-exactly,1,"and i had a bit of, not <t>exactly</t> friction with him, but i found him a bit offhand.",degree,,degree,,,Answer: adverb.manner,adverb.degree
-exactly,2,i got here in <t>exactly</t> thirty minutes,degree,,degree,,,"Okay, let's try to figure out the supersense label for the adverb ""neatly"" in the given sentence: ""it's so nice, neatly smells, very quiet place,"". Hmm, first, I need to understand the context here. The sentence seems a bit fragmented, but maybe it's something like ""It's so nice, neatly smells, very quiet place."" Wait, that might not make complete sense. Maybe there's a typo or a missing word. Let me think.",adverb.degree
-facetiously,0,"oh, milady <t>facetiously</t> grants it.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""neatly,"" and the sentence is ""it sounds like your plan is neatly resolved.""",adverb.speaker_oriented
-facetiously,1,"more often, and less <t>facetiously</t>,",,,manner,,,"Okay, let's tackle this. The adverb in question is ""notoriously,"" and the sentence is ""never was a man so notoriously abused!""",adverb.manner
-facetiously,2,"- yeah. i was speaking <t>facetiously</t>, of course. - of course.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""notoriously,"" and the sentence is: ""you want me to drop a first degree murder charge against a convicted felon, who is a member of one of the most notoriously violent gangs in the state?""",adverb.manner
-fluently,0,"well, i speak eight languages <t>fluently</t>.",manner,,manner,,,Answer: adverb.degree,adverb.manner
-fluently,1,"you see, the port-o-patient will allow you to <t>fluently</t>, uh, transport the unfortunate mr. johnson, uh, allowing him to even go outside, and sit and experience what he can of nature.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""occasionally,"" and the sentence is ""why don't you date occasionally?""",adverb.manner
-fluently,2,he said he was going to a dance. he lies very <t>fluently</t> these days.,manner,,manner,,,Answer: adverb.frequency,adverb.manner
-formerly,0,"i'm edmund ventura from the oasis project, <t>formerly</t> life extension, le.",temporal,,temporal,,,Answer: adverb.frequency,adverb.temporal
-formerly,1,"that restoration was considered for this edition. also, the screening speed was adjusted, damaged or incomplete intertitles were fixed, the colour tones were improved, and some takes, <t>formerly</t> printed out of register, were rescued.",temporal,,temporal,,,"Okay, let's tackle this. The adverb in question is ""organizationally,"" and the sentence is ""Organizationally speaking, this place is a shambles.""",adverb.temporal
-frequently,0,"""for the violent and <t>frequently</t> insane,",frequency,,frequency,,,Answer: adverb.domain,adverb.frequency
-frequently,1,when a monkey climbs branches... <t>frequently</t> tickle his arm pit why doesn't he fall?,frequency,,frequency,,,Answer: adverb.domain,adverb.frequency
-frequently,2,dr. house <t>frequently</t> conducts differential diagnoses in a variety of places.,frequency,,frequency,,,Answer: adverb.manner,adverb.frequency
-haphazardly,0,"not giving away state secrets <t>haphazardly</t>. and isn't it beneath you to print the petty, trite garbage of a secret-level analyst?",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""pitilessly,"" and the sentence is ""pitilessly. you'd still be a white lily to me."" Hmm, first, I need to figure out the context here. The sentence seems a bit fragmented, but maybe the adverb is modifying the verb that's implied or the following clause.",adverb.manner
-haphazardly,1,"as we went to the gig, they had the fans organised with police patrols on each corner so there weren't fans <t>haphazardly</t> waving along the streets",manner,,manner,,,Answer: adverb.manner,adverb.manner
-haphazardly,2,"turns out we're nothing more than chemicals hurtling through space, <t>haphazardly</t> bouncing off each other.",manner,,manner,,,"Okay, let's see. The adverb here is ""professionally."" The sentence is ""If it's successful, it'll be huge for me professionally."" So I need to figure out which category this falls into.",adverb.manner
-hoarsely,0,today is my last day [<t>hoarsely</t>] as a--excuse me.,,,,?,,"Okay, let's tackle this. The adverb in question is ""professionally,"" and the sentence is ""this place has been professionally staged.""",adverb.manner
-hoarsely,1,"[<t>hoarsely</t>] car, call gina linetti.",,,,?,,"Okay, let's tackle this. The adverb in question is ""professionally,"" and the sentence is ""the tapes are so clear it sounds like they were professionally recorded.""",adverb.manner
-hoarsely,2,"[<t>hoarsely</t>] car, initiate ghost mode.",,,,?,,Answer: adverb.degree,adverb.manner
-hurriedly,0,"you left so <t>hurriedly</t>, i couldn't give them to you last time, so i come all the way for you.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-hurriedly,1,"and you will eat this passover offering <t>hurriedly</t>... for at midnight, the lord shall go forth among the egyptians... and the lord will punish the gods of egypt.",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""roughly,"" and the sentence is ""what if my character expresses his rage... by putting away the groceries... roughly?""",adverb.manner
-hurriedly,2,"when i was going through the daniels file, i realized one of the papers had been <t>hurriedly</t> removed.",manner,,manner,,,Answer: adverb.domain,adverb.manner
-intimately,0,- i know her <t>intimately</t>.,manner,,manner,manner?,,Answer: adverb.domain,adverb.manner
-intimately,1,"and i was thinking of promoting a series of concerts <t>intimately</t> staged, of course, to take place at your clubs.",manner,,manner,manner?,,Answer: adverb.domain,adverb.manner
-intimately,2,flirts and behaves <t>intimately</t> with them.,manner,,manner,,,Answer: adverb.manner,adverb.manner
-logically,0,"neuro<t>logically</t>, there's nothing wrong with you.",domain,,,domain?,,"Okay, let's tackle this. The adverb in question is ""sparingly,"" and the sentence is ""here in monaco, we eat sparingly...""",adverb.domain
-logically,1,"i'm saying, <t>logically</t>-- or even negative files,",manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""sparingly,"" and the sentence is ""Germain Pire eats little, doesn't drink and tips sparingly."" I need to figure out which category this adverb falls into.",adverb.speaker_oriented
-logically,2,"explains the temperature swings, disorientation, endocrino<t>logically</t> similar to female menopause, but without the vaginas and the mahjong tiles.",domain,,,domain?,,"Okay, let's tackle this. The adverb in question is ""straightforwardly,"" and the sentence is: ""When Tadashi saw Yoshie and her sister talking... he felt Yoshie spoke far too straightforwardly.""",adverb.domain
-magnanimously,0,i think you're behaving very <t>magnanimously</t> this time.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""straightforwardly,"" and the sentence is ""because i'm simple and plain and deal with every man straightforwardly.""",adverb.manner
-magnanimously,1,you yang boys are each worse than the last. the first five died for me <t>magnanimously</t>.,manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""straightforwardly,"" and the sentence is ""maybe not straightforwardly, but he manipulated you into doing it.""",adverb.manner
-magnanimously,2,"i think he's gonna have an ulcer, but the good news is he'll never disappoint you again, so you can go and <t>magnanimously</t> hire him back now.",manner,,manner,,,Answer: adverb.manner,adverb.manner
-maniacally,0,this is what i'm supposed to play <t>maniacally</t> down in the catacombs?,manner,,manner,,,⸻,adverb.manner
-maniacally,1,"- her <t>maniacally</t> detailed, pseudo-fascist threshold planÂ ?",degree,,manner,,*,Answer: adverb.manner,adverb.manner
-maniacally,2,-ugh! -[beeps] [all screaming] [laughing <t>maniacally</t>],manner,,manner,,,"Okay, let's tackle this. The adverb in question is ""sweetly,"" and the sentence is ""as you so sweetly pointed out at the party, the party that I threw for you.""",adverb.manner
-mostly,0,but <t>mostly</t> i think i was afraid of how much i want to be with you.,degree,,degree,,,"Okay, let's see. The adverb here is ""sweetly,"" and the sentence is about wanting to go to a place with nice things and where they play sweetly. So, the question is, what kind of adverb is ""sweetly"" in this context?",adverb.degree
-mostly,1,they're <t>mostly</t> about either the girl or the guy got away.,degree,,degree,,,"Okay, let's try to figure out the supersense label for the adverb ""sweetly"" in this sentence: ""the hours with a too busy schedule because i'm afraid to sweetly waste time.""",adverb.degree
-mostly,2,"<t>mostly</t>, as in, ""mind your own business""?",,,degree,,,"Okay, let's see. The adverb here is ""totally,"" and the sentence is ""they freak me out totally, snakes."" Wait, the structure seems a bit off. Maybe it's ""They totally freak me out, snakes."" But regardless, the adverb is ""totally"" modifying the verb phrase ""freak me out.""",adverb.degree
-neatly,0,uh that brings us <t>neatly</t> to the uh containment facility that we have over here and uh um in your bed over there-,manner,,manner,,,Answer: adverb.degree,adverb.manner
-neatly,1,"it's so nice, <t>neatly</t> smells, very quiet place,",manner,,manner,,,"Okay, let's see. The adverb here is ""totally,"" and the sentence is ""then i panicked and totally bailed."" I need to figure out which category this falls into.",adverb.manner
-neatly,2,it sounds like your plan is <t>neatly</t> resolved.,manner,,manner,,,Answer: adverb.domain,adverb.manner
-notoriously,0,never was a man so <t>notoriously</t> abused!,degree,manner?,degree,,,"Okay, let's see. The adverb here is ""traditionally,"" and the sentence is ""my father likes me to dress traditionally when i'm at home."" I need to figure out which category this falls into.",adverb.speaker_oriented
-notoriously,1,"you want me to drop a first degree murder charge against a convicted felon, who is a member of one of the most <t>notoriously</t> violent gangs in the state?",degree,,degree,,,Answer: adverb.domain,adverb.degree
-notoriously,2,how <t>notoriously</t> easy to hack do you think...,degree,,degree,,,Answer: adverb.temporal,adverb.degree
-occasionally,0,why don't you date <t>occasionally</t>?,frequency,,frequency,,,Answer: adverb.manner,adverb.frequency
-occasionally,1,"i've never had anything more than flashes of her memories, <t>occasionally</t> dreams.",frequency,,frequency,,,Answer: adverb.manner,adverb.frequency
-occasionally,2,"all they want to do is eat, sleep, watch tv and <t>occasionally</t> fuck their wives.",frequency,,frequency,,,"Okay, let's tackle this. The adverb in question is ""vilely,"" and the sentence is ""if low, an agate very vilely cut."" Hmm, first, I need to figure out what ""vilely"" is modifying here. The sentence structure is a bit tricky. It seems like ""vilely"" is describing how the agate is cut. So, the action is ""cut,"" and ""vilely"" is the manner in which it's done.",adverb.frequency
-organizationally,0,"i mean, <t>organizationally</t> speaking, this place is a shambles.",domain,,domain,,,"Okay, let's tackle this. The adverb in question is ""vilely,"" and the sentence is ""lch get no air! they stink more vilely than a manure pile."" First, I need to figure out what type of adverb ""vilely"" is here.",adverb.domain
-organizationally,1,"in the beginning we had no funding at all, we were not set up with manpower nor <t>organizationally</t>, so there was a lot to improvise.",manner,?,domain,,*,Answer: adverb.manner,adverb.domain
-organizationally,2,i believe i will go for a nice walk and think this through <t>organizationally</t>.,manner,,manner,,,Answer: adverb.manner,adverb.domain
-pitilessly,0,"queen jodha forget her dignity your majesty, does mughal rule... not allow a mother to pine and weep... when her son's blood is <t>pitilessly</t> shed?",manner,,manner,,,Answer: adverb.manner,adverb.manner
-pitilessly,1,<t>pitilessly</t>. you'd still be a white lily to me.,,,,?,,,adverb.manner
-pitilessly,2,usurers <t>pitilessly</t> ask for their dues without listening to their pleas.,manner,,manner,,,,adverb.manner
-professionally,0,"if it's successful, it'll be huge for me <t>professionally</t>.",domain,,domain,,,,adverb.domain
-professionally,1,this place has been <t>professionally</t> staged.,manner,,manner,,,,adverb.manner
-professionally,2,the tapes are so clear it sounds like they were <t>professionally</t> recorded.,manner,,manner,,,,adverb.manner
-roughly,0,his bond purchases. <t>roughly</t> 20 times in excess of his salary.,degree,?,degree,,,,adverb.degree
-roughly,1,"when you see it, aim <t>roughly</t> in its direction, and the heat-seekers will do the rest.",degree,,degree,,,,adverb.manner
-roughly,2,what if my character expresses his rage... by putting away the groceries... <t>roughly</t>?,manner,,manner,?,,,adverb.manner
-socially,0,we gave up the <t>socially</t> retarded girl and the dyke.,domain,?,domain,,,,adverb.domain
-socially,1,"among all primates, bonobos monkeys are relatives closest to man, both genetic and <t>socially</t>.",domain,,domain,,,,adverb.domain
-socially,2,receive the flusky box government or <t>socially</t>?,,,domain,,,,adverb.manner
-sparingly,0,please use these as <t>sparingly</t> as you can because if these systems are overloaded they will shut down.,manner,,manner,,,,adverb.manner
-sparingly,1,"here in monaco, we eat <t>sparingly</t>...",manner,,manner,,,,adverb.manner
-sparingly,2,"germain pire eats little, doesn't drink and tips <t>sparingly</t>.",manner,,manner,,,,adverb.manner
-straightforwardly,0,when tadashi saw yoshie and her sister talking... he felt yoshie spoke far too <t>straightforwardly</t>.,manner,,manner,,,,adverb.manner
-straightforwardly,1,because i'm simple and plain and deal with every man <t>straightforwardly</t>.,manner,,manner,,,,adverb.manner
-straightforwardly,2,"maybe not <t>straightforwardly</t>, but he manipulated you into doing it.",manner,,manner,,,,adverb.manner
-summarily,0,"and anybody who has dealings with the soviet trade delegation whose conduct comes under suspicion, can be <t>summarily</t> deported under the undesirable aliens act.",temporal,,manner,,*,,adverb.manner
-summarily,1,unless you are on a scheduled break you are in violation of your hospital contract and are all in danger of being <t>summarily</t> fired.,temporal,,manner,,*,,adverb.manner
-summarily,2,"you know, whatever idea they wake up in the morning with, in their head, if that idea, notion, goal, is not <t>summarily</t> achieved, then say hello to bedlam wrapped in mayhem, with a side order of chaos.",temporal,,manner,,*,,adverb.manner
-sweetly,0,"as you so <t>sweetly</t> pointed out at the party, the party that i threw for you,",subject-oriented,,speaker-oriented,,*,,adverb.manner
-sweetly,1,"i want to go to a nice place, where there are paintings and statues... lovely architecture, nice ceremony and where they play <t>sweetly</t>.",manner,,manner,,,,adverb.manner
-sweetly,2,the hours with a too busy schedule because i'm afraid to <t>sweetly</t> waste time.,manner,?,speaker-oriented,?,*,,adverb.manner
-totally,0,"they freak me out <t>totally</t>, snakes.",degree,,degree,,,,adverb.degree
-totally,1,"see, if you're going to consume <t>totally</t> empty... and might i add illegal... calories at least it should be from belgium.",degree,,degree,,,,adverb.degree
-totally,2,then i panicked and <t>totally</t> bailed.,degree,,degree,,,,adverb.degree
-traditionally,0,i am not what you would call <t>traditionally</t>--,,,manner,,,,adverb.domain
-traditionally,1,my father likes me to dress <t>traditionally</t> when i'm at home.,manner,,manner,,,,adverb.manner
-traditionally,2,"the <t>traditionally</t> dour readers were amused, and she was invited to speak at ornithological meetings and be interviewed for local television.",domain,?,speaker-oriented,?,*,,adverb.temporal
-unexpectedly,0,everyone knows flight attendants are required to carry extra uniforms in case they get called to work <t>unexpectedly</t>.,manner,,manner,,,,adverb.manner
-unexpectedly,1,what if i found out the person <t>unexpectedly</t> framing me was in my house?,manner,?,manner,,,,adverb.speaker_oriented
-unexpectedly,2,the florentines live in narrow corridors and alleyways where they can strike <t>unexpectedly</t>.,manner,,manner,,,,adverb.manner
-vilely,0,"if low, an agate very <t>vilely</t> cut;",manner,,manner,,,,adverb.manner
-vilely,1,lch get no air! they stink more <t>vilely</t> than a manure pile.,degree,,degree,,,,adverb.manner
-vilely,2,"but, hal, am i not fallen away <t>vilely</t> when my skin hangs about me like an old lady's loose gown?",manner,,manner,,,,adverb.manner
-wildly,0,"cecily, ever since i first looked upon your wondrous and incomparable beauty, i have dared to love you - <t>wildly</t>...",degree,,degree,?,,,adverb.manner
-wildly,2,the hands of a woman who fought <t>wildly</t> for her life and lost.,manner,,manner,,,,adverb.manner
+Unnamed: 0,adverb,cluster,sentence,entropy,type
+1486,shamelessly,0,"Shamelessly you bartered Freia, my lovely sister",1.954359163391928e-08,adverb.subject_oriented
+1487,sharply,0,Master Shen. Many analysts found out that. Ruan's later progressive roles contrasted sharply with her real life.,1.6623114347457886,adverb.degree
+1488,sharply,1,(EXHALES SHARPLY) TED JR.: (WHISPERING) Hey.,4.5754052990787386e-08,adverb.manner
+1489,sharply,2,I have spoken to Mr. Hoffman very sharply.,2.838740348815918,adverb.manner
+1490,sharply,3,"From this day forward, whenever we go out, we will have our coats buttoned up and we will wear these Purana ties knotted sharply.",3.337948799133301,adverb.manner
+1491,sharply,4,Whether we can contrast them more sharply.,2.6124792098999023,adverb.manner
+1492,sharply,5,What? Sung Min Ah keeps her appointments as sharply as a knife?,2.6508119106292725,adverb.manner
+1493,sharply,6,- The Fallen Sharply HAS level.,0.0001246896426891,adverb.degree
+1494,sharply,14,"WE'RE ROLLING OUT SOME INNOVATIVE PRODUCTS NEXT QUARTER. WELL, YOUR STOCK WENT UP SHARPLY",7.887007491547138e-09,adverb.degree
+1495,sheepishly,0,"Sheepishly, they admitted that it was too late. That the money was already spent.",3.6966041534469696e-06,adverb.subject_oriented
+1496,shockingly,1,"Shockingly, these gift baskets haven't solved anything.",4.208096093805125e-09,adverb.speaker_oriented
+1497,shoddily,0,What we have here is a shoddily executed lie.,2.3636860847473145,adverb.manner
+1498,shortly,0,"[reporter] Shortly after the businesswoman was released, this man was arrested, former army officer Ronaldo Monteiro.",7.867418716500651e-09,adverb.temporal
+1499,shrewdly,0,JACK PLAYED THE MARKETS SHREWDLY AND NOW RUNS HIS INVESTMENTS OUT OF A TOWNHOUSE OFF REGENT'S PARK.,3.3099752272391925e-08,adverb.manner
+1500,shrewdly,1,"The air bites shrewdly, it is very cold.",0.004525747615844,adverb.manner
+1501,shrilly,0,"[shrilly] Aah! Oh, I just spilled soup on the cam!",1.2491500456235374e-07,adverb.manner
+1502,shyly,0,"Shyly, the peasant shows her her favorite dance.",1.6907992517189998e-07,adverb.manner
+1503,sickeningly,0,- Hundreds late. Sickeningly late.,6.185096026456449e-06,adverb.degree
+1504,significantly,0,Significantly altered you to - the - core.,0.0001332652318524,adverb.degree
+1505,significantly,1,"What do you mean by ""significantly?""",7.188931340351701e-05,adverb.degree
+1506,significantly,2,"- Significantly, sensing the end game.",2.03057801684281e-08,adverb.speaker_oriented
+1507,silently,0,Silently the sword remains there.,0.0003849840140901,adverb.manner
+1508,silently,1,"COMMANDED BY HENRY PROCTOR SILENTLY MADE ITS WAY THROUGH THE SNOWY FOREST. SHADRACH BYFIELD, THE PRIVATE FROM WILTSHIRE,",1.638710145357436e-08,adverb.manner
+1509,silently,2,"Silently, let us pray, that God will bless your home and help you to achieve your highest hopes.",1.6068248953615692e-09,adverb.manner
+1510,silently,4,We are trained to be spies and to follow people silently.,1.0078747272491455,adverb.manner
+1511,similarly,0,"With a reasonable degree of medical certainty and according to a standard of care exercised by similarly qualified practitioners in a same or similar circumstance in a community of the same or similar size,",1.7110092639923096,adverb.manner
+1512,similarly,1,"..similarly, I am his gang's doctor.",5.836053307284317e-10,adverb.manner
+1513,simply,1,"Simply by yelling at the girls and threatening 'em with violence, he has made our home a happy place.",1.0013000206754441e-07,adverb.degree
+1514,simply,2,Simply guard the house for me.,5.600907115876908e-06,adverb.speaker_oriented
+1515,simply,3,"Simply put, be nice to the Arab world.",8.867487188979341e-09,adverb.speaker_oriented
+1516,simultaneously,0,"Simultaneously, the liver in turn excretes poisons into the colon for expulsion.",1.3355383465807336e-08,adverb.temporal
+1517,sincerely,0,"""Sincerely, Donald F. Draper, ""Creative Director, Sterling Cooper Draper Pryce.""",7.552380942854596e-10,adverb.speaker_oriented
+1518,single-handedly,2,"Single-handedly, ahead of schedule, and I need a drink.",3.085795619028886e-09,adverb.manner
+1519,single-mindedly,0,Dan made him seem like a superhero single-mindedly fighting evil.,0.1697395741939544,adverb.manner
+1520,singly,0,"And a little drunk, you sway so mesmerisingly",4.8711441991144966e-08,adverb.manner
+1521,singly,2,The water is tantalisingly close.,1.0288505109201653e-05,adverb.degree
+1522,singularly,0,"Singularly unique, sculptured in design, hand-crafted in Switzerland and water-resistant to three atmospheres.",1.827193152337259e-08,adverb.degree
+1523,sleepily,0,Ethan: [ Sleepily ] I can't feel my legs.,4.434872948877455e-07,adverb.manner
+1524,slickly,0,"Slickly done, I must say.",0.0030384631827473,adverb.manner
+1525,slightingly,0,"Oh, do not speak slightingly of the three-volume novel.",2.8561244010925293,adverb.manner
+1526,sloppily,0,"No, I would have remembered getting a sloppily written thank-you note.",0.0721819773316383,adverb.manner
+1527,slowly,0,"- Slower, pole-pole (Swahili: ""slowly"").",1.2269010252197175e-09,adverb.manner
+1528,slyly,0,[chuckling slyly] I'm sorry. I'm afraid I don't follow.,0.0152468159794807,adverb.manner
+1529,smartly,0,"Remember, men, a smartly folded napkin will add a touch of class to your table setting will add a touch of class to your table setting and be certain to charm your lady friend. and be certain to charm your lady friend. And who knows?",2.095744132995605,adverb.manner
+1530,smartly,2,"They're all marked up to the 12th, and then... Smartly onto the 19th.",0.000485445925733,adverb.manner
+1531,smilingly,0,In my breast I hide the fury that could lay waste the world which once smilingly gave me pleasure.,0.4481728374958038,adverb.manner
+1532,smoothly,0,- [ Running Smoothly ] - It doesn't sound very tractor-y.,3.2335691457774374e-07,adverb.manner
+1533,smoothly,1,"That same wave has rolled through time crossing many oceans, bearing the giants of surfing from King Kamehameha to Duke Kahanamoku from George Downing to Greg Noll from Jeff Clark to Laird Hamilton sweeping them all toward that most supreme pleasure driven on so fast and smoothly by the sea.",0.000112268513476,adverb.manner
+1534,smoothly,3,"He spoke smoothly, and I didn't speak at all.",4.130638122558594,adverb.manner
+1535,smugly,0,She is acting so smugly!,1.7534157037734983,adverb.manner
+1536,sneakily,0,Worse is when I'm asleep and I wake up to find your finger inside me. Sneakily trying to get me excited... so that you can stick your thing in and move it round a bit.,2.001350003411062e-05,adverb.manner
+1537,snidely,0,"- What the shit, Snidely Whiplash? - Now both of our cars are messed up!",2.4745688733673887e-06,adverb.manner
+1538,snugly,0,- Snugly around this doorknob.,0.0025088624097406,adverb.manner
+1539,soberly,0,"Now, you had best listen to me very soberly.",0.1295897364616394,adverb.manner
+1540,socially,0,"Socially marginalized, IQ off the charts.",6.164586618950807e-10,adverb.domain
+1541,softly,0,Flowers in the meadow Softly sway,0.0001623282732907,adverb.manner
+1542,softly,1,"Softly caressing waves, good title ..",4.6156447552903054e-09,adverb.manner
+1543,softly,2,"All right, at least those... [softly] whores...",2.1351296286553634e-09,adverb.manner
+1544,softly,4,"It's called ""Snow in Madrid."" ""Softly, so casual.",2.53241012160288e-07,adverb.manner
+1545,solely,0,WORLDWIDE. THAT WAS SOLELY FOR MY OWN PERSONAL LAUNDRY.,9.735915682540508e-07,adverb.degree
+1546,solemnly,0,You mean to sit there solemnly and tell me that none of you heard anything at all?,0.8138993978500366,adverb.manner
+1547,solemnly,1,"Solemnly swear that the testimony you are about to give shall be the truth, the whole truth nothing but the truth, so help you God?",1.388225996379333e-07,adverb.manner
+1548,sorely,0,SORELY LACKING IN FICTION SINCE THE 19th CENTURY FRENCH NOVEL.,5.420671186584514e-06,adverb.degree
+1549,sorely,1,Why don't we swing by McSorely's on the way home?,1.7551020619066549e-06,adverb.spatial
+1550,sorely,2,I had no idea they would be so sorely tested.,1.0063350200653076,adverb.degree
+1551,sorely,5,"""Sorely tormenting some, and slaying some till none but he is left and has free range",2.0505952491589596e-09,adverb.manner
+1552,soundlessly,0,"Calling soundlessly to people who could not help her,.. she was sacrificed on 9/11",2.33325743675232,adverb.manner
+1553,soundly,0,Let them be hunted soundly,3.324284076690674,adverb.manner
+1554,soundly,1,Getting them to reassign me to a case that I've been so resoundly... removed from.,8.792958396952599e-05,adverb.manner
+1555,soundly,2,"He spent two hours in the police cells and his father whipped him soundly, but he never told anyone that I was still up that tree.",2.500833511352539,adverb.manner
+1556,soundly,4,"Soundly, knowing you'll do the right thing.",0.0002094214723911,adverb.manner
+1557,soundly,6,"Why not ""Western Dog Soundly Defeated""?",2.237637986013397e-08,adverb.manner
+1558,soundly,8,"- WILLIAM ATHERTON: ""I SLEPT SOUNDLY UNTIL AWAKENED BY",4.874751994066173e-06,adverb.manner
+1559,sourly,0,"Yeah, feels pretty, uh, [Sourly] bad.",1.3606936590804253e-06,adverb.manner
+1560,southerly,0,Antarctic petrels now join the most southerly bird colony on Earth.,0.6671382188796997,adverb.spatial
+1561,sparingly,0,"While we were on Gemaris, he ate sparingly and slept even less.",0.3219184577465057,adverb.manner
+1562,sparingly,1,"I HAVE THIS TALENT, BUT I USE IT SPARINGLY.",6.764602211717374e-09,adverb.manner
+1563,sparsely,0,It's remote and sparsely populated.,0.2481981813907623,adverb.manner
+1564,sparsely,2,- So how's the new place? - Sparsely furnished.,8.919653282646323e-07,adverb.degree
+1565,spatially,0,"When you go into vertigo, your directional perception changes, you're spatially disoriented.",0.0014239437878131,adverb.domain
+1566,specially,0,"Oh, magnetic boots... Specially made.",4.074356851901939e-09,adverb.manner
+1567,specially,1,"María Antonia told me it had been a terrible week, the comrades thought they 'd return to prison, but they were harassed, forced to undress, specially Pujadas, Astudillo and Capello, they forced them to sweep, and insulted them,",2.0461878776550293,adverb.degree
+1568,specially,4,"Prettier land there never was, 'specially on Milk River.",6.451444711785825e-09,adverb.degree
+1569,specifically,0,"There's an undocumented print on the ceiling of the elevator. - Specifically, a bloody print.",1.2899228352125648e-08,adverb.speaker_oriented
+1570,specifically,1,I've instructed the LuthorCorp foundation to make a donation to your school the fund specifically earmarked toward rebuilding and updating the journalism department.,0.6888229846954346,adverb.manner
+1571,spectacularly,0,"I was wrong. Spectacularly so. Worse still, I was disrespectful to you, to Inspector Thursday and to Sergeant Jakes.",1.119509818181541e-07,adverb.degree
+1572,spectacularly,4,"- And he's spectacularly creepy as well, so that's a bonus.",0.0219374410808086,adverb.degree
+1573,speedily,0,"After that we had to get out mega-speedily, so we climbed over some spiky fence, and found ourselves in this field.",5.2512454828956834e-08,adverb.manner
+1574,spontaneously,0,"SOME NERVE DAMAGE CAN REPAIR ITSELF SPONTANEOUSLY,",2.303737423048346e-09,adverb.manner
+1575,spontaneously,2,"At the time, I spontaneously thought I would get married with the man that was To be introduced to me that same day.",2.292905330657959,adverb.manner
+1576,spookily,0,His voice was spookily similar to the man's.,0.2722212076187134,adverb.degree
+1577,sportingly,0,Sportingly accept victory and defeat.,2.513810431992169e-05,adverb.manner
+1578,spotlessly,0,"During that period, the barracks will be kept spotlessly clean.",0.3762051463127136,adverb.degree
+1579,squarely,0,? THE SUCCESS OF THIS ENTIRE OPERATION RESTS SQUARELY UPON YOUR BIRDLIKE SHOULDERS.,1.6772006006249285e-07,adverb.manner
+1580,squarely,1,"""squarely across the path of Hitler's campaign.",8.135492680594325e-05,adverb.manner
+1581,squarely,2,"Squarely in the captain's pocket, yet you still got the crew believing you're their advocate.",5.397962468123296e-07,adverb.degree
+1582,squarely,3,"It covers the garden level door, and the kidnapper never came squarely into view.",0.0014393603196367,adverb.manner
+1583,squarely,4,"Whichever way it is, the important thing is to face the situation squarely and recognize that this man you think you're in love with is no more to you than a mother substitute.",0.0001408319221809,adverb.manner
+1584,squarely,10,Indeed. But that rubber butt doesn't have much time for turning around these days. It's pointed squarely in the face of the administration.,0.0006949401577003,adverb.manner
+1585,staggeringly,0,"Staggeringly, 50 percent of the Congo basin forest has been allocated for logging.",1.1096547041233862e-06,adverb.speaker_oriented
+1586,startlingly,0,"Wow, you guys look startlingly similar.",0.1082016825675964,adverb.degree
+1587,statistically,0,"Statistically, if you're going to be murdered, your killer will be someone you know...",4.958533583732104e-10,adverb.domain
+1588,staunchly,0,Staunchly loyal to his men and his country.,2.266748560941778e-05,adverb.degree
+1589,steadfastly,0,"Something you, Madam President, have proven steadfastly resistant to over the course of your term in office.",0.000402813166147,adverb.manner
+1590,steadily,0,"AT BLADENSBURG, NEAR THE CAPITAL. THE AMERICANS HAD THE ADVANTAGE OF NUMBERS, BUT THE WELL-TRAINED BRITISH REGULARS ADVANCED STEADILY",2.100236962121471e-08,adverb.manner
+1591,steadily,1,"He felt the strength of the fish through the line, moving steadily toward whatever he had chosen, and he thought:",0.0027146278880536,adverb.manner
+1592,steadily,2,You've been drinking steadily and every day.,0.0046149757690727,adverb.manner
+1593,steadily,4,"""HIS HEART BEAT STEADILY WITHIN THE CAVERNS OF HIS BOSOM,",1.2076796451765406e-07,adverb.manner
+1594,stealthily,0,"Stealthily, we shall sneak up on...",1.980597517103888e-05,adverb.manner
+1595,stealthily,1,"""I stealthily looked into my sweetheart's eyes""",0.0010492638684809,adverb.manner
+1596,steeply,1,"There, you will see a steeply mounting track.",0.0226241014897823,adverb.manner
+1597,sternly,0,"[sternly] Sir, I am asking you to calm down.",1.2886225420061237e-07,adverb.manner
+1598,stiffly,0,He had held himselfstiffly so as not to shrink from the noise.,0.0003749858005903,adverb.manner
+1599,stiffly,1,"(Stiffly) Well, I enjoyed our dinner.",7.28679424355505e-07,adverb.manner
+1600,stoically,0,He just wants to die stoically in the ruins of his château!,1.6273432970046997,adverb.manner
+1601,straightforwardly,0,When Tadashi saw Yoshie and her sister talking... he felt Yoshie spoke far too straightforwardly.,0.0001751453964971,adverb.manner
+1602,strangely,0,- And is your heart beating strangely? - Yes.,3.24454116821289,adverb.manner
+1603,strangely,1,SHE SAID YOU HAD BEEN ACTING STRANGELY.,5.215394594415557e-06,adverb.manner
+1604,strangely,2,"Strangely, my anger made me hungry. So I ate.",1.1050823367497742e-08,adverb.speaker_oriented
+1605,strangely,4,The boy who dressed so strangely,2.919954299926758,adverb.manner
+1606,strategically,0,"Okay, maybe you could... Strategically place the flowers around the house, and Hank wouldn't notice them.",1.0092107594061872e-08,adverb.manner
+1607,strenuously,0,"Strenuously, and when I supported their objection, the judge was... not happy.",1.4011765969712542e-08,adverb.manner
+1608,strenuously,1,"Rackham, every time I visit her, she has to fight that much more strenuously to compose herself.",0.0021547090727835,adverb.manner
+1609,strictly,0,"Okay, so Joey and Pacey are auditioning for Capeside Dinner Theatre's version of Strictly Ballroom.",1.3081025151961967e-09,adverb.manner
+1610,strictly,1,"Starting from now, even if it's a whisper, I will also follow the law strictly and take action on you.",1.0399267673492432,adverb.manner
+1611,strikingly,0,"HE WAS 42, STRIKINGLY HANDSOME, A WINE LOVER AND GOURMET,",3.843286577875915e-09,adverb.degree
+1612,strongly,0,Joseph puts it a little strongly.,0.2647954523563385,adverb.manner
+1613,strongly,1,I also strongly recommend alerting the public to the Cylon threat.,0.0358593016862869,adverb.degree
+1614,strongly,2,"By 1950, the tradition was so strongly established that it became official truth.",0.7243036031723022,adverb.degree
+1615,strongly,3,"...the castle commander, Kasahara Kiyoshige, resists strongly.",2.514842987060547,adverb.degree
+1616,strongly,5,Waves are more strongly felt when the boat turns sideways to the current.,2.2240357398986816,adverb.degree
+1617,structurally,0,"Structurally, bixel street runs contrary To the cinepal algorithms at almost every story point.",4.964331310475245e-07,adverb.domain
+1618,structurally,1,"Structurally, this is as sound as any building you'll find in Detroit.",1.5286800714164883e-09,adverb.domain
+1619,stubbornly,0,"'Raymond, known as 'the Baker"", 'stubbornly denies the murder despite the overwhelming evidence.",4.8300456967353975e-09,adverb.subject_oriented
+1620,stunningly,0,SO NO ONE CALLED OFF THE ATTACK. THE BATTLE WAS BRIEF AND STUNNINGLY ONE-SIDED.,2.79066426855934e-07,adverb.degree
+1621,stylishly,0,"Quiet and reserved, always stylishly dressed.",0.7376521229743958,adverb.manner
+1622,stylistically,0,"When you're photographing the party, Stylistically, I'm thinking reportage.",2.5313948714966727e-09,adverb.domain
+1623,subcutaneously,0,I remember. He taught Howard how to treat snake bites. How to inject the serum subcutaneously and all that.,0.2100998908281326,adverb.spatial
+1624,subjectively,0,"Subjectively, I think there's a huge difference.",0.0007288892520591,adverb.speaker_oriented
+1625,sublimely,0,It's a sublimely happy marriage.,0.6344598531723022,adverb.degree
+1626,submissively,0,"To divert the males' attention from her cub, she rolls over submissively.",0.2997936606407165,adverb.manner
+1627,subsequently,0,"He was identified as an escaped mental patient. Subsequently, he confessed to the murder you're being held for.",5.621833665259146e-09,adverb.temporal
+1628,substantially,0,"""substantially similar in quality and genre.""",1.030351697295373e-07,adverb.degree
+1629,substantially,2,"The Crown understands the wider context surrounding this tragic death, and we are prepared to accept the psychiatric report's finding that defendant's state of mind was substantially impaired.",0.7252794504165649,adverb.degree
+1630,subtly,2,"THAT'S WHY YOU LEAVE WINDOWS OPEN. BUT, AS A POINT OF DECENCY, COULDN'T YOU DO IT MORE SUBTLY?",1.4401268799701938e-07,adverb.manner
+1631,successively,0,Successively drawn without replacement and two balls of the urn.,0.0011366626713424,adverb.manner
+1632,succinctly,0,"You know, I think the salient point was succinctly covered in Mr. Loggins' refrain:",9.555552969686688e-05,adverb.manner
+1633,suddenly,0,"Suddenly, Haile Selassie is an intelligent, rational leader.",3.5406162446349754e-09,adverb.temporal
+1634,sufficiently,0,Sufficiently asinine as to constitute a valid argument for eugenics.,0.000129789696075,adverb.degree
+1635,sufficiently,1,We decided ammonia alone would not work sufficiently to save the people.,0.0160796009004116,adverb.degree
+1636,sufficiently,2,I'm sure by now you've kissed his ass sufficiently.,0.0357880815863609,adverb.degree
+1637,sufficiently,3,"Lil, I'm sure your sturdy young wrist has recovered sufficiently to pour Dad another cup of tea.",0.004382727202028,adverb.degree
+1638,sufficiently,4,... whichdoesnotsufficiently cover the cerebellum.,1.218604484165553e-05,adverb.degree
+1639,sufficiently,10,"Once you can sufficiently prove that your daughter is not in any imminent danger, she'll be returned to you.",0.0187498927116394,adverb.degree
+1640,suggestively,0,"Oh, you know... Like, side boob, and licking lollipops suggestively.",1.546911120414734,adverb.manner
+1641,sulkily,0,"""The moon was shining sulkily...",2.5191409587860107,adverb.manner
+1642,summarily,0,He identified them as three top-ranking intelligence officers and had them summarily executed.,0.4379545450210571,adverb.manner
+1643,summarily,1,"Your Honor, this tape is the very propaganda that Michael Scofield and Lincoln Burrows released to the media that was summarily debunked.",0.1058660894632339,adverb.manner
+1644,superbly,0,"The men are superbly trained, but what do we know about their morale under actual fire?",1.3491783142089844,adverb.degree
+1645,superbly,1,"- (Chuckles) Superbly delicious, sir.",1.980347178687225e-06,adverb.degree
+1646,superficially,0,"""Superficially, we were selfish and egocentric.",5.835294558664828e-08,adverb.domain
+1647,superficially,2,I just cleaned it superficially.,0.8753527998924255,adverb.manner
+1648,supposedly,0,"Supposedly, it was a super fun party.",6.725329737555795e-10,adverb.speaker_oriented
+1649,supremely,0,"Most Beauteous and Supremely Magnificent One, this dark spell I hold in my worthless and scabby hand is our gift to you, Most Tingly and Wonderful Glorificus.",6.399404894885662e-10,adverb.degree
+1650,surely,0,"Surely you have experienced physical love. Have you not, Mr. Haeckel?",1.246933667431449e-09,adverb.speaker_oriented
+1651,surgically,0,"Surgically implanting a device at this point, it's too invasive. She might not survive the procedure.",9.523388655452437e-08,adverb.manner
+1652,surgically,1,"But if we can surgically inject a forgery into the market, then it could collapse his entire organization.",0.0416673570871353,adverb.manner
+1653,surreptitiously,0,"""Surreptitiously enter and leave. "" A ""sneak and peek"" warrant.",1.139415388706766e-07,adverb.manner
+1654,suspiciously,0,I CLEARED CHLOE'S NAME FROM THAT SUSPICIOUSLY HIGH-RANKING GOVERNMENT ARREST WARRANT.,5.214646492390784e-08,adverb.degree
+1655,suspiciously,2,I've been eyeing her suspiciously all day but I haven't picked up on any ulterior motives.,0.0044844220392405,adverb.manner
+1656,sweetly,0,Sweetly buried in your yellow hair!,5.5280713695538e-07,adverb.manner
+1657,sweetly,1,"SWEETLY WOMAN, BIG, HONEST MAN.",6.437363420097596e-10,adverb.manner
+1658,sweetly,4,"Sweetly, oh, Cindy you'll fuck with Alex.",1.2776689040094881e-08,adverb.speaker_oriented
+1659,swiftly,0,"""May he give reign to his kingship in your lifetime, ""and the lifetimes of the family of his root, ""swiftly and soon.""",5.308265826897696e-08,adverb.manner
+1660,swimmingly,0,"I mean, that is a word- ""swimmingly""?",2.611894842630136e-07,adverb.manner
+1661,swimmingly,1,How did things go with the test subject That john brought back from england? Swimmingly.,2.5640424610173795e-06,adverb.manner
+1662,symbiotically,0,They look like they're embedded symbiotically in Denise Hall's flesh.,0.0011772068683058,adverb.manner
+1663,symbolically,0,"Symbolically, he was shoved into a small Volkswagen and driven from his palace.",2.1958594942361745e-08,adverb.domain
+1664,synthetically,0,Biosynthetically it's two steps from tryptophan. Right.,2.5161418761854293e-06,adverb.domain
+1665,systematically,0,"This marks the first time in the history of the US where government officials, have been, by all appearances, Systematically murdered.",6.614117253889162e-09,adverb.manner
+1666,tacitly,0,"""On the beach, I sought refuge in an ostracism ""tacitly imposed on me.""",4.720155288850947e-07,adverb.manner
+1667,tactically,2,"Tactically, it's being seen as a very shrewd move.",8.456069622297947e-08,adverb.domain
+1668,tamely,1,"I've thought of the humiliation if we just tamely submit, knuckle under and crawl.",0.3168925642967224,adverb.manner
+1669,tangentially,0,"Does this in any way, even tangentially, involve sexbots?",0.1513249278068542,adverb.degree
+1670,tangibly,0,The metric by which consultants tangibly prove their worth to the company.,0.5259796380996704,adverb.manner
+1671,tantalizingly,0,She's gonna miss the most tantalizingly delicious Khorem baklava.,0.001175781013444,adverb.degree
+1672,technically,0,"Technically, this isn't a murder investigation without a body.",5.219842891257541e-10,adverb.domain
+1673,technically,1,"There's a world of difference between ""technically"" and sicking the hounds on him!",1.2124339718866397e-06,adverb.domain
+1674,tediously,0,"Proud of their numbers and secure in soul, the confident and over-lusty French... do the low-rated English play at dice... and chide the cripple, tardy-gaited night... who, like a foul and ugly witch, doth limp so tediously away.",3.7483435022522826e-08,adverb.manner
+1675,tediously,1,And then his consummate laziness and lack of imagination became tediously self-evident.,0.2751479744911194,adverb.degree
+1676,temperately,0,"My pulse, as yours, doth temperately keep time and makes as healthful music.",1.2619810104370115,adverb.manner
+1677,temporarily,0,"I lose my first look and my funding, Temporarily, mind you... in a misunderstanding, and you do this to me?",1.1599255778094177e-08,adverb.temporal
+1678,tenaciously,1,Tenaciously exercising People's justice farewell comrade...,7.378690042969538e-06,adverb.manner
+1679,tenderly,0,"Put on that old record of yours, ""Tenderly.""",1.2159336620243266e-05,adverb.manner
+1680,tenderly,1,"Tenderly, the hero coddled his son... and lifting him towards the heavens, exclaimed:",1.379428482550793e-07,adverb.manner
+1681,tensely,0,all action ceases. We wait tensely...,0.4674080610275268,adverb.manner
+1682,tentatively,0,"Tentatively,I'd say she died from hypoxia,",4.5387324121293204e-07,adverb.speaker_oriented
+1683,tentatively,2,"Tentatively, they greet one another.",1.0172324437007774e-05,adverb.manner
+1684,terminally,0,Terminally ill patients never listen. Why should they?,1.0844910747209724e-08,adverb.degree
+1685,terribly,0,THEY'RE STILL SUFFERING TERRIBLY FROM SHOCK.,6.67988060740754e-05,adverb.degree
+1686,terribly,1,"Terribly. But, I don't think he was a murderer .. because .. Well, I just don't.",1.2154284245724511e-09,adverb.speaker_oriented
+1687,terrifically,0,Terrifically gift baskets. This is Carol.,1.558795133860258e-06,adverb.degree
+1688,theatrically,0,[Laughs theatrically like a demon] Doubt it.,2.5443925857543945,adverb.manner
+1689,theatrically,1,"In this particular case, it means that people won't be able to see the film... Theatrically, in many provinces of the country.",1.7488579473479152e-08,adverb.spatial
+1690,thematically,0,"Thematically, this location is very important, boss.",8.030312415030495e-08,adverb.domain
+1691,theoretically,0,"Theoretically, the trail goes up to the river. We have the forest which starts here.",2.973420398788562e-09,adverb.speaker_oriented
+1692,therapeutically,0,"""Marijuana, in its natural form, is one of the safest ""therapeutically active substances known to man.",2.0551405910396173e-08,adverb.domain
+1693,thickly,2,"Well, it was shocking, but we just held out some little hope. But when we saw the spots of blood on the tent, we knew as we looked that this was a very quick event. And this morning, when we saw the sharp, ripped, jagged marks on that very thickly-woven blanket, that this was a powerful beast with very sharp teeth.",1.5777239070757787e-08,adverb.manner
+1694,thinly,1,"Now remember, it took me three breakups, seven ultimatums... and God knows how many not-so-thinly-veiled threats... before Larry coughed up this ring.",8.485459446205823e-09,adverb.manner
+1695,thinly,2,"""Thinly slice one end off each Twinkie.",8.079530380200595e-05,adverb.manner
+1696,thinly,4,"With our forces stretched so thinly, I'm gonna enlist the help of the freedom fighters led by Cham Syndulla.",0.0032315023709088,adverb.degree
+1697,thirdly,0,"- l ask you-- - Thirdly-- Your Honor, please!",2.39917063993289e-09,adverb.speaker_oriented
+1698,thoughtlessly,0,"When speaking of blasting way out... she thoughtlessly used word ""nitroglycerin""... when humble selfhad not revealed nature of explosives in container",1.0865163803100586,adverb.manner
+1699,threateningly,0,- And if you continue to behave threateningly--,0.0022772261872887,adverb.manner
+1700,thusly,0,"In my brooding youth, Bronte encapsulated my viewpoint thusly: ""The trouble is not that",0.0363576114177703,adverb.manner
+1701,thusly,1,"Thusly, money is kept in circulation.",2.5399899961087158e-09,adverb.manner
+1702,tightly,0,They lock together in tightly-packed huddles as they struggle to keep warm.,0.5139356255531311,adverb.degree
+1703,tightly,1,All of them Tightly No lights please I want pitch black,2.7287755074212328e-05,adverb.manner
+1704,tightly,2,"# Tightly undone, know what they're showing",1.9578352294047363e-05,adverb.manner
+1705,tightly,4,"Well, do the words ""tightly"" and ""wound"" mean anything to you?",1.144926571328142e-07,adverb.manner
+1706,tightly,9,He couldn't go out to play until I could bounce a coin off his tightly made bed.,2.285576820373535,adverb.manner
+1707,timely,0,My contract with the state included a million-dollartimely completion bonus.,8.77560282219747e-08,adverb.manner
+1708,timely,1,Geert Schoonhoven delighted his fellow Pilgrims with his timely songs.,2.109416961669922,adverb.temporal
+1709,timely,3,"And the way to read the map can be found where the ""timely shadow"" crosses in front of the Liberty Bell.",4.948471178067848e-05,adverb.temporal
+1710,tirelessly,0,"Tirelessly, he travels to the 4 corners of earth.",6.772815595468273e-06,adverb.manner
+1711,tirelessly,1,"Tirelessly, the men worked to cut the ice away from the ship.",4.008768428320764e-08,adverb.manner
+1712,tolerantly,0,How can you talk so tolerantly about Parrish?,3.080528259277344,adverb.manner
+1713,topically,0,Topically as a local anesthetic.,0.0003623757220339,adverb.spatial
+1714,toppingly,0,"! If by ""skanky"", you mean ""heart-stoppingly gorgeous"", then yes.",5.444550366107136e-10,adverb.degree
+1715,totally,0,"- Oh yeah, he was cool. Totally cool.",1.681645045437108e-07,adverb.degree
+1716,touchingly,0,"This partner of yours... your friend, who has so touchingly been there for the past 15 years... decides to go to war with me and doesn't tell you?",1.6912076473236084,adverb.manner
+1717,traditionally,0,"Traditionally, there's three rounds - daywear, evening wear and swim-wear.",1.3881167326701416e-09,adverb.domain
+1718,tragically,0,"The helpless, tragically dependent, special needs victim.",1.537439227104187,adverb.speaker_oriented
+1719,tragically,2,"Tragically, employees in the towers were advised to return to their offices",2.769954710046818e-09,adverb.speaker_oriented
+1720,transparently,0,"Who draws up the borders, controls the currency handles all of the decisions that happen transparently around us?",2.6059842109680176,adverb.manner
+1721,transversely,0,Join the top and bottom transversely.,1.5117400884628296,adverb.manner
+1722,treacherously,0,It's being run by fear... fear that would make a man sacrifice his own son... in order to treacherously poison his friends.,0.0031524938531219,adverb.manner
+1723,treacherously,2,"- You saw how treacherously they act. - Oh, yes.",0.0039661014452576,adverb.manner
+1724,tremendously,2,"-...for the part. Tremendously talented. -Yeah, right.",1.6546999859201605e-07,adverb.degree
+1725,trippingly,0,"""trippingly on the tongue; but if you mouth it, as many of your players do...",9.753168228598953e-08,adverb.manner
+1726,triumphantly,2,(SHRIEKS TRIUMPHANTLY) In yer face! The wife did have time to run down here from home!,6.383768322848482e-07,adverb.manner
+1727,truly,0,"Truly, Moses, you are a prophet of God!",3.4267600312887225e-08,adverb.speaker_oriented
+1728,truly,1,And they gave yourtruly temporary access.,2.709620972041193e-08,adverb.degree
+1729,trustingly,0,Trustingly invested in the... To be specific,0.0001563555852044,adverb.manner
+1730,typically,0,"Typically, the way to cure the victim is to kill the original.",9.347366214385031e-10,adverb.frequency
+1731,ultimately,0,"Ultimately, this process includes assigning accountability for the murder and the mutilation of an innocent 25-year-old young lady.",4.386005780787627e-09,adverb.temporal
+1732,unabashedly,0,"Lobbying had been considered kind of a sleazy business, but Roger Stone unabashedly came out and said,",0.0041557261720299,adverb.subject_oriented
+1733,unanimously,0,"Unanimously, Miss Flour 1989 is",1.7549109543324448e-07,adverb.manner
+1734,undoubtedly,0,"Undoubtedly, they were cheating you.",1.7454639955616356e-09,adverb.speaker_oriented
+1735,unendingly,0,"Unendingly have you beseeched me, show myself.",0.0008188331266865,adverb.temporal
+1736,unerringly,0,Unerringly hit the designated area!,5.584341806752491e-07,adverb.manner
+1737,unexpectedly,0,"Unexpectedly, Bent Sejrø has resigned as minister of finance.",4.440136258665461e-09,adverb.speaker_oriented
+1738,unfailingly,0,And everything looks in order from the outside ...unfailingly,3.624320470407838e-06,adverb.frequency
+1739,uniformly,0,"That was their mandate,and suffice to say,we are, as of this moment,uh,uniformly thrilled with our pick.",1.5890215081526549e-06,adverb.degree
+1740,uniformly,1,"That kind of motion is called ""uniformly accelerated motion"".",6.29843981414524e-08,adverb.manner
+1741,uniquely,0,"Uniquely endowed with intelligence, rowdiness, sex appeal, energy,",9.531143874141891e-09,adverb.manner
+1742,universally,0,"OK. in position number four, Universally Challenged.",1.4115778768086784e-08,adverb.degree
+1743,unrelentingly,0,"My dear Emma, you are unrelentingly standing under an apple tree, wishing to smell the scent of orange blossoms.",0.0020103526767343,adverb.manner
+1744,unsuspectingly,0,"Do you know the story of the American who gets married, quite unsuspectingly, thinking his wife's white, but it turns out she's black.",0.0016022628406062,adverb.manner
+1745,unthinkingly,0,"Irrationality is woven into the fabric of modern life, we unthinkingly indulge unscientific delusion",0.0138928461819887,adverb.manner
+1746,upwardly,0,"Upwardly mobile lieutenant, always hungry for the next promotion.",1.762539909577754e-07,adverb.spatial
+1747,uselessly,0,I have made him worry uselessly.,1.265330195426941,adverb.manner
+1748,usually,0,"Usually, I don't like doing interviews but I find you very interesting.",5.307887462890903e-09,adverb.frequency
+1749,utterly,0,It was purebred. Utterly controlled.,1.0183754284298631e-08,adverb.degree
+1750,vacantly,0,"I'm just staring vacantly into space. While a distant voice in the back of my head goes,",0.1805945932865142,adverb.manner
+1751,vaguely,0,"First,boris alters hisvaguely medical research plans when he gets his blood results.",1.1754028150789965e-07,adverb.degree
+1752,vainly,0,"Vainly attempted to sway, as he once did the destinies of a nation that had ceased to listen to him ceased to trust him.",1.7354267356495257e-06,adverb.manner
+1753,vainly,2,Forty days now we have waited vainly,0.2252852618694305,adverb.manner
+1754,valiantly,0,"Valiantly, French and British soldiers tried to slow the German advance.",8.566734521764374e-08,adverb.subject_oriented
+1755,valiantly,1,"Alongside the wind, alongside the wind, our voice already rises which valiantly proclaims: Boy am I seasick!",0.6823198795318604,adverb.manner
+1756,valorously,0,"We'll continue to fight as valorously as before, and leave it to the State Duma...",0.5477526783943176,adverb.manner
+1757,variously,0,"Is this the same William Brocius who is wanted variously on eight counts of murder in Kansas City, Missouri, Abilene, Texas, Gallup, New Mexico between the years 1878 and 1881?",1.9241631031036377,adverb.spatial
+1758,variously,2,Then why do I have three different statements... from three of your deckhands... stating variously that they all saw you and you were anywhere but in your rack?,2.565715312957764,adverb.manner
+1759,vastly,0,"- What do you mean ""vastly wealthy""?",1.1102721231281977e-07,adverb.degree
+1760,vastly,1,"Vastly different field of operation, but, yes, they're all the same breed.",3.9331030876610384e-08,adverb.degree
+1761,vastly,2,"Vastly, and the city, my home, is suffering because of it.",2.3080261257746318e-07,adverb.degree
+1762,vehemently,0,"In a peppery mood, Lina Przybilla from Czernowitz, sole legitimate daughter of Stanislaus Przybilla, after the premature births of two half-developed babies, both of whom were to have been called Lina, Miss Przybilla flung down the journals vehemently.",4.8550159448268466e-08,adverb.manner
+1763,verbally,0,"- NO, BUT HE DID VERBALLY ASSAULT HER.",4.095536709769476e-08,adverb.manner
+1764,verily,0,"Verily, is it a spring night?",7.725782680267912e-09,adverb.speaker_oriented
+1765,vertically,0,I'm just sorry me being vertically challenged makes you uncomfortable.,1.7355901002883911,adverb.manner
+1766,vertically,1,"Vertically, you know, a jump.",5.768302457909158e-07,adverb.manner
+1767,vertically,3,You just accused the world's largest vertically integrated conglomerate of selling poison.,1.3874709606170654,adverb.manner
+1768,vertically,4,"Au contraire, my vertically challenged friend.",0.7378805875778198,adverb.domain
+1769,vicariously,0,"Vicariously coaching other people, watching them get rich, like this nutcase here, and I couldn't stand it anymore.",3.7066612001979134e-09,adverb.manner
+1770,viciously,0,"Viciously attacked my son breaking his legs, arms, and the poor boy's skull.",2.9603830853375257e-07,adverb.manner
+1771,viciously,1,"Long ago, I was viciously attacked by the coward Lyze of Kiel for defending that truth.",0.2155744582414627,adverb.manner
+1772,viciously,2,We're talking about viciously competitive people.,0.5144274234771729,adverb.degree
+1773,victoriously,0,"And France, with its great army... of land warfare. France ended the last war victoriously in the trenches... so the natural tendency... was to build bigger and better trenches... culminating in that super-colossaI trench... the trench deluxe, the Maginot Line.",0.0039539956487715,adverb.manner
+1774,vigorously,0,"Vigorously pumping their tails, they work up some speed and then, they hydroplane.",7.009442271055377e-08,adverb.manner
+1775,vigorously,1,The plants will grow less vigorously and the pace of summer will slow.,0.1162026226520538,adverb.manner
+1776,vigorously,2,"Follow her lead, anticipate her desires then fulfill them. Vigorously.",1.5086945381881378e-07,adverb.manner
+1777,vilely,0,"if low, an agate very vilely cut;",0.6753386855125427,adverb.manner
+1778,violently,0,NOISE OF A DOOR CLOSING VIOLENTLY,6.04760498390533e-05,adverb.manner
+1779,violently,1,"And rape her, after 10 years of marriage? Violently rape her? I don't know.",7.959053860417953e-09,adverb.manner
+1780,violently,2,The calm orderliness of the scene contrasts violently with the ghastly pictures which shocked the country when they were shown in British newsreels.,1.3833001852035522,adverb.degree
+1781,violently,3,"""A bad plan violently executed today... is better than a great plan tomorrow.""",1.5964096784591677,adverb.manner
+1782,violently,4,Our climate is changing violently.,0.7204455137252808,adverb.manner
+1783,violently,5,VIOLENTLY OUTRAGED. - THERE WAS A HUGE MOB OF PEOPLE GATHERED OUTSIDE THE HOUSE. HANSON HAD A GROUP OF HIS FRIENDS INSIDE,3.860897379581729e-08,adverb.degree
+1784,violently,8,"I thought it was one of Mac's Project Badasstapes, so I pop it in the VCR to watch it, I see what it is, I become violently ill, okay?",1.0796104669570925,adverb.degree
+1785,violently,9,# Violently back upstream #,1.0676924375729868e-06,adverb.manner
+1786,violently,10,Renfield reacted very violently to its scent.,2.0163416862487797,adverb.manner
+1787,violently,12,"And during the same time, we turned an honest, hard-working man into a violently deranged would-be killer.",0.7278232574462891,adverb.degree
+1788,virtually,0,"It was thrilling, Virtually writes itself.",6.210435543607673e-08,adverb.degree
+1789,virtually,1,"Virtually impregnable, heat resistant, most often deployed in tanks and APCs.",1.5509943551705874e-08,adverb.degree
+1790,virtuously,0,I was as virtuously given as a gentleman need to be.,0.0819644480943679,adverb.manner
+1791,viscerally,0,"So in essence, we're training the brain not to react so viscerally.",0.0003546439693309,adverb.manner
+1792,visibly,0,"Visibly moved, raises the visor and wipes her tears.",4.634360664113047e-07,adverb.degree
+1793,visually,0,"Visually, Creative Director, initialed D.C.",1.308323449578097e-09,adverb.domain
+1794,visually,1,Visually impaired people know more than you think.,0.0001544672413729,adverb.domain
+1795,vitally,0,"So where's the ""vitally interested""?",6.33987583569251e-05,adverb.degree
+1796,vocally,0,"Vocally, you're not going to be able to compete with so many of these kids who, to be quite honest and blunt, are better singers than you.",1.5290130761513865e-07,adverb.domain
+1797,vocally,1,But your father pretty vocally disagree with you.,1.4197239875793457,adverb.manner
+1798,vociferously,0,He's been known to argue vociferously about how men have a higher pain tolerance than women.,0.0037122769281268,adverb.manner
+1799,volcanically,0,"There are no plans at present to explore further any of the hundreds... of volcanically active mountains in the Cascade range, including Mount Avalon.",0.0746895670890808,adverb.manner
+1800,voluntarily,0,"And they've... They've also gave us an acronym for love, which is, Letting Others Voluntarily Evolve.",6.3027449925812115e-09,adverb.manner
+1801,vulgarly,1,- Vulgarly called the Gestapo.,4.824781717616133e-05,adverb.manner
+1802,warily,0,"""Warily, the princess looked at Andres.",1.8351812514083576e-07,adverb.manner
+1803,warmly,0,Warmly wrapping me and trying to understand me. - Let's have dinner soon. - When will that be?,4.5823782102161204e-07,adverb.manner
+1804,warmly,1,Warmly welcome Richard Gunn Lucas Oil!,5.786461770185269e-06,adverb.manner
+1805,warmly,2,"José, did you dress Warmly for the trip? - Sí.",1.2192607812266942e-08,adverb.manner
+1806,warmly,3,All full of stars that burn warmly.,0.6581648588180542,adverb.manner
+1807,weakly,0,"[ Weakly ] Jasmine. Jasmine, run!",3.968703976564569e-10,adverb.manner
+1808,weakly,1,"- Does one still feel weakly, is not it?",0.0512459315359592,adverb.manner
+1809,wealthily,0,I've come to wive it wealthily in Padua,4.181593894958496,adverb.manner
+1810,wearily,0,"I kept thinking about him walking away wearily, so I couldn't sleep that night",2.781574010848999,adverb.manner
+1811,weekly,0,"I mean, Architecture Vision Weekly may have dubbed it ""more than just a building,"" but it's just a building. So let's not get carried...",9.608045470343995e-10,adverb.frequency
+1812,weekly,1,Do you have any US Weeklys around here?,6.11927703175752e-07,adverb.frequency
+1813,weekly,2,"Bills, jury duty, Entertainment Weekly.",8.766724013398174e-10,adverb.frequency
+1814,weirdly,0,"Weirdly deep-voiced, alcoholic, gay Lee Cooper who you invited out for a glass of wine!",5.7330398206545405e-09,adverb.speaker_oriented
+1815,weirdly,4,"The clouds are moving weirdly, and the fuel is running out, she agreed too.",3.1869139671325684,adverb.manner
+1816,westerly,0,"promise Westerlyns that if they behave themselves, keep Company jobs for 7 generations, they can join the middle class on Leith.",6.585943879144908e-08,adverb.spatial
+1817,westerly,1,"Westerly wind, about 14 m/s!",2.183156322388413e-09,adverb.spatial
+1818,westerly,5,"What's up? Unit five, report to Checkpoint Southwest Westerly.",6.625472224186524e-07,adverb.spatial
+1819,whimsically,0,"Anyway, if Kripke asks tell him my coitus with Amy is frequent, intense and whimsically inventive.",0.0012519935844466,adverb.manner
+1820,wholeheartedly,0,"Wholeheartedly, when I asked you, to marry me.",1.6838581018419066e-07,adverb.manner
+1821,wholly,0,"I SUBSCRIBE TO YOUR VIEWS WHOLLY, MR. BEDEKER.",7.856841932607496e-08,adverb.degree
+1822,wickedly,0,"Wickedly overcrowded tonight, but, of course, as it's you...",5.263200364424847e-06,adverb.degree
+1823,wickedly,1,You're taking a wickedly unfair advantage of me.,0.0043312925845384,adverb.degree
+1824,wickedly,3,"""Wickedly grinning old men, ready to haggle for hour after hour.""",1.6595626206594716e-08,adverb.manner
+1825,widely,0,Today leatherbacks are the biggest of all reptiles and the most widely distributed for they are found all the way from these warm tropical waters to the freezing seas of the Arctic.,0.258503794670105,adverb.degree
+1826,widely,1,Widely fluctuating market values began at the New York Stock Exchange.,4.202956006338354e-06,adverb.degree
+1827,widely,4,"Widely assumed to have met his maker in a skiing accident, no one was more surprised to see his son-- looking stunning in a fabulous organza and leather gown-- than papa Bradford.",4.0848316729125145e-08,adverb.degree
+1828,wildly,0,"I threw myself at her feet, about my possessions I wildly talked gibberish.",2.455613136291504,adverb.manner
+1829,wildly,1,"- Wildly, my mind beats against you",3.164535655741929e-08,adverb.manner
+1830,wildly,2,"SPINNING WILDLY OUT OF CONTROL, UNTIL I BUMPED INTO MY NEIGHBOR MR. SULTANA.",7.300900506379548e-08,adverb.manner
+1831,wildly,4,Tony: Dad's moods could swing wildly. And those moods dominated our lives.,0.2537777721881866,adverb.manner
+1832,wildly,6,"I did shoot one last week, in honor of Black History Month, but I was informed by my roommate that my spot-on portrayal of George Washington Carver could be considered ""wildly racist.""",1.7856809364502624e-08,adverb.degree
+1833,wildly,7,"It wasn't the descriptions of the wildly uninhibited Chinese-style sex positions like the ""wailing monkey clasping a tree"" or ""wild geese flying on their backs "" that I found most enlightening.",2.8770673274993896,adverb.degree
+1834,wildly,12,"Good my lord, put your discourse into some frame and start not so wildly from my affair.",3.694481372833252,adverb.manner
+1835,willingly,0,You will lead millions... Willingly or as slaves.,3.338020633236738e-07,adverb.manner
+1836,willy-nilly,0,But I guess I'll just leave them lying Willy-nilly on the dryer.,2.83674307866022e-05,adverb.manner
+1837,willy-nilly,1,"Willy-nilly, we're all brothers here! Brothers in suffering!",8.128751005642698e-09,adverb.speaker_oriented
+1838,wisely,0,"This is Ryan Wisely at WDLH, The Voice of Haven.",1.084167706721928e-07,adverb.manner
+1839,wittingly,0,"If I drown myself wittingly, it argues an act. And an act hath three branches:",3.5197179317474365,adverb.manner
+1840,wondrously,0,"O God, who has wondrously created the boundless expanse of blue sea, please protect these comrades as they journey on the sea. O Lord, who formed even the surging waves and raging winds according to Your great will, please protect these comrades as they journey on the sea.",0.0132724521681666,adverb.manner
+1841,worryingly,0,"Worryingly, here in Siberia, there are signs the permafrost is already starting to melt.",2.889985495357905e-08,adverb.speaker_oriented
+1842,worthily,0,TO WORTHILY CONFESS YOUR SINS.,0.0034525960218161,adverb.manner
+1843,wretchedly,0,"The sky... was chartreuse. "" ""Wretchedly beautiful and poisonous.",5.355925836170172e-08,adverb.degree
+1844,wrongly,0,"Welcome to The Wrongly-Wed Game, where couples put their lack of compatibility to the test.",9.82865699938884e-09,adverb.manner
+1845,wrongly,2,- Forster is innocent. - Wrongly convicted. - No!,1.7118250150716106e-09,adverb.manner
+1846,zealously,0,"People think by adding ""zealously"" to everything, it makes it all right.",5.452689038065728e-07,adverb.manner

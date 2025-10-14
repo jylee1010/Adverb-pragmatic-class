@@ -194,21 +194,27 @@ def main(raw_args=None):
     client = openai.OpenAI(api_key=openai.api_key)
 
     # Load data
-    data = pd.read_csv("adverbs.csv").sample(10)
+    data = pd.read_csv("adverbs.csv")
 
     # Process prompts
     results = []
+    index = -1
 
-    for index, row in tqdm(data.iterrows(), total=len(data)):
-        prompt = adverb_diagnose(row["adverb"], row["sentence"])
-        result = process_prompt(client, prompt, args.model)
-        results.append(result)
-
-    # Save results
-    data["llm"] = results
-    output_file = "adverb_os_llm.csv"
-    data.to_csv(output_file, index=False)
-    print(f"Results saved to {output_file}")
+    try:
+        for index, row in tqdm(data.iterrows(), total=len(data)):
+            prompt = adverb_diagnose(row["adverb"], row["sentence"])
+            result = process_prompt(client, prompt, args.model)
+            results.append(result)
+    except KeyboardInterrupt:
+        print("stopped at index:", index)
+    finally:
+        # Save results
+        n_rows = len(results)
+        data["type"] = pd.NA
+        data.iloc[:n_rows, data.columns.get_loc("type")] = results
+        output_file = "adverb_os_llm.csv"
+        data.to_csv(output_file, index=False)
+        print(f"Results saved to {output_file}")
 
 
 if __name__ == "__main__":
