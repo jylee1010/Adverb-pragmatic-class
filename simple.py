@@ -183,7 +183,7 @@ def main(raw_args=None):
     """,
     )
 
-    parser.add_argument("--model", default="gpt-5-mini", help="OpenAI model to use")
+    parser.add_argument("--model", default="gpt-5", help="OpenAI model to use")
 
     args = parser.parse_args(raw_args)
 
@@ -194,7 +194,7 @@ def main(raw_args=None):
     client = openai.OpenAI(api_key=openai.api_key)
 
     # Load data
-    data = pd.read_csv("adverbs.csv")
+    data = pd.read_csv("adverbs_os.csv")
 
     # Process prompts
     results = []
